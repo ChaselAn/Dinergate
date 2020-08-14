@@ -26,7 +26,8 @@ public class FPSEye: NSObject {
             return
         }
         let dif = link.timestamp - lastTimestamp
-        guard dif >= 1 else { return }
+        self.lastTimestamp = link.timestamp
         let fps = 1 / dif
+
     }
 }
