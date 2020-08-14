@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F159052724E6929E00BA5004 /* FPSEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052624E6929E00BA5004 /* FPSEye.swift */; };
+		F159052924E699E700BA5004 /* WeakEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052824E699E700BA5004 /* WeakEye.swift */; };
 		F1BA6ED224E633B800136F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED124E633B800136F58 /* AppDelegate.swift */; };
 		F1BA6ED424E633B800136F58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED324E633B800136F58 /* SceneDelegate.swift */; };
 		F1BA6ED624E633B800136F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED524E633B800136F58 /* ViewController.swift */; };
@@ -68,6 +70,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F159052624E6929E00BA5004 /* FPSEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSEye.swift; sourceTree = "<group>"; };
+		F159052824E699E700BA5004 /* WeakEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakEye.swift; sourceTree = "<group>"; };
 		F1BA6ECE24E633B800136F58 /* APMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6ED124E633B800136F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1BA6ED324E633B800136F58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 				F1BA6EFA24E6341300136F58 /* GodsEye.h */,
 				F1BA6EFB24E6341300136F58 /* Info.plist */,
 				F1BA6F1624E6342600136F58 /* CPUEye.swift */,
+				F159052624E6929E00BA5004 /* FPSEye.swift */,
+				F159052824E699E700BA5004 /* WeakEye.swift */,
 			);
 			path = GodsEye;
 			sourceTree = "<group>";
@@ -379,7 +385,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F159052924E699E700BA5004 /* WeakEye.swift in Sources */,
 				F1BA6F1724E6342600136F58 /* CPUEye.swift in Sources */,
+				F159052724E6929E00BA5004 /* FPSEye.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

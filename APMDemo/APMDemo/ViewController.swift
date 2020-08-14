@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import GodsEye
 
 class ViewController: UIViewController {
+
+    private let fps = FPSEye()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
 

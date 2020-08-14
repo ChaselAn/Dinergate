@@ -2,9 +2,7 @@ import Foundation
 
 public class CPUEye {
 
-    public static let shared = CPUEye()
-
-    public func cpuUsage()-> String {
+    public var cpuUsage: String {
         var cpuUsageInfo = ""
         var cpuInfo: processor_info_array_t!
         var prevCpuInfo: processor_info_array_t?
