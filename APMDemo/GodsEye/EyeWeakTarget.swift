@@ -1,6 +1,6 @@
 import Foundation
 
-class WeakTargetEye<T: NSObject>: NSObject {
+class EyeWeakTarget<T: NSObject>: NSObject {
 
     weak var target: T?
 

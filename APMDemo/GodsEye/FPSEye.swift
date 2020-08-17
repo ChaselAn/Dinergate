@@ -7,7 +7,7 @@ public class FPSEye: NSObject {
 
     public override init() {
         super.init()
-        link = CADisplayLink(target: WeakTargetEye<FPSEye>(target: self), selector: #selector(tick))
+        link = CADisplayLink(target: EyeWeakTarget<FPSEye>(target: self), selector: #selector(tick))
         link.add(to: RunLoop.main, forMode: .common)
     }
 
