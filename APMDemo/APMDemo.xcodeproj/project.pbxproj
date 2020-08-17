@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F103CE3924EA3272005B6D86 /* RunLoopBlockEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */; };
+		F103CE6A24EA89E8005B6D86 /* DragableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6924EA89E8005B6D86 /* DragableWindow.swift */; };
+		F103CE6C24EA8DC1005B6D86 /* FloatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */; };
+		F103CE6E24EA8DE7005B6D86 /* FloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */; };
+		F103CE7124EA8F92005B6D86 /* GodsEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7024EA8F92005B6D86 /* GodsEye.swift */; };
+		F103CE7524EA97AD005B6D86 /* EyeObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7424EA97AD005B6D86 /* EyeObservable.swift */; };
 		F159052724E6929E00BA5004 /* FPSEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052624E6929E00BA5004 /* FPSEye.swift */; };
 		F159052924E699E700BA5004 /* EyeWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052824E699E700BA5004 /* EyeWeakTarget.swift */; };
 		F1BA6ED224E633B800136F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED124E633B800136F58 /* AppDelegate.swift */; };
-		F1BA6ED424E633B800136F58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED324E633B800136F58 /* SceneDelegate.swift */; };
 		F1BA6ED624E633B800136F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED524E633B800136F58 /* ViewController.swift */; };
 		F1BA6ED924E633B800136F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6ED724E633B800136F58 /* Main.storyboard */; };
 		F1BA6EDB24E633BA00136F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6EDA24E633BA00136F58 /* Assets.xcassets */; };
@@ -72,11 +76,15 @@
 
 /* Begin PBXFileReference section */
 		F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopBlockEye.swift; sourceTree = "<group>"; };
+		F103CE6924EA89E8005B6D86 /* DragableWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragableWindow.swift; sourceTree = "<group>"; };
+		F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatManager.swift; sourceTree = "<group>"; };
+		F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatWindow.swift; sourceTree = "<group>"; };
+		F103CE7024EA8F92005B6D86 /* GodsEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsEye.swift; sourceTree = "<group>"; };
+		F103CE7424EA97AD005B6D86 /* EyeObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeObservable.swift; sourceTree = "<group>"; };
 		F159052624E6929E00BA5004 /* FPSEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSEye.swift; sourceTree = "<group>"; };
 		F159052824E699E700BA5004 /* EyeWeakTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeWeakTarget.swift; sourceTree = "<group>"; };
 		F1BA6ECE24E633B800136F58 /* APMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6ED124E633B800136F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1BA6ED324E633B800136F58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F1BA6ED524E633B800136F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1BA6ED824E633B800136F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1BA6EDA24E633BA00136F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +136,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F103CE6824EA899A005B6D86 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				F103CE6924EA89E8005B6D86 /* DragableWindow.swift */,
+				F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */,
+				F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		F103CE6F24EA8F70005B6D86 /* Eyes */ = {
+			isa = PBXGroup;
+			children = (
+				F1BA6F1624E6342600136F58 /* CPUEye.swift */,
+				F159052624E6929E00BA5004 /* FPSEye.swift */,
+				F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */,
+			);
+			name = Eyes;
+			sourceTree = "<group>";
+		};
+		F103CE7324EA9793005B6D86 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F159052824E699E700BA5004 /* EyeWeakTarget.swift */,
+				F103CE7424EA97AD005B6D86 /* EyeObservable.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		F1BA6EC524E633B800136F58 = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				F1BA6ED124E633B800136F58 /* AppDelegate.swift */,
-				F1BA6ED324E633B800136F58 /* SceneDelegate.swift */,
 				F1BA6ED524E633B800136F58 /* ViewController.swift */,
 				F1BA6ED724E633B800136F58 /* Main.storyboard */,
 				F1BA6EDA24E633BA00136F58 /* Assets.xcassets */,
@@ -178,10 +214,10 @@
 			children = (
 				F1BA6EFA24E6341300136F58 /* GodsEye.h */,
 				F1BA6EFB24E6341300136F58 /* Info.plist */,
-				F1BA6F1624E6342600136F58 /* CPUEye.swift */,
-				F159052624E6929E00BA5004 /* FPSEye.swift */,
-				F159052824E699E700BA5004 /* EyeWeakTarget.swift */,
-				F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */,
+				F103CE7024EA8F92005B6D86 /* GodsEye.swift */,
+				F103CE6824EA899A005B6D86 /* Window */,
+				F103CE6F24EA8F70005B6D86 /* Eyes */,
+				F103CE7324EA9793005B6D86 /* Tools */,
 			);
 			path = GodsEye;
 			sourceTree = "<group>";
@@ -372,7 +408,6 @@
 			files = (
 				F1BA6ED624E633B800136F58 /* ViewController.swift in Sources */,
 				F1BA6ED224E633B800136F58 /* AppDelegate.swift in Sources */,
-				F1BA6ED424E633B800136F58 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,10 +423,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F103CE7124EA8F92005B6D86 /* GodsEye.swift in Sources */,
 				F159052924E699E700BA5004 /* EyeWeakTarget.swift in Sources */,
 				F103CE3924EA3272005B6D86 /* RunLoopBlockEye.swift in Sources */,
 				F1BA6F1724E6342600136F58 /* CPUEye.swift in Sources */,
+				F103CE7524EA97AD005B6D86 /* EyeObservable.swift in Sources */,
+				F103CE6A24EA89E8005B6D86 /* DragableWindow.swift in Sources */,
+				F103CE6C24EA8DC1005B6D86 /* FloatManager.swift in Sources */,
 				F159052724E6929E00BA5004 /* FPSEye.swift in Sources */,
+				F103CE6E24EA8DE7005B6D86 /* FloatWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +610,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY6E74AYN5;
 				INFOPLIST_FILE = APMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,6 +630,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY6E74AYN5;
 				INFOPLIST_FILE = APMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -657,6 +699,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GodsEye/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -686,6 +729,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GodsEye/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

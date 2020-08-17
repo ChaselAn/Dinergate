@@ -1,9 +1,21 @@
 import Foundation
 
-public class CPUEye {
+class CPUEye: NSObject {
 
-    public var cpuUsage: String {
-        var cpuUsageInfo = ""
+    static let shared = CPUEye()
+    var cpuObservable = EyeObservable<Float>(value: 0)
+    func start() {
+        RunLoop.main.add(timer, forMode: .common)
+    }
+
+    func stop() {
+        timer.invalidate()
+    }
+
+    private lazy var timer = Timer(timeInterval: 0.1, target: EyeWeakTarget<CPUEye>(target: self), selector: #selector(tick), userInfo: nil, repeats: true)
+
+    private var cpuUsage: Float {
+        var cpuUsageInfo: Float = 0
         var cpuInfo: processor_info_array_t!
         var prevCpuInfo: processor_info_array_t?
         var numCpuInfo: mach_msg_type_number_t = 0
@@ -53,7 +65,8 @@ public class CPUEye {
             usage += coreInfo
             print(String(format: "Core: %u Usage: %f", i, Float(inUse) / Float(total)))
         }
-        cpuUsageInfo = String(format:"%.2f",100 * Float(usage) / Float(numCPUs))
+//        cpuUsageInfo = String(format:"%.2f",100 * Float(usage) / Float(numCPUs))
+        cpuUsageInfo = 100 * Float(usage) / Float(numCPUs)
         CPUUsageLock.unlock()
 
         if let prevCpuInfo = prevCpuInfo {
@@ -68,6 +81,10 @@ public class CPUEye {
         numCpuInfo = 0
 
         return cpuUsageInfo
+    }
+
+    @objc private func tick() {
+        cpuObservable.update(with: cpuUsage)
     }
 
 }
