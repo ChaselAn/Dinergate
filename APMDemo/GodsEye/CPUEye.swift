@@ -1,6 +1,6 @@
 import Foundation
 
-public class CPUEye: NSObject {
+public class CPUEye: NSObject, CenterControl {
 
     public static let shared = CPUEye()
     public var observable = EyeObservable<Float>(value: 0)

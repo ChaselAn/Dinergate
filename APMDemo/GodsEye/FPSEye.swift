@@ -1,6 +1,6 @@
 import UIKit
 
-public class FPSEye: NSObject {
+public class FPSEye: NSObject, CenterControl {
 
     public static let shared = FPSEye()
     public var observable = EyeObservable<Int>(value: 60)

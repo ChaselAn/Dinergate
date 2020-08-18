@@ -1,8 +1,15 @@
 import Foundation
 
-class RunLoopBlockEye: NSObject {
+public class RunLoopBlockEye: NSObject, CenterControl {
+
+    public enum BlockType {
+        case single // once, blocked for 250ms
+        case continuous // five consecutive times, blocked for 50ms * 5
+    }
 
     public static let shared = RunLoopBlockEye()
+    public var blocked: ((BlockType) -> Void)?
+    public var observable = EyeObservable<BlockType?>(value: nil)
 
     public func start() {
         CFRunLoopAddObserver(CFRunLoopGetMain(), observer, CFRunLoopMode.commonModes)
@@ -17,7 +24,7 @@ class RunLoopBlockEye: NSObject {
                 case .success:
                     break
                 case .timedOut:
-                    // TODO: report block
+                    self.observable.update(with: .single)
                     break
                 }
             }
@@ -36,7 +43,7 @@ class RunLoopBlockEye: NSObject {
                     guard self.timeOutCount >= 5 else {
                         continue
                     }
-                    // TODO: report block
+                    self.observable.update(with: .continuous)
                 }
                 self.timeOutCount = 0
             }
