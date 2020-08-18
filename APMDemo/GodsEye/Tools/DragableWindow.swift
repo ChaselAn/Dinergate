@@ -11,7 +11,7 @@ open class DragableWindow: UIWindow {
 
     public var dragable: Bool = true
     public var dragEdgeInsets: UIEdgeInsets = UIEdgeInsets(top: 18, left: 18, bottom: 18, right: 18) // 停留在边上距离父view的边距
-    public var dragStyle: DragStyle = .leftOrRight
+    public var dragStyle: DragStyle = .beInPlace
 
     private var originalPoint: CGPoint?
 

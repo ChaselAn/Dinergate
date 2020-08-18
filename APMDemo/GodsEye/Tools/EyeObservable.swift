@@ -1,14 +1,14 @@
 import Foundation
 
-class EyeObservable<Value> {
+public class EyeObservable<Value> {
     private var value: Value
     private var observations = [UUID: (Value) -> Void]()
 
-    init(value: Value) {
+    public init(value: Value) {
         self.value = value
     }
 
-    func update(with value: Value) {
+    public func update(with value: Value) {
         self.value = value
 
         for observation in observations.values {
@@ -16,7 +16,7 @@ class EyeObservable<Value> {
         }
     }
 
-    func addObserver<O: AnyObject>(_ observer: O,
+    public func addObserver<O: AnyObject>(_ observer: O,
                                           using closure: @escaping (O, Value) -> Void) {
         let id = UUID()
 

@@ -1,18 +1,24 @@
 import Foundation
 
-class CPUEye: NSObject {
+public class CPUEye: NSObject {
 
-    static let shared = CPUEye()
-    var cpuObservable = EyeObservable<Float>(value: 0)
-    func start() {
-        RunLoop.main.add(timer, forMode: .common)
+    public static let shared = CPUEye()
+    public var observable = EyeObservable<Float>(value: 0)
+
+    public func start() {
+        timer.fire()
     }
 
-    func stop() {
+    public func stop() {
         timer.invalidate()
     }
 
     private lazy var timer = Timer(timeInterval: 0.1, target: EyeWeakTarget<CPUEye>(target: self), selector: #selector(tick), userInfo: nil, repeats: true)
+
+    private override init() {
+        super.init()
+        RunLoop.main.add(timer, forMode: .common)
+    }
 
     private var cpuUsage: Float {
         var cpuUsageInfo: Float = 0
@@ -63,7 +69,7 @@ class CPUEye: NSObject {
             }
             let coreInfo = Float(inUse) / Float(total)
             usage += coreInfo
-            print(String(format: "Core: %u Usage: %f", i, Float(inUse) / Float(total)))
+//            print(String(format: "Core: %u Usage: %f", i, Float(inUse) / Float(total)))
         }
 //        cpuUsageInfo = String(format:"%.2f",100 * Float(usage) / Float(numCPUs))
         cpuUsageInfo = 100 * Float(usage) / Float(numCPUs)
@@ -84,7 +90,8 @@ class CPUEye: NSObject {
     }
 
     @objc private func tick() {
-        cpuObservable.update(with: cpuUsage)
+//        eyePrint("CPUEye: \(cpuUsage)")
+//        observable.update(with: cpuUsage)
     }
 
 }

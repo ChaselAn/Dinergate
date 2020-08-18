@@ -5,9 +5,10 @@ public class GodsEye {
     public static func start(with config: Configuration) {
         if config.monitorItem.contains(.cpu) {
             CPUEye.shared.start()
+            eyePrint("CPUEye start")
         }
         if config.monitorItem.contains(.fps) {
-//            FPSEye.start()
+            FPSEye.shared.start()
         }
         if config.monitorItem.contains(.runloopBlock) {
 //            RunLoopBlockEye.start()
@@ -23,6 +24,8 @@ public class GodsEye {
 
     public static func stop() {
         FloatManager.shared.close()
+        CPUEye.shared.stop()
+        FPSEye.shared.stop()
     }
 }
 
@@ -32,7 +35,7 @@ extension GodsEye {
         public var monitorItem: MonitorItem
         public var monitorStyle: MonitorStyle
 
-        static var `default`: Configuration {
+        public static var `default`: Configuration {
             return Configuration(monitorItem: MonitorItem.allItems, monitorStyle: MonitorStyle.allItems)
         }
     }
@@ -44,6 +47,29 @@ extension GodsEye {
         public static let runloopBlock = MonitorItem(rawValue: 1 << 2)
 
         public static var allItems: MonitorItem = [.cpu, .fps, .runloopBlock]
+        public var count: Int {
+            var _count = 0
+            if contains(.cpu) {
+                _count += 1
+            }
+            if contains(.fps) {
+                _count += 1
+            }
+            if contains(.runloopBlock) {
+                _count += 1
+            }
+            return _count
+        }
+        public var floatCount: Int {
+            var _count = 0
+            if contains(.cpu) {
+                _count += 1
+            }
+            if contains(.fps) {
+                _count += 1
+            }
+            return _count
+        }
 
         public let rawValue: Int
         public init(rawValue: Int) {

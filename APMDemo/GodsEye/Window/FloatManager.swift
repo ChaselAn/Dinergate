@@ -18,6 +18,8 @@ class FloatManager: NSObject {
         let floatWindow = FloatWindow(items: items, closeAction: { [weak self] in
             self?.close()
         })
+        floatWindow.isHidden = false
+        floatWindow.windowLevel = UIWindow.Level(UIWindow.Level.alert.rawValue + 1)
         floatWindow.alpha = 0
         floatWindow.backgroundColor = windowColor
 

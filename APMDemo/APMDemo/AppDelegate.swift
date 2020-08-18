@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GodsEye
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        SKTabbarController * tabVC = [[SKTabbarController alloc] init];
 //        self.window.rootViewController = tabVC;
 
+        GodsEye.start(with: GodsEye.Configuration.default)
         return true
     }
 
