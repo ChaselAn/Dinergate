@@ -32,19 +32,19 @@ class FloatRootViewController: UIViewController {
         view.backgroundColor = UIColor.black.withAlphaComponent(0.3)
         stackView?.backgroundColor = UIColor.black.withAlphaComponent(0.3)
 
-        if items.contains(.cpu) {
-            CPUEye.shared.observable.addObserver(self) { [weak self] (_, progress) in
-                let state: FloatItemView.State
-                if progress < 0.4 {
-                    state = .green
-                } else if progress < 0.7 {
-                    state = .yellow
-                } else {
-                    state = .red
-                }
-                self?.cpuView.setData(state: state, progressStr: "\(Int(progress * 100))%", progress: progress)
-            }
-        }
+//        if items.contains(.cpu) {
+//            CPUEye.shared.observable.addObserver(self) { [weak self] (_, progress) in
+//                let state: FloatItemView.State
+//                if progress < 0.4 {
+//                    state = .green
+//                } else if progress < 0.7 {
+//                    state = .yellow
+//                } else {
+//                    state = .red
+//                }
+//                self?.cpuView.setData(state: state, progressStr: "\(Int(progress * 100))%", progress: progress)
+//            }
+//        }
         if items.contains(.fps) {
             FPSEye.shared.observable.addObserver(self) { [weak self] (_, fps) in
                 let state: FloatItemView.State
@@ -64,12 +64,12 @@ class FloatRootViewController: UIViewController {
 
     private func makeUI() {
         var children: [UIView] = []
-        if items.contains(.cpu) {
-            children.append(cpuView)
-            cpuView.translatesAutoresizingMaskIntoConstraints = false
-            cpuView.widthAnchor.constraint(equalToConstant: itemSize.width).isActive = true
-            cpuView.heightAnchor.constraint(equalToConstant: itemSize.height).isActive = true
-        }
+//        if items.contains(.cpu) {
+//            children.append(cpuView)
+//            cpuView.translatesAutoresizingMaskIntoConstraints = false
+//            cpuView.widthAnchor.constraint(equalToConstant: itemSize.width).isActive = true
+//            cpuView.heightAnchor.constraint(equalToConstant: itemSize.height).isActive = true
+//        }
         if items.contains(.fps) {
             children.append(fpsView)
             fpsView.translatesAutoresizingMaskIntoConstraints = false

@@ -9,12 +9,12 @@ public class GodsEye {
             stop()
         }
         observer = NSObject()
-        if config.monitorItem.contains(.cpu) {
-            CPUEye.shared.start()
-            CPUEye.shared.observable.addObserver(observer!) { (_, cpu) in
-                changeHandler?(.cpu(cpu))
-            }
-        }
+//        if config.monitorItem.contains(.cpu) {
+//            CPUEye.shared.start()
+//            CPUEye.shared.observable.addObserver(observer!) { (_, cpu) in
+//                changeHandler?(.cpu(cpu))
+//            }
+//        }
         if config.monitorItem.contains(.fps) {
             FPSEye.shared.start()
             FPSEye.shared.observable.addObserver(observer!) { (_, fps) in
@@ -37,7 +37,7 @@ public class GodsEye {
     public static func stop() {
         observer = nil
         FloatManager.shared.close()
-        CPUEye.shared.stop()
+//        CPUEye.shared.stop()
         FPSEye.shared.stop()
         RunLoopBlockEye.shared.stop()
     }

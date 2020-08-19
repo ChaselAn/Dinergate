@@ -1,5 +1,6 @@
 import Foundation
 
+/*
 public class CPUEye: NSObject {
 
     public static let shared = CPUEye()
@@ -95,3 +96,4 @@ public class CPUEye: NSObject {
     }
 
 }
+*/
