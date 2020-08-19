@@ -18,7 +18,6 @@
 		F159052924E699E700BA5004 /* EyeWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052824E699E700BA5004 /* EyeWeakTarget.swift */; };
 		F17B86D724EBB56700F8F7FD /* FloatItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86D624EBB56700F8F7FD /* FloatItemView.swift */; };
 		F17B86D924EBD10600F8F7FD /* FloatRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */; };
-		F17B86DB24EBDF8900F8F7FD /* CenterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86DA24EBDF8900F8F7FD /* CenterControl.swift */; };
 		F1BA6ED224E633B800136F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED124E633B800136F58 /* AppDelegate.swift */; };
 		F1BA6ED624E633B800136F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED524E633B800136F58 /* ViewController.swift */; };
 		F1BA6ED924E633B800136F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6ED724E633B800136F58 /* Main.storyboard */; };
@@ -90,7 +89,6 @@
 		F159052824E699E700BA5004 /* EyeWeakTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeWeakTarget.swift; sourceTree = "<group>"; };
 		F17B86D624EBB56700F8F7FD /* FloatItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatItemView.swift; sourceTree = "<group>"; };
 		F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatRootViewController.swift; sourceTree = "<group>"; };
-		F17B86DA24EBDF8900F8F7FD /* CenterControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterControl.swift; sourceTree = "<group>"; };
 		F1BA6ECE24E633B800136F58 /* APMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6ED124E633B800136F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1BA6ED524E633B800136F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 		F103CE7324EA9793005B6D86 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				F17B86DA24EBDF8900F8F7FD /* CenterControl.swift */,
 				F103CE6924EA89E8005B6D86 /* DragableWindow.swift */,
 				F159052824E699E700BA5004 /* EyeWeakTarget.swift */,
 				F103CE7424EA97AD005B6D86 /* EyeObservable.swift */,
@@ -440,7 +437,6 @@
 				F17B86D724EBB56700F8F7FD /* FloatItemView.swift in Sources */,
 				F103CE3924EA3272005B6D86 /* RunLoopBlockEye.swift in Sources */,
 				F1BA6F1724E6342600136F58 /* CPUEye.swift in Sources */,
-				F17B86DB24EBDF8900F8F7FD /* CenterControl.swift in Sources */,
 				F17B86D924EBD10600F8F7FD /* FloatRootViewController.swift in Sources */,
 				F103CE7524EA97AD005B6D86 /* EyeObservable.swift in Sources */,
 				F103CE6A24EA89E8005B6D86 /* DragableWindow.swift in Sources */,

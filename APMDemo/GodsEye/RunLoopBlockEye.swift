@@ -1,6 +1,6 @@
 import Foundation
 
-public class RunLoopBlockEye: NSObject, CenterControl {
+public class RunLoopBlockEye: NSObject {
 
     public enum BlockType {
         case single // once, blocked for 250ms
