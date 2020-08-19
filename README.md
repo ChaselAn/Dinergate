@@ -1,19 +1,17 @@
 # GodsEye
-## 目录
+### 已完成功能：
 
-[参考](#参考)
+* FPS
 
-## 参考
+* main Runloop 阻塞检测
 
-[美团-移动端性能监控方案Hertz](https://tech.meituan.com/2016/12/19/hertz.html)
+### 未完成功能
 
-[微信iOS卡顿监控系统](https://mp.weixin.qq.com/s/M6r7NIk-s8Q-TOaHzXFNAw?)
-
-[YYFPSLabel](https://github.com/ibireme/YYText/blob/master/Demo/YYTextDemo/YYFPSLabel.m)
-
-[ Wedjat（华狄特）](https://github.com/aozhimin/iOS-Monitor-Platform)
-
-[Get CPU Usage Percentage Of Single IOS App In Swift 4.X](https://izziswift.com/get-cpu-usage-percentage-of-single-ios-app-in-swift-4-x/)
-
-[苹果开发者文档 runloop](https://developer.apple.com/documentation/foundation/runloop)
+* cpu使用率（目前实现方案不准）
+* 内存使用率
+* 网络流量监控
+* 堆栈上报（阻塞、崩溃）
+* 可视化（本地页面可视化、app内可视化）
+* 启动时间（冷启动、热启动）
+* 方法耗时时间（执行过长时间监控）
 

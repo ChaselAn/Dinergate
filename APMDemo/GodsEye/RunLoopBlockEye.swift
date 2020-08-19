@@ -12,6 +12,7 @@ public class RunLoopBlockEye: NSObject, CenterControl {
     public var observable = EyeObservable<BlockType?>(value: nil)
 
     public func start() {
+        handleCallStack()
         CFRunLoopAddObserver(CFRunLoopGetMain(), observer, CFRunLoopMode.commonModes)
         isStarted = true
 
@@ -25,6 +26,7 @@ public class RunLoopBlockEye: NSObject, CenterControl {
                     break
                 case .timedOut:
                     self.observable.update(with: .single)
+                    self.handleCallStack()
                     break
                 }
             }
@@ -44,6 +46,7 @@ public class RunLoopBlockEye: NSObject, CenterControl {
                         continue
                     }
                     self.observable.update(with: .continuous)
+                    self.handleCallStack()
                 }
                 self.timeOutCount = 0
             }
@@ -71,5 +74,10 @@ public class RunLoopBlockEye: NSObject, CenterControl {
             self.fiveSemaphore.signal()
             self.singleSemaphore.signal()
         }
+    }
+
+    private func handleCallStack() {
+//        print(Thread.callStackSymbols)
+        // TODO: handleCallStack
     }
 }
