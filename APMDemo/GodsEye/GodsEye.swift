@@ -51,7 +51,7 @@ extension GodsEye {
         public var monitorStyle: MonitorStyle
 
         public static var `default`: Configuration {
-            return Configuration(monitorItem: MonitorItem.allItems, monitorStyle: MonitorStyle.allItems)
+            return Configuration(monitorItem: [.fps, .runloopBlock], monitorStyle: MonitorStyle.allItems)
         }
     }
 }
