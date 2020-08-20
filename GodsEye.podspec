@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'GodsEye'
-    s.version      = '0.0.1-pre'
+    s.version      = '0.0.4-pre'
     s.summary      = 'APM'
     s.homepage     = 'https://github.com/ChaselAn/GodsEye'
     s.license      = 'MIT'

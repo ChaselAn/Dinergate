@@ -145,10 +145,6 @@
 		F103CE6824EA899A005B6D86 /* Window */ = {
 			isa = PBXGroup;
 			children = (
-				F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */,
-				F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */,
-				F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */,
-				F17B86D624EBB56700F8F7FD /* FloatItemView.swift */,
 			);
 			path = Window;
 			sourceTree = "<group>";
@@ -156,9 +152,6 @@
 		F103CE6F24EA8F70005B6D86 /* Eyes */ = {
 			isa = PBXGroup;
 			children = (
-				F1BA6F1624E6342600136F58 /* CPUEye.swift */,
-				F159052624E6929E00BA5004 /* FPSEye.swift */,
-				F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */,
 			);
 			name = Eyes;
 			sourceTree = "<group>";
@@ -166,10 +159,6 @@
 		F103CE7324EA9793005B6D86 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				F103CE6924EA89E8005B6D86 /* DragableWindow.swift */,
-				F159052824E699E700BA5004 /* EyeWeakTarget.swift */,
-				F103CE7424EA97AD005B6D86 /* EyeObservable.swift */,
-				F103CE7624EB7D97005B6D86 /* EyeLog.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -224,6 +213,17 @@
 				F1BA6EFA24E6341300136F58 /* GodsEye.h */,
 				F1BA6EFB24E6341300136F58 /* Info.plist */,
 				F103CE7024EA8F92005B6D86 /* GodsEye.swift */,
+				F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */,
+				F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */,
+				F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */,
+				F17B86D624EBB56700F8F7FD /* FloatItemView.swift */,
+				F1BA6F1624E6342600136F58 /* CPUEye.swift */,
+				F159052624E6929E00BA5004 /* FPSEye.swift */,
+				F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */,
+				F103CE6924EA89E8005B6D86 /* DragableWindow.swift */,
+				F159052824E699E700BA5004 /* EyeWeakTarget.swift */,
+				F103CE7424EA97AD005B6D86 /* EyeObservable.swift */,
+				F103CE7624EB7D97005B6D86 /* EyeLog.swift */,
 				F103CE6824EA899A005B6D86 /* Window */,
 				F103CE6F24EA8F70005B6D86 /* Eyes */,
 				F103CE7324EA9793005B6D86 /* Tools */,
