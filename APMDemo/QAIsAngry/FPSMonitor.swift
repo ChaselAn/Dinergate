@@ -1,15 +1,15 @@
 import UIKit
 
-public class FPSEye: NSObject {
+public class FPSMonitor: NSObject {
 
-    public static let shared = FPSEye()
-    public var observable = EyeObservable<Int>(value: 60)
+    public static let shared = FPSMonitor()
+    public var observable = MonitorObservable<Int>(value: 60)
 
     public func start() {
         if link != nil {
             stop()
         }
-        link = CADisplayLink(target: EyeWeakTarget<FPSEye>(target: self), selector: #selector(tick))
+        link = CADisplayLink(target: MonitorWeakTarget<FPSMonitor>(target: self), selector: #selector(tick))
         link?.add(to: RunLoop.main, forMode: .common)
     }
 

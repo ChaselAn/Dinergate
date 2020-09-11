@@ -1,6 +1,6 @@
 import Foundation
 
-public class GodsEye {
+public class AngryMonitor {
 
     private static var observer: NSObject?
 
@@ -16,16 +16,16 @@ public class GodsEye {
 //            }
 //        }
         if config.monitorItem.contains(.fps) {
-            FPSEye.shared.start()
-            FPSEye.shared.observable.addObserver(observer!) { (_, fps) in
+            FPSMonitor.shared.start()
+            FPSMonitor.shared.observable.addObserver(observer!) { (_, fps) in
                 changeHandler?(.fps(fps))
             }
         }
-        if config.monitorItem.contains(.runloopBlock) {
-            RunLoopBlockEye.shared.start()
-            RunLoopBlockEye.shared.observable.addObserver(observer!) { (_, blockType) in
-                guard let blockType = blockType else { return }
-                changeHandler?(.runLoopBlock(blockType))
+        if config.monitorItem.contains(.mainThreadStuck) {
+            StuckMonitor.shared.start()
+            StuckMonitor.shared.observable.addObserver(observer!) { (_, stuckType) in
+                guard let stuckType = stuckType else { return }
+                changeHandler?(.mainThreadStuck(stuckType))
             }
         }
 
@@ -38,33 +38,33 @@ public class GodsEye {
         observer = nil
         FloatManager.shared.close()
 //        CPUEye.shared.stop()
-        FPSEye.shared.stop()
-        RunLoopBlockEye.shared.stop()
+        FPSMonitor.shared.stop()
+        StuckMonitor.shared.stop()
     }
 }
 
 // MARK: - Configuration
-extension GodsEye {
+extension AngryMonitor {
     public struct Configuration {
 
         public var monitorItem: MonitorItem
         public var monitorStyle: MonitorStyle
 
         public static var `default`: Configuration {
-            return Configuration(monitorItem: [.fps, .runloopBlock], monitorStyle: MonitorStyle.allItems)
+            return Configuration(monitorItem: [.fps, .mainThreadStuck], monitorStyle: MonitorStyle.allItems)
         }
     }
 }
 
 // MARK: - MonitorItem
-extension GodsEye {
+extension AngryMonitor {
     public struct MonitorItem: OptionSet {
 
         public static let cpu = MonitorItem(rawValue: 1 << 0)
         public static let fps = MonitorItem(rawValue: 1 << 1)
-        public static let runloopBlock = MonitorItem(rawValue: 1 << 2)
+        public static let mainThreadStuck = MonitorItem(rawValue: 1 << 2)
 
-        public static var allItems: MonitorItem = [.cpu, .fps, .runloopBlock]
+        public static var allItems: MonitorItem = [.cpu, .fps, .mainThreadStuck]
         var count: Int {
             var _count = 0
             if contains(.cpu) {
@@ -73,7 +73,7 @@ extension GodsEye {
             if contains(.fps) {
                 _count += 1
             }
-            if contains(.runloopBlock) {
+            if contains(.mainThreadStuck) {
                 _count += 1
             }
             return _count
@@ -97,7 +97,7 @@ extension GodsEye {
 }
 
 // MARK: - MonitorStyle
-extension GodsEye {
+extension AngryMonitor {
     public struct MonitorStyle: OptionSet {
 
         public static let float = MonitorStyle(rawValue: 1 << 0)
@@ -112,11 +112,11 @@ extension GodsEye {
 }
 
 // MARK: - MonitorChangeHandler
-extension GodsEye {
+extension AngryMonitor {
     public enum MonitorChangeType {
 
         case cpu(Float) // percent
         case fps(Int)
-        case runLoopBlock(RunLoopBlockEye.BlockType)
+        case mainThreadStuck(StuckMonitor.StuckType)
     }
 }

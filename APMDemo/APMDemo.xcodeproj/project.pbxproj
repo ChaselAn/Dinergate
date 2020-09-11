@@ -7,59 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F103CE3924EA3272005B6D86 /* RunLoopBlockEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */; };
-		F103CE6A24EA89E8005B6D86 /* DragableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6924EA89E8005B6D86 /* DragableWindow.swift */; };
-		F103CE6C24EA8DC1005B6D86 /* FloatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */; };
-		F103CE6E24EA8DE7005B6D86 /* FloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */; };
-		F103CE7124EA8F92005B6D86 /* GodsEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7024EA8F92005B6D86 /* GodsEye.swift */; };
-		F103CE7524EA97AD005B6D86 /* EyeObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7424EA97AD005B6D86 /* EyeObservable.swift */; };
-		F103CE7724EB7D97005B6D86 /* EyeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7624EB7D97005B6D86 /* EyeLog.swift */; };
-		F159052724E6929E00BA5004 /* FPSEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052624E6929E00BA5004 /* FPSEye.swift */; };
-		F159052924E699E700BA5004 /* EyeWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052824E699E700BA5004 /* EyeWeakTarget.swift */; };
-		F17B86D724EBB56700F8F7FD /* FloatItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86D624EBB56700F8F7FD /* FloatItemView.swift */; };
-		F17B86D924EBD10600F8F7FD /* FloatRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */; };
+		F1678B9F250B25EC009C0E04 /* QAIsAngry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1678B96250B25EC009C0E04 /* QAIsAngry.framework */; };
+		F1678BA6250B25EC009C0E04 /* QAIsAngryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1678BA5250B25EC009C0E04 /* QAIsAngryTests.swift */; };
+		F1678BA8250B25EC009C0E04 /* QAIsAngry.h in Headers */ = {isa = PBXBuildFile; fileRef = F1678B98250B25EC009C0E04 /* QAIsAngry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1678BAB250B25EC009C0E04 /* QAIsAngry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1678B96250B25EC009C0E04 /* QAIsAngry.framework */; };
+		F1678BAC250B25EC009C0E04 /* QAIsAngry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1678B96250B25EC009C0E04 /* QAIsAngry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1678BB3250B2638009C0E04 /* DragableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6924EA89E8005B6D86 /* DragableWindow.swift */; };
+		F1678BB4250B2638009C0E04 /* FloatItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86D624EBB56700F8F7FD /* FloatItemView.swift */; };
+		F1678BB5250B2638009C0E04 /* FloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */; };
+		F1678BB6250B2638009C0E04 /* FloatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */; };
+		F1678BB7250B2638009C0E04 /* StuckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE3824EA3272005B6D86 /* StuckMonitor.swift */; };
+		F1678BB8250B2638009C0E04 /* FloatRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */; };
+		F1678BB9250B2638009C0E04 /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052624E6929E00BA5004 /* FPSMonitor.swift */; };
+		F1678BBA250B2638009C0E04 /* MonitorObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7424EA97AD005B6D86 /* MonitorObservable.swift */; };
+		F1678BBB250B2638009C0E04 /* MonitorWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052824E699E700BA5004 /* MonitorWeakTarget.swift */; };
+		F1678BBC250B2638009C0E04 /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6F1624E6342600136F58 /* CPUMonitor.swift */; };
+		F1678BBD250B2638009C0E04 /* MonitorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7624EB7D97005B6D86 /* MonitorLog.swift */; };
+		F1678BBE250B2638009C0E04 /* AngryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7024EA8F92005B6D86 /* AngryMonitor.swift */; };
 		F1BA6ED224E633B800136F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED124E633B800136F58 /* AppDelegate.swift */; };
 		F1BA6ED624E633B800136F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED524E633B800136F58 /* ViewController.swift */; };
 		F1BA6ED924E633B800136F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6ED724E633B800136F58 /* Main.storyboard */; };
 		F1BA6EDB24E633BA00136F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6EDA24E633BA00136F58 /* Assets.xcassets */; };
 		F1BA6EDE24E633BA00136F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6EDC24E633BA00136F58 /* LaunchScreen.storyboard */; };
 		F1BA6EE924E633BB00136F58 /* APMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6EE824E633BB00136F58 /* APMDemoTests.swift */; };
-		F1BA6F0124E6341300136F58 /* GodsEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BA6EF824E6341300136F58 /* GodsEye.framework */; };
-		F1BA6F0824E6341300136F58 /* GodsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6F0724E6341300136F58 /* GodsEyeTests.swift */; };
-		F1BA6F0A24E6341300136F58 /* GodsEye.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BA6EFA24E6341300136F58 /* GodsEye.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1BA6F0D24E6341300136F58 /* GodsEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BA6EF824E6341300136F58 /* GodsEye.framework */; };
-		F1BA6F0E24E6341300136F58 /* GodsEye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1BA6EF824E6341300136F58 /* GodsEye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F1BA6F1724E6342600136F58 /* CPUEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6F1624E6342600136F58 /* CPUEye.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F1678BA0250B25EC009C0E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1678B95250B25EC009C0E04;
+			remoteInfo = QAIsAngry;
+		};
+		F1678BA2250B25EC009C0E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BA6ECD24E633B800136F58;
+			remoteInfo = APMDemo;
+		};
+		F1678BA9250B25EC009C0E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1678B95250B25EC009C0E04;
+			remoteInfo = QAIsAngry;
+		};
 		F1BA6EE524E633BB00136F58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1BA6ECD24E633B800136F58;
 			remoteInfo = APMDemo;
-		};
-		F1BA6F0224E6341300136F58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1BA6EF724E6341300136F58;
-			remoteInfo = GodsEye;
-		};
-		F1BA6F0424E6341300136F58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1BA6ECD24E633B800136F58;
-			remoteInfo = APMDemo;
-		};
-		F1BA6F0B24E6341300136F58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1BA6EF724E6341300136F58;
-			remoteInfo = GodsEye;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,7 +70,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F1BA6F0E24E6341300136F58 /* GodsEye.framework in Embed Frameworks */,
+				F1678BAC250B25EC009C0E04 /* QAIsAngry.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,15 +78,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopBlockEye.swift; sourceTree = "<group>"; };
+		F103CE3824EA3272005B6D86 /* StuckMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuckMonitor.swift; sourceTree = "<group>"; };
 		F103CE6924EA89E8005B6D86 /* DragableWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragableWindow.swift; sourceTree = "<group>"; };
 		F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatManager.swift; sourceTree = "<group>"; };
 		F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatWindow.swift; sourceTree = "<group>"; };
-		F103CE7024EA8F92005B6D86 /* GodsEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsEye.swift; sourceTree = "<group>"; };
-		F103CE7424EA97AD005B6D86 /* EyeObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeObservable.swift; sourceTree = "<group>"; };
-		F103CE7624EB7D97005B6D86 /* EyeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLog.swift; sourceTree = "<group>"; };
-		F159052624E6929E00BA5004 /* FPSEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSEye.swift; sourceTree = "<group>"; };
-		F159052824E699E700BA5004 /* EyeWeakTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeWeakTarget.swift; sourceTree = "<group>"; };
+		F103CE7024EA8F92005B6D86 /* AngryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryMonitor.swift; sourceTree = "<group>"; };
+		F103CE7424EA97AD005B6D86 /* MonitorObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorObservable.swift; sourceTree = "<group>"; };
+		F103CE7624EB7D97005B6D86 /* MonitorLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorLog.swift; sourceTree = "<group>"; };
+		F159052624E6929E00BA5004 /* FPSMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSMonitor.swift; sourceTree = "<group>"; };
+		F159052824E699E700BA5004 /* MonitorWeakTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorWeakTarget.swift; sourceTree = "<group>"; };
+		F1678B96250B25EC009C0E04 /* QAIsAngry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QAIsAngry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1678B98250B25EC009C0E04 /* QAIsAngry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAIsAngry.h; sourceTree = "<group>"; };
+		F1678B99250B25EC009C0E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1678B9E250B25EC009C0E04 /* QAIsAngryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QAIsAngryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1678BA5250B25EC009C0E04 /* QAIsAngryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAIsAngryTests.swift; sourceTree = "<group>"; };
+		F1678BA7250B25EC009C0E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F17B86D624EBB56700F8F7FD /* FloatItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatItemView.swift; sourceTree = "<group>"; };
 		F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatRootViewController.swift; sourceTree = "<group>"; };
 		F1BA6ECE24E633B800136F58 /* APMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,21 +105,34 @@
 		F1BA6EE424E633BB00136F58 /* APMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6EE824E633BB00136F58 /* APMDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMDemoTests.swift; sourceTree = "<group>"; };
 		F1BA6EEA24E633BB00136F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1BA6EF824E6341300136F58 /* GodsEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GodsEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6EFA24E6341300136F58 /* GodsEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodsEye.h; sourceTree = "<group>"; };
 		F1BA6EFB24E6341300136F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1BA6F0024E6341300136F58 /* GodsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6F0724E6341300136F58 /* GodsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsEyeTests.swift; sourceTree = "<group>"; };
 		F1BA6F0924E6341300136F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1BA6F1624E6342600136F58 /* CPUEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUEye.swift; sourceTree = "<group>"; };
+		F1BA6F1624E6342600136F58 /* CPUMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F1678B93250B25EC009C0E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1678B9B250B25EC009C0E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1678B9F250B25EC009C0E04 /* QAIsAngry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1BA6ECB24E633B800136F58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1BA6F0D24E6341300136F58 /* GodsEye.framework in Frameworks */,
+				F1678BAB250B25EC009C0E04 /* QAIsAngry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,43 +143,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1BA6EF524E6341300136F58 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1BA6EFD24E6341300136F58 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1BA6F0124E6341300136F58 /* GodsEye.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F103CE6824EA899A005B6D86 /* Window */ = {
+		F1678B97250B25EC009C0E04 /* QAIsAngry */ = {
 			isa = PBXGroup;
 			children = (
+				F1678B98250B25EC009C0E04 /* QAIsAngry.h */,
+				F103CE7024EA8F92005B6D86 /* AngryMonitor.swift */,
+				F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */,
+				F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */,
+				F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */,
+				F17B86D624EBB56700F8F7FD /* FloatItemView.swift */,
+				F1BA6F1624E6342600136F58 /* CPUMonitor.swift */,
+				F159052624E6929E00BA5004 /* FPSMonitor.swift */,
+				F103CE3824EA3272005B6D86 /* StuckMonitor.swift */,
+				F103CE6924EA89E8005B6D86 /* DragableWindow.swift */,
+				F159052824E699E700BA5004 /* MonitorWeakTarget.swift */,
+				F103CE7424EA97AD005B6D86 /* MonitorObservable.swift */,
+				F103CE7624EB7D97005B6D86 /* MonitorLog.swift */,
+				F1678B99250B25EC009C0E04 /* Info.plist */,
 			);
-			path = Window;
+			path = QAIsAngry;
 			sourceTree = "<group>";
 		};
-		F103CE6F24EA8F70005B6D86 /* Eyes */ = {
+		F1678BA4250B25EC009C0E04 /* QAIsAngryTests */ = {
 			isa = PBXGroup;
 			children = (
+				F1678BA5250B25EC009C0E04 /* QAIsAngryTests.swift */,
+				F1678BA7250B25EC009C0E04 /* Info.plist */,
 			);
-			name = Eyes;
-			sourceTree = "<group>";
-		};
-		F103CE7324EA9793005B6D86 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
+			path = QAIsAngryTests;
 			sourceTree = "<group>";
 		};
 		F1BA6EC524E633B800136F58 = {
@@ -170,6 +183,8 @@
 				F1BA6EE724E633BB00136F58 /* APMDemoTests */,
 				F1BA6EF924E6341300136F58 /* GodsEye */,
 				F1BA6F0624E6341300136F58 /* GodsEyeTests */,
+				F1678B97250B25EC009C0E04 /* QAIsAngry */,
+				F1678BA4250B25EC009C0E04 /* QAIsAngryTests */,
 				F1BA6ECF24E633B800136F58 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,8 +194,8 @@
 			children = (
 				F1BA6ECE24E633B800136F58 /* APMDemo.app */,
 				F1BA6EE424E633BB00136F58 /* APMDemoTests.xctest */,
-				F1BA6EF824E6341300136F58 /* GodsEye.framework */,
-				F1BA6F0024E6341300136F58 /* GodsEyeTests.xctest */,
+				F1678B96250B25EC009C0E04 /* QAIsAngry.framework */,
+				F1678B9E250B25EC009C0E04 /* QAIsAngryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,21 +227,6 @@
 			children = (
 				F1BA6EFA24E6341300136F58 /* GodsEye.h */,
 				F1BA6EFB24E6341300136F58 /* Info.plist */,
-				F103CE7024EA8F92005B6D86 /* GodsEye.swift */,
-				F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */,
-				F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */,
-				F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */,
-				F17B86D624EBB56700F8F7FD /* FloatItemView.swift */,
-				F1BA6F1624E6342600136F58 /* CPUEye.swift */,
-				F159052624E6929E00BA5004 /* FPSEye.swift */,
-				F103CE3824EA3272005B6D86 /* RunLoopBlockEye.swift */,
-				F103CE6924EA89E8005B6D86 /* DragableWindow.swift */,
-				F159052824E699E700BA5004 /* EyeWeakTarget.swift */,
-				F103CE7424EA97AD005B6D86 /* EyeObservable.swift */,
-				F103CE7624EB7D97005B6D86 /* EyeLog.swift */,
-				F103CE6824EA899A005B6D86 /* Window */,
-				F103CE6F24EA8F70005B6D86 /* Eyes */,
-				F103CE7324EA9793005B6D86 /* Tools */,
 			);
 			path = GodsEye;
 			sourceTree = "<group>";
@@ -243,17 +243,54 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F1BA6EF324E6341300136F58 /* Headers */ = {
+		F1678B91250B25EC009C0E04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1BA6F0A24E6341300136F58 /* GodsEye.h in Headers */,
+				F1678BA8250B25EC009C0E04 /* QAIsAngry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F1678B95250B25EC009C0E04 /* QAIsAngry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1678BAD250B25EC009C0E04 /* Build configuration list for PBXNativeTarget "QAIsAngry" */;
+			buildPhases = (
+				F1678B91250B25EC009C0E04 /* Headers */,
+				F1678B92250B25EC009C0E04 /* Sources */,
+				F1678B93250B25EC009C0E04 /* Frameworks */,
+				F1678B94250B25EC009C0E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QAIsAngry;
+			productName = QAIsAngry;
+			productReference = F1678B96250B25EC009C0E04 /* QAIsAngry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1678B9D250B25EC009C0E04 /* QAIsAngryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1678BB0250B25EC009C0E04 /* Build configuration list for PBXNativeTarget "QAIsAngryTests" */;
+			buildPhases = (
+				F1678B9A250B25EC009C0E04 /* Sources */,
+				F1678B9B250B25EC009C0E04 /* Frameworks */,
+				F1678B9C250B25EC009C0E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1678BA1250B25EC009C0E04 /* PBXTargetDependency */,
+				F1678BA3250B25EC009C0E04 /* PBXTargetDependency */,
+			);
+			name = QAIsAngryTests;
+			productName = QAIsAngryTests;
+			productReference = F1678B9E250B25EC009C0E04 /* QAIsAngryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F1BA6ECD24E633B800136F58 /* APMDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1BA6EED24E633BB00136F58 /* Build configuration list for PBXNativeTarget "APMDemo" */;
@@ -266,7 +303,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F1BA6F0C24E6341300136F58 /* PBXTargetDependency */,
+				F1678BAA250B25EC009C0E04 /* PBXTargetDependency */,
 			);
 			name = APMDemo;
 			productName = APMDemo;
@@ -291,65 +328,27 @@
 			productReference = F1BA6EE424E633BB00136F58 /* APMDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F1BA6EF724E6341300136F58 /* GodsEye */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1BA6F0F24E6341300136F58 /* Build configuration list for PBXNativeTarget "GodsEye" */;
-			buildPhases = (
-				F1BA6EF324E6341300136F58 /* Headers */,
-				F1BA6EF424E6341300136F58 /* Sources */,
-				F1BA6EF524E6341300136F58 /* Frameworks */,
-				F1BA6EF624E6341300136F58 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GodsEye;
-			productName = GodsEye;
-			productReference = F1BA6EF824E6341300136F58 /* GodsEye.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F1BA6EFF24E6341300136F58 /* GodsEyeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1BA6F1324E6341300136F58 /* Build configuration list for PBXNativeTarget "GodsEyeTests" */;
-			buildPhases = (
-				F1BA6EFC24E6341300136F58 /* Sources */,
-				F1BA6EFD24E6341300136F58 /* Frameworks */,
-				F1BA6EFE24E6341300136F58 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F1BA6F0324E6341300136F58 /* PBXTargetDependency */,
-				F1BA6F0524E6341300136F58 /* PBXTargetDependency */,
-			);
-			name = GodsEyeTests;
-			productName = GodsEyeTests;
-			productReference = F1BA6F0024E6341300136F58 /* GodsEyeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F1BA6EC624E633B800136F58 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = ChaselAn;
 				TargetAttributes = {
+					F1678B95250B25EC009C0E04 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F1678B9D250B25EC009C0E04 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F1BA6ECD24E633B800136F58;
+					};
 					F1BA6ECD24E633B800136F58 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 					F1BA6EE324E633BB00136F58 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = F1BA6ECD24E633B800136F58;
-					};
-					F1BA6EF724E6341300136F58 = {
-						CreatedOnToolsVersion = 11.5;
-						LastSwiftMigration = 1150;
-					};
-					F1BA6EFF24E6341300136F58 = {
 						CreatedOnToolsVersion = 11.5;
 						TestTargetID = F1BA6ECD24E633B800136F58;
 					};
@@ -370,13 +369,27 @@
 			targets = (
 				F1BA6ECD24E633B800136F58 /* APMDemo */,
 				F1BA6EE324E633BB00136F58 /* APMDemoTests */,
-				F1BA6EF724E6341300136F58 /* GodsEye */,
-				F1BA6EFF24E6341300136F58 /* GodsEyeTests */,
+				F1678B95250B25EC009C0E04 /* QAIsAngry */,
+				F1678B9D250B25EC009C0E04 /* QAIsAngryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F1678B94250B25EC009C0E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1678B9C250B25EC009C0E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1BA6ECC24E633B800136F58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,23 +407,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1BA6EF624E6341300136F58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1BA6EFE24E6341300136F58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F1678B92250B25EC009C0E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1678BBE250B2638009C0E04 /* AngryMonitor.swift in Sources */,
+				F1678BB4250B2638009C0E04 /* FloatItemView.swift in Sources */,
+				F1678BB5250B2638009C0E04 /* FloatWindow.swift in Sources */,
+				F1678BB7250B2638009C0E04 /* StuckMonitor.swift in Sources */,
+				F1678BBB250B2638009C0E04 /* MonitorWeakTarget.swift in Sources */,
+				F1678BB6250B2638009C0E04 /* FloatManager.swift in Sources */,
+				F1678BB3250B2638009C0E04 /* DragableWindow.swift in Sources */,
+				F1678BBC250B2638009C0E04 /* CPUMonitor.swift in Sources */,
+				F1678BBD250B2638009C0E04 /* MonitorLog.swift in Sources */,
+				F1678BB8250B2638009C0E04 /* FloatRootViewController.swift in Sources */,
+				F1678BBA250B2638009C0E04 /* MonitorObservable.swift in Sources */,
+				F1678BB9250B2638009C0E04 /* FPSMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1678B9A250B25EC009C0E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1678BA6250B25EC009C0E04 /* QAIsAngryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1BA6ECA24E633B800136F58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,55 +454,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1BA6EF424E6341300136F58 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F103CE7124EA8F92005B6D86 /* GodsEye.swift in Sources */,
-				F159052924E699E700BA5004 /* EyeWeakTarget.swift in Sources */,
-				F17B86D724EBB56700F8F7FD /* FloatItemView.swift in Sources */,
-				F103CE3924EA3272005B6D86 /* RunLoopBlockEye.swift in Sources */,
-				F1BA6F1724E6342600136F58 /* CPUEye.swift in Sources */,
-				F17B86D924EBD10600F8F7FD /* FloatRootViewController.swift in Sources */,
-				F103CE7524EA97AD005B6D86 /* EyeObservable.swift in Sources */,
-				F103CE6A24EA89E8005B6D86 /* DragableWindow.swift in Sources */,
-				F103CE6C24EA8DC1005B6D86 /* FloatManager.swift in Sources */,
-				F159052724E6929E00BA5004 /* FPSEye.swift in Sources */,
-				F103CE7724EB7D97005B6D86 /* EyeLog.swift in Sources */,
-				F103CE6E24EA8DE7005B6D86 /* FloatWindow.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1BA6EFC24E6341300136F58 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1BA6F0824E6341300136F58 /* GodsEyeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F1678BA1250B25EC009C0E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1678B95250B25EC009C0E04 /* QAIsAngry */;
+			targetProxy = F1678BA0250B25EC009C0E04 /* PBXContainerItemProxy */;
+		};
+		F1678BA3250B25EC009C0E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BA6ECD24E633B800136F58 /* APMDemo */;
+			targetProxy = F1678BA2250B25EC009C0E04 /* PBXContainerItemProxy */;
+		};
+		F1678BAA250B25EC009C0E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1678B95250B25EC009C0E04 /* QAIsAngry */;
+			targetProxy = F1678BA9250B25EC009C0E04 /* PBXContainerItemProxy */;
+		};
 		F1BA6EE624E633BB00136F58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F1BA6ECD24E633B800136F58 /* APMDemo */;
 			targetProxy = F1BA6EE524E633BB00136F58 /* PBXContainerItemProxy */;
-		};
-		F1BA6F0324E6341300136F58 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F1BA6EF724E6341300136F58 /* GodsEye */;
-			targetProxy = F1BA6F0224E6341300136F58 /* PBXContainerItemProxy */;
-		};
-		F1BA6F0524E6341300136F58 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F1BA6ECD24E633B800136F58 /* APMDemo */;
-			targetProxy = F1BA6F0424E6341300136F58 /* PBXContainerItemProxy */;
-		};
-		F1BA6F0C24E6341300136F58 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F1BA6EF724E6341300136F58 /* GodsEye */;
-			targetProxy = F1BA6F0B24E6341300136F58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -500,6 +499,110 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F1678BAE250B25EC009C0E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QAIsAngry/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasel.QAIsAngry;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1678BAF250B25EC009C0E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QAIsAngry/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasel.QAIsAngry;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1678BB1250B25EC009C0E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = QAIsAngryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasel.QAIsAngryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMDemo.app/APMDemo";
+			};
+			name = Debug;
+		};
+		F1678BB2250B25EC009C0E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = QAIsAngryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasel.QAIsAngryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMDemo.app/APMDemo";
+			};
+			name = Release;
+		};
 		F1BA6EEB24E633BB00136F58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -698,108 +801,27 @@
 			};
 			name = Release;
 		};
-		F1BA6F1024E6341300136F58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GY6E74AYN5;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GodsEye/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChaselAn.GodsEye;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F1BA6F1124E6341300136F58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GY6E74AYN5;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GodsEye/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChaselAn.GodsEye;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F1BA6F1424E6341300136F58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY6E74AYN5;
-				INFOPLIST_FILE = GodsEyeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChaselAn.GodsEyeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMDemo.app/APMDemo";
-			};
-			name = Debug;
-		};
-		F1BA6F1524E6341300136F58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY6E74AYN5;
-				INFOPLIST_FILE = GodsEyeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChaselAn.GodsEyeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMDemo.app/APMDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F1678BAD250B25EC009C0E04 /* Build configuration list for PBXNativeTarget "QAIsAngry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1678BAE250B25EC009C0E04 /* Debug */,
+				F1678BAF250B25EC009C0E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1678BB0250B25EC009C0E04 /* Build configuration list for PBXNativeTarget "QAIsAngryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1678BB1250B25EC009C0E04 /* Debug */,
+				F1678BB2250B25EC009C0E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F1BA6EC924E633B800136F58 /* Build configuration list for PBXProject "APMDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -823,24 +845,6 @@
 			buildConfigurations = (
 				F1BA6EF124E633BB00136F58 /* Debug */,
 				F1BA6EF224E633BB00136F58 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1BA6F0F24E6341300136F58 /* Build configuration list for PBXNativeTarget "GodsEye" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1BA6F1024E6341300136F58 /* Debug */,
-				F1BA6F1124E6341300136F58 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1BA6F1324E6341300136F58 /* Build configuration list for PBXNativeTarget "GodsEyeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1BA6F1424E6341300136F58 /* Debug */,
-				F1BA6F1524E6341300136F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

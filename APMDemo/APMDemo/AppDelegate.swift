@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import GodsEye
+import QAIsAngry
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        SKTabbarController * tabVC = [[SKTabbarController alloc] init];
 //        self.window.rootViewController = tabVC;
 
-        GodsEye.start(with: GodsEye.Configuration.default)
+        AngryMonitor.start(with: .default, changeHandler: nil)
         return true
     }
 

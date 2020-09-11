@@ -6,11 +6,11 @@ class FloatRootViewController: UIViewController {
     private lazy var fpsView = FloatItemView(title: "FPS")
     private var stackView: UIStackView?
 
-    private let items: GodsEye.MonitorItem
+    private let items: AngryMonitor.MonitorItem
     private let itemSize: CGSize
     private let itemSpace: CGFloat
 
-    init(items: GodsEye.MonitorItem, itemSize: CGSize, itemSpace: CGFloat) {
+    init(items: AngryMonitor.MonitorItem, itemSize: CGSize, itemSpace: CGFloat) {
         self.items = items
         self.itemSize = itemSize
         self.itemSpace = itemSpace
@@ -46,7 +46,7 @@ class FloatRootViewController: UIViewController {
 //            }
 //        }
         if items.contains(.fps) {
-            FPSEye.shared.observable.addObserver(self) { [weak self] (_, fps) in
+            FPSMonitor.shared.observable.addObserver(self) { [weak self] (_, fps) in
                 let state: FloatItemView.State
                 let safeFps = min(60, max(0, fps))
                 if safeFps > 50 {

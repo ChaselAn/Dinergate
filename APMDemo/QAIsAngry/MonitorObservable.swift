@@ -1,6 +1,6 @@
 import Foundation
 
-public class EyeObservable<Value> {
+public class MonitorObservable<Value> {
     private var value: Value
     private var observations = [UUID: (Value) -> Void]()
 

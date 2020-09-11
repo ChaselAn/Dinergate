@@ -1,9 +1,8 @@
 import Foundation
 
-/*
-public class CPUEye: NSObject {
+public class CPUMonitor: NSObject {
 
-    public static let shared = CPUEye()
+    public static let shared = CPUMonitor()
     public var observable = EyeObservable<Float>(value: 0)
 
     public func start() {
@@ -96,4 +95,3 @@ public class CPUEye: NSObject {
     }
 
 }
-*/

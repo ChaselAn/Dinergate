@@ -1,15 +1,15 @@
 import Foundation
 
-public class RunLoopBlockEye: NSObject {
+public class StuckMonitor: NSObject {
 
-    public enum BlockType {
+    public enum StuckType {
         case single // once, blocked for 250ms
         case continuous // five consecutive times, blocked for 50ms * 5
     }
 
-    public static let shared = RunLoopBlockEye()
-    public var blocked: ((BlockType) -> Void)?
-    public var observable = EyeObservable<BlockType?>(value: nil)
+    public static let shared = StuckMonitor()
+    public var blocked: ((StuckType) -> Void)?
+    public var observable = MonitorObservable<StuckType?>(value: nil)
 
     public func start() {
         handleCallStack()

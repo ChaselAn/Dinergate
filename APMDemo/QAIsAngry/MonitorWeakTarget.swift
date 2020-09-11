@@ -1,6 +1,6 @@
 import Foundation
 
-class EyeWeakTarget<T: NSObject>: NSObject {
+class MonitorWeakTarget<T: NSObject>: NSObject {
 
     weak var target: T?
 

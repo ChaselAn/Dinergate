@@ -13,7 +13,7 @@ class FloatManager: NSObject {
     }
 
     @discardableResult
-    func show(items: GodsEye.MonitorItem) -> Bool {
+    func show(items: AngryMonitor.MonitorItem) -> Bool {
 
         let floatWindow = FloatWindow(items: items, closeAction: { [weak self] in
             self?.close()
