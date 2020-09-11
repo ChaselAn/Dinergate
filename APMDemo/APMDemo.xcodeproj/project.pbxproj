@@ -105,10 +105,6 @@
 		F1BA6EE424E633BB00136F58 /* APMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6EE824E633BB00136F58 /* APMDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMDemoTests.swift; sourceTree = "<group>"; };
 		F1BA6EEA24E633BB00136F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1BA6EFA24E6341300136F58 /* GodsEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodsEye.h; sourceTree = "<group>"; };
-		F1BA6EFB24E6341300136F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1BA6F0724E6341300136F58 /* GodsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsEyeTests.swift; sourceTree = "<group>"; };
-		F1BA6F0924E6341300136F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1BA6F1624E6342600136F58 /* CPUMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,8 +177,6 @@
 			children = (
 				F1BA6ED024E633B800136F58 /* APMDemo */,
 				F1BA6EE724E633BB00136F58 /* APMDemoTests */,
-				F1BA6EF924E6341300136F58 /* GodsEye */,
-				F1BA6F0624E6341300136F58 /* GodsEyeTests */,
 				F1678B97250B25EC009C0E04 /* QAIsAngry */,
 				F1678BA4250B25EC009C0E04 /* QAIsAngryTests */,
 				F1BA6ECF24E633B800136F58 /* Products */,
@@ -220,24 +214,6 @@
 				F1BA6EEA24E633BB00136F58 /* Info.plist */,
 			);
 			path = APMDemoTests;
-			sourceTree = "<group>";
-		};
-		F1BA6EF924E6341300136F58 /* GodsEye */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA6EFA24E6341300136F58 /* GodsEye.h */,
-				F1BA6EFB24E6341300136F58 /* Info.plist */,
-			);
-			path = GodsEye;
-			sourceTree = "<group>";
-		};
-		F1BA6F0624E6341300136F58 /* GodsEyeTests */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA6F0724E6341300136F58 /* GodsEyeTests.swift */,
-				F1BA6F0924E6341300136F58 /* Info.plist */,
-			);
-			path = GodsEyeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

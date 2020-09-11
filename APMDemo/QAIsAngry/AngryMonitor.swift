@@ -10,8 +10,8 @@ public class AngryMonitor {
         }
         observer = NSObject()
 //        if config.monitorItem.contains(.cpu) {
-//            CPUEye.shared.start()
-//            CPUEye.shared.observable.addObserver(observer!) { (_, cpu) in
+//            CPUMonitor.shared.start()
+//            CPUMonitor.shared.observable.addObserver(observer!) { (_, cpu) in
 //                changeHandler?(.cpu(cpu))
 //            }
 //        }
@@ -37,7 +37,7 @@ public class AngryMonitor {
     public static func stop() {
         observer = nil
         FloatManager.shared.close()
-//        CPUEye.shared.stop()
+//        CPUMonitor.shared.stop()
         FPSMonitor.shared.stop()
         StuckMonitor.shared.stop()
     }

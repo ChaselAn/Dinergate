@@ -1,5 +1,5 @@
 import Foundation
 
-func eyePrint(_ text: String) {
+func mPrint(_ text: String) {
     print("---AngryMonitor---", text)
 }

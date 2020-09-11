@@ -63,7 +63,7 @@ public class StuckMonitor: NSObject {
     private var timeOutCount = 0
     private let singleSemaphore = DispatchSemaphore(value: 0)
     private let fiveSemaphore = DispatchSemaphore(value: 0)
-    private let timeOutQueue = DispatchQueue(label: "GodsEye_timeOutQueue", qos: .background, attributes: .concurrent)
+    private let timeOutQueue = DispatchQueue(label: "StuckMonitor_timeOutQueue", qos: .background, attributes: .concurrent)
     private var isStarted = false
 
     private override init() {

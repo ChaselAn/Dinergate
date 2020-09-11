@@ -91,7 +91,7 @@ public class CPUMonitor: NSObject {
     }
 
     @objc private func tick() {
-//        eyePrint("CPUMonitor: \(cpuUsage)")
+//        mPrint("CPUMonitor: \(cpuUsage)")
 //        observable.update(with: cpuUsage)
     }
 

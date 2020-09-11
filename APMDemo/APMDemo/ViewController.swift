@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GodsEye
 
 class ViewController: UIViewController {
 

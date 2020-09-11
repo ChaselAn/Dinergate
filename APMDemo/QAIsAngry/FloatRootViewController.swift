@@ -33,7 +33,7 @@ class FloatRootViewController: UIViewController {
         stackView?.backgroundColor = UIColor.black.withAlphaComponent(0.3)
 
 //        if items.contains(.cpu) {
-//            CPUEye.shared.observable.addObserver(self) { [weak self] (_, progress) in
+//            CPUMonitor.shared.observable.addObserver(self) { [weak self] (_, progress) in
 //                let state: FloatItemView.State
 //                if progress < 0.4 {
 //                    state = .green
