@@ -12,7 +12,6 @@ public class StuckMonitor: NSObject {
     public var observable = MonitorObservable<StuckType?>(value: nil)
 
     public func start() {
-        handleCallStack()
         CFRunLoopAddObserver(CFRunLoopGetMain(), observer, CFRunLoopMode.commonModes)
         isStarted = true
 
