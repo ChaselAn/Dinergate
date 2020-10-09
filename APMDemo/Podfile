@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'APMDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for APMDemo
+  pod 'DinergateBrain', :git => 'git@github.com:ChaselAn/DinergateBrain.git', :branch => 'dev'
+
+  target 'APMDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Dinergate' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for QAIsAngry
+  pod 'DinergateBrain', :git => 'git@github.com:ChaselAn/DinergateBrain.git', :branch => 'dev'
+
+  target 'DinergateTests' do
+    # Pods for testing
+  end
+
+end

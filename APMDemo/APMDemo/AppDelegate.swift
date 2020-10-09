@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import QAIsAngry
+import Dinergate
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        SKTabbarController * tabVC = [[SKTabbarController alloc] init];
 //        self.window.rootViewController = tabVC;
 
-        AngryMonitor.start(with: .default, changeHandler: nil)
+        Dinergate.start()
         return true
     }
 
