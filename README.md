@@ -1,4 +1,4 @@
-# QAIsAngry
+# Dinergate
 ### 已完成功能：
 
 * FPS
