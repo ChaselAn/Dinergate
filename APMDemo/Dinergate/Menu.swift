@@ -25,7 +25,15 @@ final class Menu {
             window.alpha = 1.0
         })
         window.showVC()
-        
+    }
+    
+    func dismiss() {
+        UIView.animate(withDuration: 0.25, animations: { [weak self] in
+            self?.window?.alpha = 0
+            }, completion: { [weak self] _ in
+                self?.window = nil
+                self?.lastKeyWindow?.makeKeyAndVisible()
+        })
     }
 }
 

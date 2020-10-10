@@ -1,8 +1,14 @@
 import Foundation
 
 public class CrashMonitor: BaseMonitor {
+    
+    public enum CrashType {
+        case singal(Int32, String) // singal code, singal name
+        case exception(NSException)
+    }
 
     public static let shared = CrashMonitor()
+    public var crashHappening: ((CrashType) -> Void)?
 
     private var oldAppExceptionHandler : (@convention(c) (NSException) -> Void)?
     
@@ -36,11 +42,11 @@ public class CrashMonitor: BaseMonitor {
         if let oldAppExceptionHandler = shared.oldAppExceptionHandler {
             oldAppExceptionHandler(exception)
         }
-        
         guard shared.isStarted else {
             return
         }
         
+        shared.crashHappening?(.exception(exception))
 //        let callStack = exteption.callStackSymbols.joined(separator: "\r")
 //        let reason = exteption.reason ?? ""
 //        let name = exteption.name
@@ -61,16 +67,12 @@ public class CrashMonitor: BaseMonitor {
         guard shared.isStarted else {
             return
         }
-        
+        shared.crashHappening?(.singal(signal, name(of: signal)))
         killApp()
     }
     
     private class func name(of signal:Int32) -> String {
         switch (signal) {
-        case SIGABRT:
-            return "SIGABRT"
-        case SIGILL:
-            return "SIGILL"
         case SIGSEGV:
             return "SIGSEGV"
         case SIGFPE:
@@ -79,6 +81,18 @@ public class CrashMonitor: BaseMonitor {
             return "SIGBUS"
         case SIGPIPE:
             return "SIGPIPE"
+        case SIGHUP:
+            return "SIGHUP"
+        case SIGINT:
+            return "SIGINT"
+        case SIGQUIT:
+            return "SIGQUIT"
+        case SIGABRT:
+            return "SIGABRT"
+        case SIGILL:
+            return "SIGILL"
+        case SIGTRAP:
+            return "SIGTRAP"
         default:
             return "OTHER"
         }

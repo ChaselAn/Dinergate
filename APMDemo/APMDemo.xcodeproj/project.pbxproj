@@ -20,6 +20,9 @@
 		FB394CB525318F79007B50B1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB394CB425318F79007B50B1 /* Menu.swift */; };
 		FB394CC225319297007B50B1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB394CC125319297007B50B1 /* MenuViewController.swift */; };
 		FB3E283125319376001BB202 /* AlertTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E283025319376001BB202 /* AlertTransitionController.swift */; };
+		FB3E28362531994D001BB202 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E28352531994D001BB202 /* NavigationView.swift */; };
+		FB3E284B2531AE9B001BB202 /* MenuLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */; };
+		FB3E28502531AEFF001BB202 /* MenuBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */; };
 		FB82053625303214009B4BF3 /* Dinergate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82052D25303214009B4BF3 /* Dinergate.framework */; };
 		FB82053D25303214009B4BF3 /* DinergateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82053C25303214009B4BF3 /* DinergateTests.swift */; };
 		FB82053F25303214009B4BF3 /* Dinergate.h in Headers */ = {isa = PBXBuildFile; fileRef = FB82052F25303214009B4BF3 /* Dinergate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -104,6 +107,9 @@
 		FB394CB425318F79007B50B1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		FB394CC125319297007B50B1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FB3E283025319376001BB202 /* AlertTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTransitionController.swift; sourceTree = "<group>"; };
+		FB3E28352531994D001BB202 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLogViewController.swift; sourceTree = "<group>"; };
+		FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBaseViewController.swift; sourceTree = "<group>"; };
 		FB82052D25303214009B4BF3 /* Dinergate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dinergate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82052F25303214009B4BF3 /* Dinergate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dinergate.h; sourceTree = "<group>"; };
 		FB82053025303214009B4BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -234,7 +240,10 @@
 			isa = PBXGroup;
 			children = (
 				FB394CB425318F79007B50B1 /* Menu.swift */,
+				FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */,
 				FB394CC125319297007B50B1 /* MenuViewController.swift */,
+				FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */,
+				FB3E28352531994D001BB202 /* NavigationView.swift */,
 				FB3E283025319376001BB202 /* AlertTransitionController.swift */,
 			);
 			name = VisualInterface;
@@ -589,8 +598,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3E284B2531AE9B001BB202 /* MenuLogViewController.swift in Sources */,
 				FB394CB525318F79007B50B1 /* Menu.swift in Sources */,
 				FB3E283125319376001BB202 /* AlertTransitionController.swift in Sources */,
+				FB3E28362531994D001BB202 /* NavigationView.swift in Sources */,
+				FB3E28502531AEFF001BB202 /* MenuBaseViewController.swift in Sources */,
 				FB82057525303EC0009B4BF3 /* FloatWindow.swift in Sources */,
 				FB82056625303EB3009B4BF3 /* FloatItemView.swift in Sources */,
 				FB82057025303EBB009B4BF3 /* FloatRootViewController.swift in Sources */,

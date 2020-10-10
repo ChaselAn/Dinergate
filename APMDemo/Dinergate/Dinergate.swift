@@ -6,6 +6,20 @@ public class Dinergate {
     public static func start(items: DinergateBrain.Items = .all) {
         DinergateBrain.shared.start(items: items)
         FloatManager.shared.show(items: .fps)
+        
+        CrashMonitor.shared.crashHappening = { type in
+            switch type {
+            case .exception(let exception):
+                print("-------------exception name: \(exception.name), reason: \(exception.reason), userInfo: \(exception.userInfo)")
+                print(exception.callStackSymbols.joined(separator: "\n"))
+                print("-------------")
+            case .singal(let code, let name):
+                print("-------------singal code: \(code), name: \(name)")
+                print(Thread.callStackSymbols.joined(separator: "\n"))
+                print("-------------")
+            }
+            
+        }
     }
 
     public static func stop() {
