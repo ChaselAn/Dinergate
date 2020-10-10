@@ -7,11 +7,11 @@ class FloatRootViewController: UIViewController {
     private lazy var fpsView = FloatItemView(title: "FPS")
     private var stackView: UIStackView?
 
-    private let items: Dinergate.MonitorItem
+    private let items: Dinergate.FloatItem
     private let itemSize: CGSize
     private let itemSpace: CGFloat
 
-    init(items: Dinergate.MonitorItem, itemSize: CGSize, itemSpace: CGFloat) {
+    init(items: Dinergate.FloatItem, itemSize: CGSize, itemSpace: CGFloat) {
         self.items = items
         self.itemSize = itemSize
         self.itemSpace = itemSpace

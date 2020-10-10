@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/DinergateBrain-iOS14.0/DinergateBrain.framework
+${BUILT_PRODUCTS_DIR}/DinergateBrain/DinergateBrain.framework

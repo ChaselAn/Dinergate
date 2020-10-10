@@ -11,7 +11,7 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "git@github.com:ChaselAn/DinergateBrain.git",
+    "git": "https://github.com/ChaselAn/DinergateBrain.git",
     "tag": "0.0.1-pre"
   },
   "source_files": "Demo/DinergateBrain/*.swift",

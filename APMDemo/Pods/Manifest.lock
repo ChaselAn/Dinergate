@@ -11,11 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   DinergateBrain:
-    :commit: f0dd888e709cb188e41d2e0fe0a247e0b4ab8588
+    :commit: abc3b816e97f5124d40f9c0fcbbf97030049bc43
     :git: "git@github.com:ChaselAn/DinergateBrain.git"
 
 SPEC CHECKSUMS:
-  DinergateBrain: 7eefbe525dd8fc0b1a44191450bf919bdc2d4f64
+  DinergateBrain: c1d21b49b198d63ffe30259c77dec4fecfcf32e1
 
 PODFILE CHECKSUM: 9270666ca0e415d9b9ff51fbc45cda7d8f26e7a7
 

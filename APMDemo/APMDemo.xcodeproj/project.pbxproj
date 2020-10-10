@@ -17,6 +17,9 @@
 		F1BA6EDB24E633BA00136F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6EDA24E633BA00136F58 /* Assets.xcassets */; };
 		F1BA6EDE24E633BA00136F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6EDC24E633BA00136F58 /* LaunchScreen.storyboard */; };
 		F1BA6EE924E633BB00136F58 /* APMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6EE824E633BB00136F58 /* APMDemoTests.swift */; };
+		FB394CB525318F79007B50B1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB394CB425318F79007B50B1 /* Menu.swift */; };
+		FB394CC225319297007B50B1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB394CC125319297007B50B1 /* MenuViewController.swift */; };
+		FB3E283125319376001BB202 /* AlertTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E283025319376001BB202 /* AlertTransitionController.swift */; };
 		FB82053625303214009B4BF3 /* Dinergate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82052D25303214009B4BF3 /* Dinergate.framework */; };
 		FB82053D25303214009B4BF3 /* DinergateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82053C25303214009B4BF3 /* DinergateTests.swift */; };
 		FB82053F25303214009B4BF3 /* Dinergate.h in Headers */ = {isa = PBXBuildFile; fileRef = FB82052F25303214009B4BF3 /* Dinergate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -98,6 +101,9 @@
 		F1BA6EEA24E633BB00136F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F344C356FBF4CDD0A51D5A07 /* Pods-APMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APMDemo.debug.xcconfig"; path = "Target Support Files/Pods-APMDemo/Pods-APMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F50682398DD13D770570A3AE /* Pods-Dinergate-DinergateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinergate-DinergateTests.release.xcconfig"; path = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB394CB425318F79007B50B1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		FB394CC125319297007B50B1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FB3E283025319376001BB202 /* AlertTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTransitionController.swift; sourceTree = "<group>"; };
 		FB82052D25303214009B4BF3 /* Dinergate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dinergate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82052F25303214009B4BF3 /* Dinergate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dinergate.h; sourceTree = "<group>"; };
 		FB82053025303214009B4BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -224,6 +230,16 @@
 			path = APMDemoTests;
 			sourceTree = "<group>";
 		};
+		FB394CB325318F1C007B50B1 /* VisualInterface */ = {
+			isa = PBXGroup;
+			children = (
+				FB394CB425318F79007B50B1 /* Menu.swift */,
+				FB394CC125319297007B50B1 /* MenuViewController.swift */,
+				FB3E283025319376001BB202 /* AlertTransitionController.swift */,
+			);
+			name = VisualInterface;
+			sourceTree = "<group>";
+		};
 		FB82052E25303214009B4BF3 /* Dinergate */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +249,7 @@
 				FB82056F25303EBB009B4BF3 /* FloatRootViewController.swift */,
 				FB82057425303EC0009B4BF3 /* FloatWindow.swift */,
 				FB82057E253040D2009B4BF3 /* DragableWindow.swift */,
+				FB394CB325318F1C007B50B1 /* VisualInterface */,
 				FB82057925303EC6009B4BF3 /* MonitorLog.swift */,
 				FB82052F25303214009B4BF3 /* Dinergate.h */,
 				FB82053025303214009B4BF3 /* Info.plist */,
@@ -350,7 +367,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = ChaselAn;
 				TargetAttributes = {
 					F1BA6ECD24E633B800136F58 = {
@@ -572,9 +589,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB394CB525318F79007B50B1 /* Menu.swift in Sources */,
+				FB3E283125319376001BB202 /* AlertTransitionController.swift in Sources */,
 				FB82057525303EC0009B4BF3 /* FloatWindow.swift in Sources */,
 				FB82056625303EB3009B4BF3 /* FloatItemView.swift in Sources */,
 				FB82057025303EBB009B4BF3 /* FloatRootViewController.swift in Sources */,
+				FB394CC225319297007B50B1 /* MenuViewController.swift in Sources */,
 				FB82057A25303EC6009B4BF3 /* MonitorLog.swift in Sources */,
 				FB82057F253040D2009B4BF3 /* DragableWindow.swift in Sources */,
 				FB82056B25303EB7009B4BF3 /* FloatManager.swift in Sources */,
@@ -661,6 +681,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -685,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -721,6 +742,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -739,7 +761,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

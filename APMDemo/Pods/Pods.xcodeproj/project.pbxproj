@@ -3,138 +3,129 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01AD6388A26AE692B6CBD5E43B5A2AA2 /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A86A1F31A00A7AFC358270978AE372 /* FPSMonitor.swift */; };
 		03163C36A9DBBD41F737F1C70A30B6BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0927B3B61BCC4893BAE8FE22CA6D415E /* Pods-APMDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8F8D915BE627251063E7DA4E7CD42C /* Pods-APMDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13E860D63FC7B164C3219D83AE732D98 /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FC41418435F0DC326586D2D0C314B /* CPUMonitor.swift */; };
-		24F5B8E57D5DA8837E8A57ED7F7D2E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3274FA263A2C7C1801F5CB24C6BB6C1E /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3181B16E106884ADC028B3113D84A2EA /* FPSMonitor.swift */; };
-		3C802C7E1546C279F83E865230EA73AF /* Pods-Dinergate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FFA4C33C3EBDB55E766C00FD9498AA /* Pods-Dinergate-dummy.m */; };
-		4AE2C86CE61B7153212135DE14F98E44 /* Pods-APMDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AC4F26D784A4F9B8F4D9E3457B682D /* Pods-APMDemo-dummy.m */; };
-		4E5F1A65ACF00DFE96C709B137F93675 /* StuckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F51165A9D61A099E1EF698C5F363DA3 /* StuckMonitor.swift */; };
-		600D382D3906A106CC55FC2938323034 /* MonitorWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3202EE43CA5FF36BE70978BE95B009 /* MonitorWeakTarget.swift */; };
-		6A4A0E92A0BE4CC5929045B200DA33BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		72A350716085990ED3C4943E996522CB /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FC41418435F0DC326586D2D0C314B /* CPUMonitor.swift */; };
+		16C9AAC105C7D452D2674AEF1A03D379 /* Pods-Dinergate-DinergateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21919477FBA3F8AF9BC6D16F3FD0A56C /* Pods-Dinergate-DinergateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19A2AD8B0C49BA0F9047FEC3776B38F1 /* BaseMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30B7B603C44DC62FEF8BAC3D9F7F70 /* BaseMonitor.swift */; };
+		222160F1CD1B65DF234BFD19111568B9 /* MonitorWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4C5B16BB08F188318869799EAB954 /* MonitorWeakTarget.swift */; };
+		262A7849B714CDD0DA4FEDFEDBCFF716 /* Pods-APMDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AC4F26D784A4F9B8F4D9E3457B682D /* Pods-APMDemo-dummy.m */; };
+		301E7CD2B1EE532E127E458AB08BC5CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		323207044F415147E9920BBC90F7CAAD /* Pods-Dinergate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FFA4C33C3EBDB55E766C00FD9498AA /* Pods-Dinergate-dummy.m */; };
+		648CF19C0E6CE3EBE15EC6E716A9AA9F /* Pods-Dinergate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF791163918D1947D245B26281CD706 /* Pods-Dinergate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D2602893F173674FEB62B101D2A34B /* DinergateBrain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC79814FBBC8B9AD8A8C77CDF32E9E38 /* DinergateBrain-dummy.m */; };
+		6846B802981A4C56A384396F4347BBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		71228798B25C9C4D6211C2F341E6906D /* CrashMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9495D7749BF1EEC4731EFD0A277A5B3 /* CrashMonitor.swift */; };
+		7166FEE0188303D07F0281432ADD82DE /* DinergateBrain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 053B96A4012A2FD33AC43AB22EB54252 /* DinergateBrain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84A26C1416FA975D0189D06B751348DD /* Pods-APMDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDF3917F753A5D930298D797C6A25 /* Pods-APMDemoTests-dummy.m */; };
-		8998AC2501A83FE5457DA2700218D658 /* Pods-Dinergate-DinergateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FDCE787DB8DA8DEEE77243E9495A7 /* Pods-Dinergate-DinergateTests-dummy.m */; };
-		92AB7B9182B0405DFD3F676460E7EE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		93DA6971B1BD851659FA519281538DB5 /* StuckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F51165A9D61A099E1EF698C5F363DA3 /* StuckMonitor.swift */; };
-		A8EA9786001B9997ACB197ADC251D0EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C6527B2D3C2200BDD6A0F987BF14D7ED /* Pods-APMDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A2F1552D9665FABE723CFF735EFF9B /* Pods-APMDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C93A2488D442AA150F935344142ABB04 /* DinergateBrain-iOS14.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 333B0F8FA5F65C03A4F701F97D737E4E /* DinergateBrain-iOS14.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CADDD395AB8F395BECA4570DA88824B6 /* Pods-Dinergate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF791163918D1947D245B26281CD706 /* Pods-Dinergate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D73109B61E560C857789332473676382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E1109530CBA45A9E6E4AAC6FCE62C94B /* DinergateBrain-iOS9.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B15BD983916E83F955FE6B6C70E1D /* DinergateBrain-iOS9.0-dummy.m */; };
-		E5274C620BB59A01CA7D40005E4C2CBA /* DinergateBrain-iOS9.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD3589441F1C254251960E13F73B699 /* DinergateBrain-iOS9.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EACF1727B2F1254F07334F82F9043876 /* DinergateBrain-iOS14.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 497E645C0B7C52B1B0C30CDCE4BD8C25 /* DinergateBrain-iOS14.0-dummy.m */; };
-		F61FBD94D32C8D7349084C0AB49D530C /* MonitorWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3202EE43CA5FF36BE70978BE95B009 /* MonitorWeakTarget.swift */; };
-		F80A216DE9A5E3786DDAEA0A879B421C /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3181B16E106884ADC028B3113D84A2EA /* FPSMonitor.swift */; };
-		FE95DBE34BE0D993B16AD3F1CDA75F74 /* Pods-Dinergate-DinergateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21919477FBA3F8AF9BC6D16F3FD0A56C /* Pods-Dinergate-DinergateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3DA6C4DED61256E1A1D8FBF4FCF784 /* Pods-APMDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A2F1552D9665FABE723CFF735EFF9B /* Pods-APMDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54EBC0444D3E0A3F581F274AEBFEC91 /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3469DA685C89F8AEB5C0C4230675D0 /* CPUMonitor.swift */; };
+		B97FEBC32379FBB3008A9DC52A430410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C6AB11C549E209D2E8B06D9F378F1F46 /* Pods-Dinergate-DinergateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FDCE787DB8DA8DEEE77243E9495A7 /* Pods-Dinergate-DinergateTests-dummy.m */; };
+		CB8391C173A75D8CB7F182734C0B34C0 /* StuckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B46C4CC9EBB8E81F235F3533770AD3 /* StuckMonitor.swift */; };
+		DBDF86F1C9130A682D100EBB82E664FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F82FE23CBFFBDFAEB74A6209D67B673F /* DinergateBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F549B37F4AC3AFF40CE8F7F45BCAB4 /* DinergateBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5A98B414DFD3451C716FEF34510FF6F3 /* PBXContainerItemProxy */ = {
+		266CDB41F900AF3AB7A1DB12521844E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0F8A639200674E0DCFECB67FEF2D1DCB;
-			remoteInfo = "DinergateBrain-iOS9.0";
+			remoteGlobalIDString = 9130BF024DF638C0C1EB55329241F3C0;
+			remoteInfo = DinergateBrain;
 		};
-		B51C5E6D9D1E082205512254928F131F /* PBXContainerItemProxy */ = {
+		3A002CDEBE8E3B160D86946F331B13E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1245FB190D6EC1C7B50175FBD40591DA;
-			remoteInfo = "DinergateBrain-iOS14.0";
+			remoteGlobalIDString = 9130BF024DF638C0C1EB55329241F3C0;
+			remoteInfo = DinergateBrain;
 		};
-		D4407E95B88906DB61FF5C64DCEE9FF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1245FB190D6EC1C7B50175FBD40591DA;
-			remoteInfo = "DinergateBrain-iOS14.0";
-		};
-		EF9D6A298F19F503961C6C5FC993DEFF /* PBXContainerItemProxy */ = {
+		A2F422C94E2DCCEAA0B62DA2244F190A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0382FCC0EEF1C17893E8805AF0A47D4B;
 			remoteInfo = "Pods-APMDemo";
 		};
+		BE0A5EB1176AAD01E45201D56FEF877D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9130BF024DF638C0C1EB55329241F3C0;
+			remoteInfo = DinergateBrain;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		110C3EF6AECC78B8365B9C16D3470D44 /* DinergateBrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DinergateBrain.framework; path = "DinergateBrain-iOS9.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		053B96A4012A2FD33AC43AB22EB54252 /* DinergateBrain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinergateBrain-umbrella.h"; sourceTree = "<group>"; };
 		12D4E19F1BD0527C5D7C996C9377AAFE /* Pods-Dinergate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dinergate.modulemap"; sourceTree = "<group>"; };
-		1A4F39461C84134D3D2F24708AC87CA7 /* DinergateBrain-iOS14.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DinergateBrain-iOS14.0.release.xcconfig"; sourceTree = "<group>"; };
+		142F0F68E32A0EC25371D54E1CD4F700 /* DinergateBrain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinergateBrain-prefix.pch"; sourceTree = "<group>"; };
+		17A86A1F31A00A7AFC358270978AE372 /* FPSMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSMonitor.swift; path = Demo/DinergateBrain/FPSMonitor.swift; sourceTree = "<group>"; };
 		21919477FBA3F8AF9BC6D16F3FD0A56C /* Pods-Dinergate-DinergateTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dinergate-DinergateTests-umbrella.h"; sourceTree = "<group>"; };
 		2C8F8D915BE627251063E7DA4E7CD42C /* Pods-APMDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APMDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		3181B16E106884ADC028B3113D84A2EA /* FPSMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSMonitor.swift; path = Demo/DinergateBrain/FPSMonitor.swift; sourceTree = "<group>"; };
 		318FB7C621794E5BC33423A39527426E /* Pods-Dinergate-DinergateTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dinergate-DinergateTests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		333B0F8FA5F65C03A4F701F97D737E4E /* DinergateBrain-iOS14.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinergateBrain-iOS14.0-umbrella.h"; sourceTree = "<group>"; };
+		33F549B37F4AC3AFF40CE8F7F45BCAB4 /* DinergateBrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DinergateBrain.swift; path = Demo/DinergateBrain/DinergateBrain.swift; sourceTree = "<group>"; };
 		3756E62200335DD28A7DCBE913B52AA0 /* Pods-APMDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APMDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		384E42EDBBE9EBFF5EFF4CFD15496CB6 /* Pods-APMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		497E645C0B7C52B1B0C30CDCE4BD8C25 /* DinergateBrain-iOS14.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DinergateBrain-iOS14.0-dummy.m"; sourceTree = "<group>"; };
 		4B4F439830E4516D3DC1BA7FF816B56D /* Pods_APMDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APMDemoTests.framework; path = "Pods-APMDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C3202EE43CA5FF36BE70978BE95B009 /* MonitorWeakTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonitorWeakTarget.swift; path = Demo/DinergateBrain/MonitorWeakTarget.swift; sourceTree = "<group>"; };
 		4D9260FBD2D2813541A135426789CC92 /* Pods_Dinergate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dinergate.framework; path = "Pods-Dinergate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9C0F8684257C80EB78BCA5422F958B /* Pods-Dinergate-DinergateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dinergate-DinergateTests.release.xcconfig"; sourceTree = "<group>"; };
 		5219718FB82142EAAFF66EDDB6BCA64A /* Pods-Dinergate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dinergate.debug.xcconfig"; sourceTree = "<group>"; };
 		544AE8C5EFF39EC493AEA907DEA9DCC2 /* Pods-Dinergate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dinergate-acknowledgements.markdown"; sourceTree = "<group>"; };
 		554CDF3917F753A5D930298D797C6A25 /* Pods-APMDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APMDemoTests-dummy.m"; sourceTree = "<group>"; };
-		55E86AC317CF329AE9D25AA5F133AAC2 /* DinergateBrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DinergateBrain.framework; path = "DinergateBrain-iOS14.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C1B15BD983916E83F955FE6B6C70E1D /* DinergateBrain-iOS9.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DinergateBrain-iOS9.0-dummy.m"; path = "../DinergateBrain-iOS9.0/DinergateBrain-iOS9.0-dummy.m"; sourceTree = "<group>"; };
+		591D08125B0C6B5A5BDE33F6DB92366C /* DinergateBrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DinergateBrain.debug.xcconfig; sourceTree = "<group>"; };
 		5EBAC688C84DD674E9371565C99EA432 /* Pods-APMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APMDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5EF0A17B5124935C2C38D9C1B550F0D0 /* DinergateBrain-iOS9.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "DinergateBrain-iOS9.0.modulemap"; path = "../DinergateBrain-iOS9.0/DinergateBrain-iOS9.0.modulemap"; sourceTree = "<group>"; };
 		67AC4F26D784A4F9B8F4D9E3457B682D /* Pods-APMDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APMDemo-dummy.m"; sourceTree = "<group>"; };
 		68C1D3F4D5CEF9D2045E09B31851649E /* Pods-APMDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APMDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69FFA4C33C3EBDB55E766C00FD9498AA /* Pods-Dinergate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dinergate-dummy.m"; sourceTree = "<group>"; };
-		6F51165A9D61A099E1EF698C5F363DA3 /* StuckMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StuckMonitor.swift; path = Demo/DinergateBrain/StuckMonitor.swift; sourceTree = "<group>"; };
-		72C3505B1F151D5A38D093FC614FAEBD /* DinergateBrain-iOS9.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DinergateBrain-iOS9.0-prefix.pch"; path = "../DinergateBrain-iOS9.0/DinergateBrain-iOS9.0-prefix.pch"; sourceTree = "<group>"; };
 		7829531B2A9F3E35F3868C89CB27E360 /* Pods-Dinergate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dinergate-Info.plist"; sourceTree = "<group>"; };
-		784A1126951C661A4130FC639C6BCD97 /* DinergateBrain-iOS14.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinergateBrain-iOS14.0-prefix.pch"; sourceTree = "<group>"; };
-		7A950463B9DD3E092C7DCED021FCE1CA /* DinergateBrain-iOS9.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "DinergateBrain-iOS9.0-Info.plist"; path = "../DinergateBrain-iOS9.0/DinergateBrain-iOS9.0-Info.plist"; sourceTree = "<group>"; };
-		7C225727A3394957DCD7E6D97B0E0475 /* DinergateBrain-iOS14.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DinergateBrain-iOS14.0.modulemap"; sourceTree = "<group>"; };
+		7A19930084C7FEBD269408F0F07F2650 /* DinergateBrain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DinergateBrain-Info.plist"; sourceTree = "<group>"; };
 		84347E79291ABA3DABBF8A48FC80A080 /* Pods-APMDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APMDemo-frameworks.sh"; sourceTree = "<group>"; };
 		84E0ED4DD7E9FB8C60B40007B24E6890 /* Pods-Dinergate-DinergateTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dinergate-DinergateTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8629FC8337D0FC184DF9EECE46057FFA /* Pods-Dinergate-DinergateTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dinergate-DinergateTests-frameworks.sh"; sourceTree = "<group>"; };
 		86B47080FAD2ECEB92DFC98A31198D8C /* Pods-APMDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APMDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C51DB1ED9DEED9C0B9421B16E46340D /* Pods-Dinergate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dinergate-acknowledgements.plist"; sourceTree = "<group>"; };
 		9120411A9C25E2B23646F856F74B71CB /* Pods-Dinergate-DinergateTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dinergate-DinergateTests.modulemap"; sourceTree = "<group>"; };
-		93F930AC7B5E2CD874E1F043162B6AE8 /* DinergateBrain-iOS14.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DinergateBrain-iOS14.0-Info.plist"; sourceTree = "<group>"; };
+		94B46C4CC9EBB8E81F235F3533770AD3 /* StuckMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StuckMonitor.swift; path = Demo/DinergateBrain/StuckMonitor.swift; sourceTree = "<group>"; };
 		961A6808DFF9F35D5AABEC3B46B5DAE5 /* Pods-APMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9B6A50100DBB60BAEF34B20772BD5EB1 /* Pods-APMDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APMDemo.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E775A1F30F35F79EFCB47C0C7CECB1B /* DinergateBrain-iOS14.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DinergateBrain-iOS14.0.debug.xcconfig"; sourceTree = "<group>"; };
 		A29F724D67B46045BF18A2A520CA0728 /* Pods-APMDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APMDemoTests-Info.plist"; sourceTree = "<group>"; };
 		A3CAA394EE2A3AE996F6C1E542420BC3 /* Pods-APMDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APMDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A51A471F4F7D203348BBEA2BFD37BD7E /* DinergateBrain-iOS9.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DinergateBrain-iOS9.0.debug.xcconfig"; path = "../DinergateBrain-iOS9.0/DinergateBrain-iOS9.0.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6BECB1835CBB91CFC74415ACA1B06E /* DinergateBrain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DinergateBrain.release.xcconfig; sourceTree = "<group>"; };
 		AEB137C5837F630E8F29A7559A7B069C /* Pods-APMDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APMDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B50FC41418435F0DC326586D2D0C314B /* CPUMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPUMonitor.swift; path = Demo/DinergateBrain/CPUMonitor.swift; sourceTree = "<group>"; };
+		B9495D7749BF1EEC4731EFD0A277A5B3 /* CrashMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashMonitor.swift; path = Demo/DinergateBrain/CrashMonitor.swift; sourceTree = "<group>"; };
+		BA3469DA685C89F8AEB5C0C4230675D0 /* CPUMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPUMonitor.swift; path = Demo/DinergateBrain/CPUMonitor.swift; sourceTree = "<group>"; };
 		BAF791163918D1947D245B26281CD706 /* Pods-Dinergate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dinergate-umbrella.h"; sourceTree = "<group>"; };
+		BC79814FBBC8B9AD8A8C77CDF32E9E38 /* DinergateBrain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DinergateBrain-dummy.m"; sourceTree = "<group>"; };
+		C449B2C21372C468F9B5AF0162666D22 /* DinergateBrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DinergateBrain.framework; path = DinergateBrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C509CBD3CD962B923C1242ED86B4C1D4 /* Pods-Dinergate-DinergateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dinergate-DinergateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8FF999A327A7C37DB0A06A51A3D8810 /* Pods-Dinergate-DinergateTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dinergate-DinergateTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C942F3844446209A290D99724C6365D9 /* Pods-Dinergate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dinergate.release.xcconfig"; sourceTree = "<group>"; };
-		CBD3589441F1C254251960E13F73B699 /* DinergateBrain-iOS9.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DinergateBrain-iOS9.0-umbrella.h"; path = "../DinergateBrain-iOS9.0/DinergateBrain-iOS9.0-umbrella.h"; sourceTree = "<group>"; };
 		D29635D67A6EAF94398B15DA3EA7F90A /* Pods_Dinergate_DinergateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dinergate_DinergateTests.framework; path = "Pods-Dinergate-DinergateTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A2F1552D9665FABE723CFF735EFF9B /* Pods-APMDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APMDemo-umbrella.h"; sourceTree = "<group>"; };
+		D8B4C5B16BB08F188318869799EAB954 /* MonitorWeakTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonitorWeakTarget.swift; path = Demo/DinergateBrain/MonitorWeakTarget.swift; sourceTree = "<group>"; };
+		DE30B7B603C44DC62FEF8BAC3D9F7F70 /* BaseMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseMonitor.swift; path = Demo/DinergateBrain/BaseMonitor.swift; sourceTree = "<group>"; };
 		E7077240B320B5570C2AA74332F79CE2 /* Pods_APMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APMDemo.framework; path = "Pods-APMDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3F77757144075E71F60E8EA157A8CD /* Pods-APMDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APMDemo-Info.plist"; sourceTree = "<group>"; };
 		ED4516208EDF25CFB0F5F7978651C91B /* Pods-APMDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APMDemoTests.modulemap"; sourceTree = "<group>"; };
+		F1F578672F0A229B247BB2B5575D3580 /* DinergateBrain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DinergateBrain.modulemap; sourceTree = "<group>"; };
 		F63FDCE787DB8DA8DEEE77243E9495A7 /* Pods-Dinergate-DinergateTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dinergate-DinergateTests-dummy.m"; sourceTree = "<group>"; };
-		FE92F8EC355CF41D8793C5BB2A306CBB /* DinergateBrain-iOS9.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DinergateBrain-iOS9.0.release.xcconfig"; path = "../DinergateBrain-iOS9.0/DinergateBrain-iOS9.0.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11ECD46538514F4D5FD425D159C35D15 /* Frameworks */ = {
+		1C0CE688D31391A15DD0AEFE681AA267 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92AB7B9182B0405DFD3F676460E7EE9D /* Foundation.framework in Frameworks */,
+				DBDF86F1C9130A682D100EBB82E664FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,35 +137,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		575BB1BF8103FD9A0AA6DD3E0E122521 /* Frameworks */ = {
+		5894F7A44D3A3123E42E54BFB1127611 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8EA9786001B9997ACB197ADC251D0EF /* Foundation.framework in Frameworks */,
+				B97FEBC32379FBB3008A9DC52A430410 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9368ACDFD595B896E5BD392FA71C11A8 /* Frameworks */ = {
+		67E204EF0E35F06313664070EDE19381 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73109B61E560C857789332473676382 /* Foundation.framework in Frameworks */,
+				301E7CD2B1EE532E127E458AB08BC5CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		948BEC0D4A43303E379E1A3773A9584F /* Frameworks */ = {
+		CB77219B92AB4815EAF34F93DC57CB13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F5B8E57D5DA8837E8A57ED7F7D2E92 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB222CD736E0B212A7A863A2C779BE70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A4A0E92A0BE4CC5929045B200DA33BD /* Foundation.framework in Frameworks */,
+				6846B802981A4C56A384396F4347BBA9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +198,21 @@
 			path = "Target Support Files/Pods-Dinergate-DinergateTests";
 			sourceTree = "<group>";
 		};
+		6383CCE0B3A36EE782EECB621CAA730D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1F578672F0A229B247BB2B5575D3580 /* DinergateBrain.modulemap */,
+				BC79814FBBC8B9AD8A8C77CDF32E9E38 /* DinergateBrain-dummy.m */,
+				7A19930084C7FEBD269408F0F07F2650 /* DinergateBrain-Info.plist */,
+				142F0F68E32A0EC25371D54E1CD4F700 /* DinergateBrain-prefix.pch */,
+				053B96A4012A2FD33AC43AB22EB54252 /* DinergateBrain-umbrella.h */,
+				591D08125B0C6B5A5BDE33F6DB92366C /* DinergateBrain.debug.xcconfig */,
+				AA6BECB1835CBB91CFC74415ACA1B06E /* DinergateBrain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DinergateBrain";
+			sourceTree = "<group>";
+		};
 		6663D5E91E3B2EC5EF9A2BDEBEE4A6E1 /* Pods-APMDemoTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,12 +229,28 @@
 			path = "Target Support Files/Pods-APMDemoTests";
 			sourceTree = "<group>";
 		};
-		A17998EEC11F144581514B7F7E1D1A8D /* Pods */ = {
+		8CF16DFE673756355B0F8B3BCCFA511F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B77251F543C17770DBE779EEBCCE7C9A /* DinergateBrain */,
+				ABC9C772143219DACECF3C60C5232AE2 /* DinergateBrain */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABC9C772143219DACECF3C60C5232AE2 /* DinergateBrain */ = {
+			isa = PBXGroup;
+			children = (
+				DE30B7B603C44DC62FEF8BAC3D9F7F70 /* BaseMonitor.swift */,
+				BA3469DA685C89F8AEB5C0C4230675D0 /* CPUMonitor.swift */,
+				B9495D7749BF1EEC4731EFD0A277A5B3 /* CrashMonitor.swift */,
+				33F549B37F4AC3AFF40CE8F7F45BCAB4 /* DinergateBrain.swift */,
+				17A86A1F31A00A7AFC358270978AE372 /* FPSMonitor.swift */,
+				D8B4C5B16BB08F188318869799EAB954 /* MonitorWeakTarget.swift */,
+				94B46C4CC9EBB8E81F235F3533770AD3 /* StuckMonitor.swift */,
+				6383CCE0B3A36EE782EECB621CAA730D /* Support Files */,
+			);
+			name = DinergateBrain;
+			path = DinergateBrain;
 			sourceTree = "<group>";
 		};
 		ACE51F58CD164E1079EDDE9B8A72D58D /* Targets Support Files */ = {
@@ -248,32 +262,6 @@
 				17582B72AA842D294F0E600DB869600F /* Pods-Dinergate-DinergateTests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B77251F543C17770DBE779EEBCCE7C9A /* DinergateBrain */ = {
-			isa = PBXGroup;
-			children = (
-				B50FC41418435F0DC326586D2D0C314B /* CPUMonitor.swift */,
-				3181B16E106884ADC028B3113D84A2EA /* FPSMonitor.swift */,
-				4C3202EE43CA5FF36BE70978BE95B009 /* MonitorWeakTarget.swift */,
-				6F51165A9D61A099E1EF698C5F363DA3 /* StuckMonitor.swift */,
-				F98EA4BC34F3938C28F6E096EB0FDA3A /* Support Files */,
-			);
-			name = DinergateBrain;
-			path = DinergateBrain;
-			sourceTree = "<group>";
-		};
-		BA208841126C40965F5847EAFEDB34BE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				55E86AC317CF329AE9D25AA5F133AAC2 /* DinergateBrain.framework */,
-				110C3EF6AECC78B8365B9C16D3470D44 /* DinergateBrain.framework */,
-				E7077240B320B5570C2AA74332F79CE2 /* Pods_APMDemo.framework */,
-				4B4F439830E4516D3DC1BA7FF816B56D /* Pods_APMDemoTests.framework */,
-				4D9260FBD2D2813541A135426789CC92 /* Pods_Dinergate.framework */,
-				D29635D67A6EAF94398B15DA3EA7F90A /* Pods_Dinergate_DinergateTests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -289,8 +277,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A17998EEC11F144581514B7F7E1D1A8D /* Pods */,
-				BA208841126C40965F5847EAFEDB34BE /* Products */,
+				8CF16DFE673756355B0F8B3BCCFA511F /* Pods */,
+				F02811E1CDB378ABC7B44ED15F70CD2D /* Products */,
 				ACE51F58CD164E1079EDDE9B8A72D58D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -319,60 +307,26 @@
 			path = "Target Support Files/Pods-Dinergate";
 			sourceTree = "<group>";
 		};
-		F98EA4BC34F3938C28F6E096EB0FDA3A /* Support Files */ = {
+		F02811E1CDB378ABC7B44ED15F70CD2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C225727A3394957DCD7E6D97B0E0475 /* DinergateBrain-iOS14.0.modulemap */,
-				497E645C0B7C52B1B0C30CDCE4BD8C25 /* DinergateBrain-iOS14.0-dummy.m */,
-				93F930AC7B5E2CD874E1F043162B6AE8 /* DinergateBrain-iOS14.0-Info.plist */,
-				784A1126951C661A4130FC639C6BCD97 /* DinergateBrain-iOS14.0-prefix.pch */,
-				333B0F8FA5F65C03A4F701F97D737E4E /* DinergateBrain-iOS14.0-umbrella.h */,
-				9E775A1F30F35F79EFCB47C0C7CECB1B /* DinergateBrain-iOS14.0.debug.xcconfig */,
-				1A4F39461C84134D3D2F24708AC87CA7 /* DinergateBrain-iOS14.0.release.xcconfig */,
-				5EF0A17B5124935C2C38D9C1B550F0D0 /* DinergateBrain-iOS9.0.modulemap */,
-				5C1B15BD983916E83F955FE6B6C70E1D /* DinergateBrain-iOS9.0-dummy.m */,
-				7A950463B9DD3E092C7DCED021FCE1CA /* DinergateBrain-iOS9.0-Info.plist */,
-				72C3505B1F151D5A38D093FC614FAEBD /* DinergateBrain-iOS9.0-prefix.pch */,
-				CBD3589441F1C254251960E13F73B699 /* DinergateBrain-iOS9.0-umbrella.h */,
-				A51A471F4F7D203348BBEA2BFD37BD7E /* DinergateBrain-iOS9.0.debug.xcconfig */,
-				FE92F8EC355CF41D8793C5BB2A306CBB /* DinergateBrain-iOS9.0.release.xcconfig */,
+				C449B2C21372C468F9B5AF0162666D22 /* DinergateBrain.framework */,
+				E7077240B320B5570C2AA74332F79CE2 /* Pods_APMDemo.framework */,
+				4B4F439830E4516D3DC1BA7FF816B56D /* Pods_APMDemoTests.framework */,
+				4D9260FBD2D2813541A135426789CC92 /* Pods_Dinergate.framework */,
+				D29635D67A6EAF94398B15DA3EA7F90A /* Pods_Dinergate_DinergateTests.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DinergateBrain-iOS14.0";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3E1DFF465B56576834DF29BD8D1515BB /* Headers */ = {
+		2DE8FA7FD6BAA533C7992697A9BA1FBB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6527B2D3C2200BDD6A0F987BF14D7ED /* Pods-APMDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63DAC95FED0EC549A52E4FAD2DBA1517 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5274C620BB59A01CA7D40005E4C2CBA /* DinergateBrain-iOS9.0-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		689E55FE63F9896F8CDFA0554C3C034A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE95DBE34BE0D993B16AD3F1CDA75F74 /* Pods-Dinergate-DinergateTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78C2F3E80304236A1CB6D1D1B2C2700E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CADDD395AB8F395BECA4570DA88824B6 /* Pods-Dinergate-umbrella.h in Headers */,
+				8B3DA6C4DED61256E1A1D8FBF4FCF784 /* Pods-APMDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +338,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB0F5E24A4E6A87F9D5963196BF074A3 /* Headers */ = {
+		902773C7FB83EC27FDDE99C955BD009C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93A2488D442AA150F935344142ABB04 /* DinergateBrain-iOS14.0-umbrella.h in Headers */,
+				16C9AAC105C7D452D2674AEF1A03D379 /* Pods-Dinergate-DinergateTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C00ECA556910FA4C62C1AD28EB3368 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7166FEE0188303D07F0281432ADD82DE /* DinergateBrain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF15AC3091D3F4F1954C5C45F8C82367 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648CF19C0E6CE3EBE15EC6E716A9AA9F /* Pods-Dinergate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,91 +367,73 @@
 /* Begin PBXNativeTarget section */
 		0382FCC0EEF1C17893E8805AF0A47D4B /* Pods-APMDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E54E8F18FA49B52834B84EAD7511BD31 /* Build configuration list for PBXNativeTarget "Pods-APMDemo" */;
+			buildConfigurationList = 490168021B7C9196093EA6DE2B33FE07 /* Build configuration list for PBXNativeTarget "Pods-APMDemo" */;
 			buildPhases = (
-				3E1DFF465B56576834DF29BD8D1515BB /* Headers */,
-				B087D85ABF8F3A8A0FC5318B744C7116 /* Sources */,
-				575BB1BF8103FD9A0AA6DD3E0E122521 /* Frameworks */,
-				916F43624C82C962A1992A940FE7BCB1 /* Resources */,
+				2DE8FA7FD6BAA533C7992697A9BA1FBB /* Headers */,
+				13B461C6D07B73328EF383FDD37B1F60 /* Sources */,
+				5894F7A44D3A3123E42E54BFB1127611 /* Frameworks */,
+				0325439D97E4E8980A52CF9042391437 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8561E7922B435F2F6749C6D99E813279 /* PBXTargetDependency */,
+				9C0B6C47D8A0234979A1EDF3D4920B25 /* PBXTargetDependency */,
 			);
 			name = "Pods-APMDemo";
 			productName = "Pods-APMDemo";
 			productReference = E7077240B320B5570C2AA74332F79CE2 /* Pods_APMDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0F8A639200674E0DCFECB67FEF2D1DCB /* DinergateBrain-iOS9.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF7F8073DC647A75F87DC4DDEA97072E /* Build configuration list for PBXNativeTarget "DinergateBrain-iOS9.0" */;
-			buildPhases = (
-				63DAC95FED0EC549A52E4FAD2DBA1517 /* Headers */,
-				DF3E570912C5E039C149CCE6E60057CD /* Sources */,
-				CB222CD736E0B212A7A863A2C779BE70 /* Frameworks */,
-				2B437A3C89F0120B3AD73165100B66E0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DinergateBrain-iOS9.0";
-			productName = "DinergateBrain-iOS9.0";
-			productReference = 110C3EF6AECC78B8365B9C16D3470D44 /* DinergateBrain.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1245FB190D6EC1C7B50175FBD40591DA /* DinergateBrain-iOS14.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E42AC8DECA7A948FB8B3CAFDC80C9D07 /* Build configuration list for PBXNativeTarget "DinergateBrain-iOS14.0" */;
-			buildPhases = (
-				AB0F5E24A4E6A87F9D5963196BF074A3 /* Headers */,
-				9FCDDE5F3320C8407A3A59A9E40E2767 /* Sources */,
-				9368ACDFD595B896E5BD392FA71C11A8 /* Frameworks */,
-				1B1C4FC23C34073B35AC5991FBC2D382 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DinergateBrain-iOS14.0";
-			productName = "DinergateBrain-iOS14.0";
-			productReference = 55E86AC317CF329AE9D25AA5F133AAC2 /* DinergateBrain.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8BEBDA85DD6CD9A8513EE60A0BF58716 /* Pods-Dinergate-DinergateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5D5860462959B9373D228CA289FC7B0 /* Build configuration list for PBXNativeTarget "Pods-Dinergate-DinergateTests" */;
+			buildConfigurationList = 1BCFF7CD980B36CA8A01E05418008956 /* Build configuration list for PBXNativeTarget "Pods-Dinergate-DinergateTests" */;
 			buildPhases = (
-				689E55FE63F9896F8CDFA0554C3C034A /* Headers */,
-				3CF6F03AE0DAED5BDF26C3896CD87958 /* Sources */,
-				11ECD46538514F4D5FD425D159C35D15 /* Frameworks */,
-				72A90AAAFCDFFCB870E854E14C063974 /* Resources */,
+				902773C7FB83EC27FDDE99C955BD009C /* Headers */,
+				2A05012238799E06D0C1B7D9597973F2 /* Sources */,
+				67E204EF0E35F06313664070EDE19381 /* Frameworks */,
+				314C9F87A259E1025D3EDC4B49398787 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C7CACB296D1A6A4A5CFB1090A96351FC /* PBXTargetDependency */,
+				D7A406C0D63A1DB97F3614C2A8F9441C /* PBXTargetDependency */,
 			);
 			name = "Pods-Dinergate-DinergateTests";
 			productName = "Pods-Dinergate-DinergateTests";
 			productReference = D29635D67A6EAF94398B15DA3EA7F90A /* Pods_Dinergate_DinergateTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CCCBA75649382B2EA0E10620D5B5E963 /* Pods-Dinergate */ = {
+		9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD08306A81188DF5C9D96939A9481AF1 /* Build configuration list for PBXNativeTarget "Pods-Dinergate" */;
+			buildConfigurationList = 811FB688DA49396D31B6521F69E16313 /* Build configuration list for PBXNativeTarget "DinergateBrain" */;
 			buildPhases = (
-				78C2F3E80304236A1CB6D1D1B2C2700E /* Headers */,
-				B6A5BF222E814719711CD9F90A509CAE /* Sources */,
-				948BEC0D4A43303E379E1A3773A9584F /* Frameworks */,
-				D08A5A2ADA6F0C213F46223101A42D22 /* Resources */,
+				F1C00ECA556910FA4C62C1AD28EB3368 /* Headers */,
+				24F685AC03DBDB8AEBF18194B3BDBB8F /* Sources */,
+				CB77219B92AB4815EAF34F93DC57CB13 /* Frameworks */,
+				84816556C3E20F9AB515A07F9CB4A014 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C813FA1825E5F0E6E052A1F6D2D3B29 /* PBXTargetDependency */,
+			);
+			name = DinergateBrain;
+			productName = DinergateBrain;
+			productReference = C449B2C21372C468F9B5AF0162666D22 /* DinergateBrain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCCBA75649382B2EA0E10620D5B5E963 /* Pods-Dinergate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E01D7530075157930C0A910E998F12C /* Build configuration list for PBXNativeTarget "Pods-Dinergate" */;
+			buildPhases = (
+				FF15AC3091D3F4F1954C5C45F8C82367 /* Headers */,
+				50C97E1A40E3C39A85EDBB6EE0FD877F /* Sources */,
+				1C0CE688D31391A15DD0AEFE681AA267 /* Frameworks */,
+				94C345966552D7A9BED016C57270F489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D806CEA937C7D9D00132D772112BC0B3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Dinergate";
 			productName = "Pods-Dinergate";
@@ -500,7 +452,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A5889462857C017BF69BF08E1FA40C30 /* PBXTargetDependency */,
+				EDAAEA46D8AEC965DAE8DB9D26D9B102 /* PBXTargetDependency */,
 			);
 			name = "Pods-APMDemoTests";
 			productName = "Pods-APMDemoTests";
@@ -517,7 +469,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -525,12 +477,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BA208841126C40965F5847EAFEDB34BE /* Products */;
+			productRefGroup = F02811E1CDB378ABC7B44ED15F70CD2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1245FB190D6EC1C7B50175FBD40591DA /* DinergateBrain-iOS14.0 */,
-				0F8A639200674E0DCFECB67FEF2D1DCB /* DinergateBrain-iOS9.0 */,
+				9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */,
 				0382FCC0EEF1C17893E8805AF0A47D4B /* Pods-APMDemo */,
 				E80FE22B594C53AE873179E6FE7AAF1F /* Pods-APMDemoTests */,
 				CCCBA75649382B2EA0E10620D5B5E963 /* Pods-Dinergate */,
@@ -540,28 +491,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B1C4FC23C34073B35AC5991FBC2D382 /* Resources */ = {
+		0325439D97E4E8980A52CF9042391437 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B437A3C89F0120B3AD73165100B66E0 /* Resources */ = {
+		314C9F87A259E1025D3EDC4B49398787 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72A90AAAFCDFFCB870E854E14C063974 /* Resources */ = {
+		84816556C3E20F9AB515A07F9CB4A014 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		916F43624C82C962A1992A940FE7BCB1 /* Resources */ = {
+		94C345966552D7A9BED016C57270F489 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -575,21 +526,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D08A5A2ADA6F0C213F46223101A42D22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CF6F03AE0DAED5BDF26C3896CD87958 /* Sources */ = {
+		13B461C6D07B73328EF383FDD37B1F60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8998AC2501A83FE5457DA2700218D658 /* Pods-Dinergate-DinergateTests-dummy.m in Sources */,
+				262A7849B714CDD0DA4FEDFEDBCFF716 /* Pods-APMDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F685AC03DBDB8AEBF18194B3BDBB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A2AD8B0C49BA0F9047FEC3776B38F1 /* BaseMonitor.swift in Sources */,
+				A54EBC0444D3E0A3F581F274AEBFEC91 /* CPUMonitor.swift in Sources */,
+				71228798B25C9C4D6211C2F341E6906D /* CrashMonitor.swift in Sources */,
+				66D2602893F173674FEB62B101D2A34B /* DinergateBrain-dummy.m in Sources */,
+				F82FE23CBFFBDFAEB74A6209D67B673F /* DinergateBrain.swift in Sources */,
+				01AD6388A26AE692B6CBD5E43B5A2AA2 /* FPSMonitor.swift in Sources */,
+				222160F1CD1B65DF234BFD19111568B9 /* MonitorWeakTarget.swift in Sources */,
+				CB8391C173A75D8CB7F182734C0B34C0 /* StuckMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A05012238799E06D0C1B7D9597973F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AB11C549E209D2E8B06D9F378F1F46 /* Pods-Dinergate-DinergateTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,79 +568,122 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FCDDE5F3320C8407A3A59A9E40E2767 /* Sources */ = {
+		50C97E1A40E3C39A85EDBB6EE0FD877F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13E860D63FC7B164C3219D83AE732D98 /* CPUMonitor.swift in Sources */,
-				EACF1727B2F1254F07334F82F9043876 /* DinergateBrain-iOS14.0-dummy.m in Sources */,
-				F80A216DE9A5E3786DDAEA0A879B421C /* FPSMonitor.swift in Sources */,
-				600D382D3906A106CC55FC2938323034 /* MonitorWeakTarget.swift in Sources */,
-				4E5F1A65ACF00DFE96C709B137F93675 /* StuckMonitor.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B087D85ABF8F3A8A0FC5318B744C7116 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AE2C86CE61B7153212135DE14F98E44 /* Pods-APMDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6A5BF222E814719711CD9F90A509CAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C802C7E1546C279F83E865230EA73AF /* Pods-Dinergate-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF3E570912C5E039C149CCE6E60057CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72A350716085990ED3C4943E996522CB /* CPUMonitor.swift in Sources */,
-				E1109530CBA45A9E6E4AAC6FCE62C94B /* DinergateBrain-iOS9.0-dummy.m in Sources */,
-				3274FA263A2C7C1801F5CB24C6BB6C1E /* FPSMonitor.swift in Sources */,
-				F61FBD94D32C8D7349084C0AB49D530C /* MonitorWeakTarget.swift in Sources */,
-				93DA6971B1BD851659FA519281538DB5 /* StuckMonitor.swift in Sources */,
+				323207044F415147E9920BBC90F7CAAD /* Pods-Dinergate-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C813FA1825E5F0E6E052A1F6D2D3B29 /* PBXTargetDependency */ = {
+		9C0B6C47D8A0234979A1EDF3D4920B25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "DinergateBrain-iOS14.0";
-			target = 1245FB190D6EC1C7B50175FBD40591DA /* DinergateBrain-iOS14.0 */;
-			targetProxy = D4407E95B88906DB61FF5C64DCEE9FF7 /* PBXContainerItemProxy */;
+			name = DinergateBrain;
+			target = 9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */;
+			targetProxy = 266CDB41F900AF3AB7A1DB12521844E6 /* PBXContainerItemProxy */;
 		};
-		8561E7922B435F2F6749C6D99E813279 /* PBXTargetDependency */ = {
+		D7A406C0D63A1DB97F3614C2A8F9441C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "DinergateBrain-iOS9.0";
-			target = 0F8A639200674E0DCFECB67FEF2D1DCB /* DinergateBrain-iOS9.0 */;
-			targetProxy = 5A98B414DFD3451C716FEF34510FF6F3 /* PBXContainerItemProxy */;
+			name = DinergateBrain;
+			target = 9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */;
+			targetProxy = 3A002CDEBE8E3B160D86946F331B13E8 /* PBXContainerItemProxy */;
 		};
-		A5889462857C017BF69BF08E1FA40C30 /* PBXTargetDependency */ = {
+		D806CEA937C7D9D00132D772112BC0B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DinergateBrain;
+			target = 9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */;
+			targetProxy = BE0A5EB1176AAD01E45201D56FEF877D /* PBXContainerItemProxy */;
+		};
+		EDAAEA46D8AEC965DAE8DB9D26D9B102 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-APMDemo";
 			target = 0382FCC0EEF1C17893E8805AF0A47D4B /* Pods-APMDemo */;
-			targetProxy = EF9D6A298F19F503961C6C5FC993DEFF /* PBXContainerItemProxy */;
-		};
-		C7CACB296D1A6A4A5CFB1090A96351FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DinergateBrain-iOS14.0";
-			target = 1245FB190D6EC1C7B50175FBD40591DA /* DinergateBrain-iOS14.0 */;
-			targetProxy = B51C5E6D9D1E082205512254928F131F /* PBXContainerItemProxy */;
+			targetProxy = A2F422C94E2DCCEAA0B62DA2244F190A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		44AAFA6337CC51CA045B1775A3AE8F38 /* Debug */ = {
+		0D658AE06043EF19578B5076E9A1BCDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E775A1F30F35F79EFCB47C0C7CECB1B /* DinergateBrain-iOS14.0.debug.xcconfig */;
+			baseConfigurationReference = C942F3844446209A290D99724C6365D9 /* Pods-Dinergate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1848D4AC677EF3D35455A581F1DA2976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EBAC688C84DD674E9371565C99EA432 /* Pods-APMDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25C9B18A32184753148A3B089E153A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6BECB1835CBB91CFC74415ACA1B06E /* DinergateBrain.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -684,8 +694,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain-iOS14.0/DinergateBrain-iOS14.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DinergateBrain-iOS14.0/DinergateBrain-iOS14.0-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain/DinergateBrain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DinergateBrain/DinergateBrain-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -693,13 +703,51 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/DinergateBrain-iOS14.0/DinergateBrain-iOS14.0.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DinergateBrain/DinergateBrain.modulemap";
 				PRODUCT_MODULE_NAME = DinergateBrain;
 				PRODUCT_NAME = DinergateBrain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D32C9EA68F6ECD8B8C8270FCA93152B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C509CBD3CD962B923C1242ED86B4C1D4 /* Pods-Dinergate-DinergateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -744,9 +792,9 @@
 			};
 			name = Release;
 		};
-		4D06F3D5466DE9D23D3F7F7CF9665F80 /* Release */ = {
+		664269CE636AC6D64D15407FB0773C50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A4F39461C84134D3D2F24708AC87CA7 /* DinergateBrain-iOS14.0.release.xcconfig */;
+			baseConfigurationReference = 591D08125B0C6B5A5BDE33F6DB92366C /* DinergateBrain.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -757,8 +805,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain-iOS14.0/DinergateBrain-iOS14.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DinergateBrain-iOS14.0/DinergateBrain-iOS14.0-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain/DinergateBrain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DinergateBrain/DinergateBrain-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -766,52 +814,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/DinergateBrain-iOS14.0/DinergateBrain-iOS14.0.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DinergateBrain/DinergateBrain.modulemap";
 				PRODUCT_MODULE_NAME = DinergateBrain;
 				PRODUCT_NAME = DinergateBrain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		66FF7019DAE0DF276224CB8DE9D03ABE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C509CBD3CD962B923C1242ED86B4C1D4 /* Pods-Dinergate-DinergateTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -855,9 +864,9 @@
 			};
 			name = Debug;
 		};
-		7E3582339DF3B5B007FCC80A2210FD65 /* Debug */ = {
+		8B3833BC9E8AEA3CCA2C635ED3F8784E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EBAC688C84DD674E9371565C99EA432 /* Pods-APMDemo.debug.xcconfig */;
+			baseConfigurationReference = 961A6808DFF9F35D5AABEC3B46B5DAE5 /* Pods-APMDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -887,10 +896,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1016,51 +1026,11 @@
 			};
 			name = Debug;
 		};
-		A22C6978F423A4A8DC83F0646D6803FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C942F3844446209A290D99724C6365D9 /* Pods-Dinergate.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B4E09D382C9A93391DD2C1C227A61748 /* Debug */ = {
+		96C123F9F61DC25AA0BC54558E185A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5219718FB82142EAAFF66EDDB6BCA64A /* Pods-Dinergate.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1072,7 +1042,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1093,12 +1063,11 @@
 			};
 			name = Debug;
 		};
-		BDD79433E8C89F3DA57456692262CB13 /* Release */ = {
+		CB9B89F293DE9312423DF6247A40B5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E9C0F8684257C80EB78BCA5422F958B /* Pods-Dinergate-DinergateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1110,7 +1079,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1132,118 +1101,18 @@
 			};
 			name = Release;
 		};
-		EB46BEFB3CC5FE989EF1D38B5B2CC66C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 961A6808DFF9F35D5AABEC3B46B5DAE5 /* Pods-APMDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EE938B6A519A091665442782205FAFCA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE92F8EC355CF41D8793C5BB2A306CBB /* DinergateBrain-iOS9.0.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain-iOS9.0/DinergateBrain-iOS9.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DinergateBrain-iOS9.0/DinergateBrain-iOS9.0-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DinergateBrain-iOS9.0/DinergateBrain-iOS9.0.modulemap";
-				PRODUCT_MODULE_NAME = DinergateBrain;
-				PRODUCT_NAME = DinergateBrain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F49C1C2DD88200E46384A2D2288B2921 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A51A471F4F7D203348BBEA2BFD37BD7E /* DinergateBrain-iOS9.0.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain-iOS9.0/DinergateBrain-iOS9.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DinergateBrain-iOS9.0/DinergateBrain-iOS9.0-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DinergateBrain-iOS9.0/DinergateBrain-iOS9.0.modulemap";
-				PRODUCT_MODULE_NAME = DinergateBrain;
-				PRODUCT_NAME = DinergateBrain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1BCFF7CD980B36CA8A01E05418008956 /* Build configuration list for PBXNativeTarget "Pods-Dinergate-DinergateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D32C9EA68F6ECD8B8C8270FCA93152B /* Debug */,
+				CB9B89F293DE9312423DF6247A40B5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1253,11 +1122,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5D5860462959B9373D228CA289FC7B0 /* Build configuration list for PBXNativeTarget "Pods-Dinergate-DinergateTests" */ = {
+		490168021B7C9196093EA6DE2B33FE07 /* Build configuration list for PBXNativeTarget "Pods-APMDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66FF7019DAE0DF276224CB8DE9D03ABE /* Debug */,
-				BDD79433E8C89F3DA57456692262CB13 /* Release */,
+				1848D4AC677EF3D35455A581F1DA2976 /* Debug */,
+				8B3833BC9E8AEA3CCA2C635ED3F8784E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811FB688DA49396D31B6521F69E16313 /* Build configuration list for PBXNativeTarget "DinergateBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664269CE636AC6D64D15407FB0773C50 /* Debug */,
+				25C9B18A32184753148A3B089E153A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E01D7530075157930C0A910E998F12C /* Build configuration list for PBXNativeTarget "Pods-Dinergate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C123F9F61DC25AA0BC54558E185A3C /* Debug */,
+				0D658AE06043EF19578B5076E9A1BCDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1267,42 +1154,6 @@
 			buildConfigurations = (
 				694DA67CBA3D5B93FD4BADBD4DD9E6ED /* Debug */,
 				4CE3ED7BF66D53DD30B6EA515CA558DE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD08306A81188DF5C9D96939A9481AF1 /* Build configuration list for PBXNativeTarget "Pods-Dinergate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4E09D382C9A93391DD2C1C227A61748 /* Debug */,
-				A22C6978F423A4A8DC83F0646D6803FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF7F8073DC647A75F87DC4DDEA97072E /* Build configuration list for PBXNativeTarget "DinergateBrain-iOS9.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F49C1C2DD88200E46384A2D2288B2921 /* Debug */,
-				EE938B6A519A091665442782205FAFCA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E42AC8DECA7A948FB8B3CAFDC80C9D07 /* Build configuration list for PBXNativeTarget "DinergateBrain-iOS14.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				44AAFA6337CC51CA045B1775A3AE8F38 /* Debug */,
-				4D06F3D5466DE9D23D3F7F7CF9665F80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E54E8F18FA49B52834B84EAD7511BD31 /* Build configuration list for PBXNativeTarget "Pods-APMDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E3582339DF3B5B007FCC80A2210FD65 /* Debug */,
-				EB46BEFB3CC5FE989EF1D38B5B2CC66C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 framework module DinergateBrain {
-  umbrella header "DinergateBrain-iOS14.0-umbrella.h"
+  umbrella header "DinergateBrain-umbrella.h"
 
   export *
   module * { export * }
