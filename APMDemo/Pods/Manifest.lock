@@ -1,8 +1,16 @@
 PODS:
   - DinergateBrain (0.0.1-pre)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
 
 DEPENDENCIES:
   - "DinergateBrain (from `git@github.com:ChaselAn/DinergateBrain.git`, branch `dev`)"
+  - SQLite.swift
+
+SPEC REPOS:
+  trunk:
+    - SQLite.swift
 
 EXTERNAL SOURCES:
   DinergateBrain:
@@ -16,7 +24,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   DinergateBrain: c1d21b49b198d63ffe30259c77dec4fecfcf32e1
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
-PODFILE CHECKSUM: 9270666ca0e415d9b9ff51fbc45cda7d8f26e7a7
+PODFILE CHECKSUM: b9776b8d14f709e56e1cc73d0181df78f1aa01d8
 
 COCOAPODS: 1.9.3

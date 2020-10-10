@@ -29,8 +29,8 @@ extension MenuLogViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
-//        cell.textLabel?.text = row.title
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "logCell")
+//        cell.textLabel?.text = 
         return cell
     }
     
