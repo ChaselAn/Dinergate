@@ -3,4 +3,6 @@
 
 * FPS
 
-* main Runloop 阻塞检测
+* main Runloop 阻塞监测
+
+* 崩溃监测
