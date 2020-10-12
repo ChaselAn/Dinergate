@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
     s.source_files = 'APMDemo/Dinergate/*.swift'
     s.requires_arc = true
     s.swift_version = '5.2'
+    s.dependency 'DinergateBrain', '0.1.0-pre'
+    s.dependency 'SQLite.swift', '~> 0.12'
 end
