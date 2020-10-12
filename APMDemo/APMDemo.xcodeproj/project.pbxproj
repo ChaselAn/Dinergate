@@ -3,63 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1678B9F250B25EC009C0E04 /* QAIsAngry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1678B96250B25EC009C0E04 /* QAIsAngry.framework */; };
-		F1678BA6250B25EC009C0E04 /* QAIsAngryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1678BA5250B25EC009C0E04 /* QAIsAngryTests.swift */; };
-		F1678BA8250B25EC009C0E04 /* QAIsAngry.h in Headers */ = {isa = PBXBuildFile; fileRef = F1678B98250B25EC009C0E04 /* QAIsAngry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1678BAB250B25EC009C0E04 /* QAIsAngry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1678B96250B25EC009C0E04 /* QAIsAngry.framework */; };
-		F1678BAC250B25EC009C0E04 /* QAIsAngry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1678B96250B25EC009C0E04 /* QAIsAngry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F1678BB3250B2638009C0E04 /* DragableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6924EA89E8005B6D86 /* DragableWindow.swift */; };
-		F1678BB4250B2638009C0E04 /* FloatItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86D624EBB56700F8F7FD /* FloatItemView.swift */; };
-		F1678BB5250B2638009C0E04 /* FloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */; };
-		F1678BB6250B2638009C0E04 /* FloatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */; };
-		F1678BB7250B2638009C0E04 /* StuckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE3824EA3272005B6D86 /* StuckMonitor.swift */; };
-		F1678BB8250B2638009C0E04 /* FloatRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */; };
-		F1678BB9250B2638009C0E04 /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052624E6929E00BA5004 /* FPSMonitor.swift */; };
-		F1678BBA250B2638009C0E04 /* MonitorObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7424EA97AD005B6D86 /* MonitorObservable.swift */; };
-		F1678BBB250B2638009C0E04 /* MonitorWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159052824E699E700BA5004 /* MonitorWeakTarget.swift */; };
-		F1678BBC250B2638009C0E04 /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6F1624E6342600136F58 /* CPUMonitor.swift */; };
-		F1678BBD250B2638009C0E04 /* MonitorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7624EB7D97005B6D86 /* MonitorLog.swift */; };
-		F1678BBE250B2638009C0E04 /* AngryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103CE7024EA8F92005B6D86 /* AngryMonitor.swift */; };
+		0B700D916429E775D55BAAE3 /* Pods_APMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4F503546A0BF3731382EE7 /* Pods_APMDemo.framework */; };
+		2154682961BC27A00A017FE3 /* Pods_Dinergate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0ECEBE395EC09D33E546A0 /* Pods_Dinergate.framework */; };
+		82C3E74E4478C18CBBFDB8BC /* Pods_Dinergate_DinergateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C892DCDB01E99C0451E74E0 /* Pods_Dinergate_DinergateTests.framework */; };
+		E0F7EA2E0FD2BE73CC32FD9E /* Pods_APMDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2BD34A50ACC1A91B620BFF /* Pods_APMDemoTests.framework */; };
 		F1BA6ED224E633B800136F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED124E633B800136F58 /* AppDelegate.swift */; };
 		F1BA6ED624E633B800136F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6ED524E633B800136F58 /* ViewController.swift */; };
 		F1BA6ED924E633B800136F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6ED724E633B800136F58 /* Main.storyboard */; };
 		F1BA6EDB24E633BA00136F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6EDA24E633BA00136F58 /* Assets.xcassets */; };
 		F1BA6EDE24E633BA00136F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6EDC24E633BA00136F58 /* LaunchScreen.storyboard */; };
 		F1BA6EE924E633BB00136F58 /* APMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6EE824E633BB00136F58 /* APMDemoTests.swift */; };
+		FB394CB525318F79007B50B1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB394CB425318F79007B50B1 /* Menu.swift */; };
+		FB394CC225319297007B50B1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB394CC125319297007B50B1 /* MenuViewController.swift */; };
+		FB3E283125319376001BB202 /* AlertTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E283025319376001BB202 /* AlertTransitionController.swift */; };
+		FB3E28362531994D001BB202 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E28352531994D001BB202 /* NavigationView.swift */; };
+		FB3E284B2531AE9B001BB202 /* MenuLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */; };
+		FB3E28502531AEFF001BB202 /* MenuBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */; };
+		FB3E28562531B305001BB202 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E28552531B305001BB202 /* DBManager.swift */; };
+		FB81F11F25342E030091E15E /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81F11E25342E030091E15E /* Tools.swift */; };
+		FB81F12425343A790091E15E /* MenuLogInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81F12325343A790091E15E /* MenuLogInfoViewController.swift */; };
+		FB81F129253451100091E15E /* MenuSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81F128253451100091E15E /* MenuSettingViewController.swift */; };
+		FB82053625303214009B4BF3 /* Dinergate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82052D25303214009B4BF3 /* Dinergate.framework */; };
+		FB82053D25303214009B4BF3 /* DinergateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82053C25303214009B4BF3 /* DinergateTests.swift */; };
+		FB82053F25303214009B4BF3 /* Dinergate.h in Headers */ = {isa = PBXBuildFile; fileRef = FB82052F25303214009B4BF3 /* Dinergate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB82054225303214009B4BF3 /* Dinergate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82052D25303214009B4BF3 /* Dinergate.framework */; };
+		FB82054325303214009B4BF3 /* Dinergate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB82052D25303214009B4BF3 /* Dinergate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB82056125303EAD009B4BF3 /* Dinergate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82056025303EAD009B4BF3 /* Dinergate.swift */; };
+		FB82056625303EB3009B4BF3 /* FloatItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82056525303EB3009B4BF3 /* FloatItemView.swift */; };
+		FB82056B25303EB7009B4BF3 /* FloatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82056A25303EB7009B4BF3 /* FloatManager.swift */; };
+		FB82057025303EBB009B4BF3 /* FloatRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82056F25303EBB009B4BF3 /* FloatRootViewController.swift */; };
+		FB82057525303EC0009B4BF3 /* FloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82057425303EC0009B4BF3 /* FloatWindow.swift */; };
+		FB82057A25303EC6009B4BF3 /* MonitorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82057925303EC6009B4BF3 /* MonitorLog.swift */; };
+		FB82057F253040D2009B4BF3 /* DragableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82057E253040D2009B4BF3 /* DragableWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F1678BA0250B25EC009C0E04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1678B95250B25EC009C0E04;
-			remoteInfo = QAIsAngry;
-		};
-		F1678BA2250B25EC009C0E04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1BA6ECD24E633B800136F58;
-			remoteInfo = APMDemo;
-		};
-		F1678BA9250B25EC009C0E04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1678B95250B25EC009C0E04;
-			remoteInfo = QAIsAngry;
-		};
 		F1BA6EE524E633BB00136F58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1BA6ECD24E633B800136F58;
 			remoteInfo = APMDemo;
+		};
+		FB82053725303214009B4BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB82052C25303214009B4BF3;
+			remoteInfo = Dinergate;
+		};
+		FB82053925303214009B4BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BA6ECD24E633B800136F58;
+			remoteInfo = APMDemo;
+		};
+		FB82054025303214009B4BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BA6EC624E633B800136F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB82052C25303214009B4BF3;
+			remoteInfo = Dinergate;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,7 +79,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F1678BAC250B25EC009C0E04 /* QAIsAngry.framework in Embed Frameworks */,
+				FB82054325303214009B4BF3 /* Dinergate.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,23 +87,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F103CE3824EA3272005B6D86 /* StuckMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuckMonitor.swift; sourceTree = "<group>"; };
-		F103CE6924EA89E8005B6D86 /* DragableWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragableWindow.swift; sourceTree = "<group>"; };
-		F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatManager.swift; sourceTree = "<group>"; };
-		F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatWindow.swift; sourceTree = "<group>"; };
-		F103CE7024EA8F92005B6D86 /* AngryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryMonitor.swift; sourceTree = "<group>"; };
-		F103CE7424EA97AD005B6D86 /* MonitorObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorObservable.swift; sourceTree = "<group>"; };
-		F103CE7624EB7D97005B6D86 /* MonitorLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorLog.swift; sourceTree = "<group>"; };
-		F159052624E6929E00BA5004 /* FPSMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSMonitor.swift; sourceTree = "<group>"; };
-		F159052824E699E700BA5004 /* MonitorWeakTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorWeakTarget.swift; sourceTree = "<group>"; };
-		F1678B96250B25EC009C0E04 /* QAIsAngry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QAIsAngry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1678B98250B25EC009C0E04 /* QAIsAngry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAIsAngry.h; sourceTree = "<group>"; };
-		F1678B99250B25EC009C0E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1678B9E250B25EC009C0E04 /* QAIsAngryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QAIsAngryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1678BA5250B25EC009C0E04 /* QAIsAngryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAIsAngryTests.swift; sourceTree = "<group>"; };
-		F1678BA7250B25EC009C0E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F17B86D624EBB56700F8F7FD /* FloatItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatItemView.swift; sourceTree = "<group>"; };
-		F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatRootViewController.swift; sourceTree = "<group>"; };
+		0D4F503546A0BF3731382EE7 /* Pods_APMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15716C3F762EE09FD1CDA848 /* Pods-Dinergate-DinergateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinergate-DinergateTests.debug.xcconfig"; path = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C892DCDB01E99C0451E74E0 /* Pods_Dinergate_DinergateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dinergate_DinergateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3139DD8348F4E1E62A4703A2 /* Pods-Dinergate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinergate.debug.xcconfig"; path = "Target Support Files/Pods-Dinergate/Pods-Dinergate.debug.xcconfig"; sourceTree = "<group>"; };
+		494083FBDD0B0885D549E9DE /* Pods-APMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APMDemoTests.release.xcconfig"; path = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E18424F74EED6748A23C44C /* Pods-APMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APMDemo.release.xcconfig"; path = "Target Support Files/Pods-APMDemo/Pods-APMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		71FE115892B07C9D8A5A6F5B /* Pods-APMDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APMDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE2BD34A50ACC1A91B620BFF /* Pods_APMDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APMDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09FA92534C8F73BB7D0C6DC /* Pods-Dinergate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinergate.release.xcconfig"; path = "Target Support Files/Pods-Dinergate/Pods-Dinergate.release.xcconfig"; sourceTree = "<group>"; };
 		F1BA6ECE24E633B800136F58 /* APMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6ED124E633B800136F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1BA6ED524E633B800136F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,30 +106,41 @@
 		F1BA6EE424E633BB00136F58 /* APMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA6EE824E633BB00136F58 /* APMDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMDemoTests.swift; sourceTree = "<group>"; };
 		F1BA6EEA24E633BB00136F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1BA6F1624E6342600136F58 /* CPUMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUMonitor.swift; sourceTree = "<group>"; };
+		F344C356FBF4CDD0A51D5A07 /* Pods-APMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APMDemo.debug.xcconfig"; path = "Target Support Files/Pods-APMDemo/Pods-APMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F50682398DD13D770570A3AE /* Pods-Dinergate-DinergateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinergate-DinergateTests.release.xcconfig"; path = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB394CB425318F79007B50B1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		FB394CC125319297007B50B1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FB3E283025319376001BB202 /* AlertTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTransitionController.swift; sourceTree = "<group>"; };
+		FB3E28352531994D001BB202 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLogViewController.swift; sourceTree = "<group>"; };
+		FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBaseViewController.swift; sourceTree = "<group>"; };
+		FB3E28552531B305001BB202 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		FB81F11E25342E030091E15E /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		FB81F12325343A790091E15E /* MenuLogInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLogInfoViewController.swift; sourceTree = "<group>"; };
+		FB81F128253451100091E15E /* MenuSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSettingViewController.swift; sourceTree = "<group>"; };
+		FB82052D25303214009B4BF3 /* Dinergate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dinergate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB82052F25303214009B4BF3 /* Dinergate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dinergate.h; sourceTree = "<group>"; };
+		FB82053025303214009B4BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB82053525303214009B4BF3 /* DinergateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinergateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB82053C25303214009B4BF3 /* DinergateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinergateTests.swift; sourceTree = "<group>"; };
+		FB82053E25303214009B4BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB82056025303EAD009B4BF3 /* Dinergate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dinergate.swift; sourceTree = "<group>"; };
+		FB82056525303EB3009B4BF3 /* FloatItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatItemView.swift; sourceTree = "<group>"; };
+		FB82056A25303EB7009B4BF3 /* FloatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatManager.swift; sourceTree = "<group>"; };
+		FB82056F25303EBB009B4BF3 /* FloatRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRootViewController.swift; sourceTree = "<group>"; };
+		FB82057425303EC0009B4BF3 /* FloatWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatWindow.swift; sourceTree = "<group>"; };
+		FB82057925303EC6009B4BF3 /* MonitorLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorLog.swift; sourceTree = "<group>"; };
+		FB82057E253040D2009B4BF3 /* DragableWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragableWindow.swift; sourceTree = "<group>"; };
+		FF0ECEBE395EC09D33E546A0 /* Pods_Dinergate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dinergate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F1678B93250B25EC009C0E04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1678B9B250B25EC009C0E04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1678B9F250B25EC009C0E04 /* QAIsAngry.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F1BA6ECB24E633B800136F58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1678BAB250B25EC009C0E04 /* QAIsAngry.framework in Frameworks */,
+				FB82054225303214009B4BF3 /* Dinergate.framework in Frameworks */,
+				0B700D916429E775D55BAAE3 /* Pods_APMDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,40 +148,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F7EA2E0FD2BE73CC32FD9E /* Pods_APMDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB82052A25303214009B4BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2154682961BC27A00A017FE3 /* Pods_Dinergate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB82053225303214009B4BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB82053625303214009B4BF3 /* Dinergate.framework in Frameworks */,
+				82C3E74E4478C18CBBFDB8BC /* Pods_Dinergate_DinergateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1678B97250B25EC009C0E04 /* QAIsAngry */ = {
+		39BBC42EC39AA0C156060CC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F1678B98250B25EC009C0E04 /* QAIsAngry.h */,
-				F103CE7024EA8F92005B6D86 /* AngryMonitor.swift */,
-				F103CE6B24EA8DC1005B6D86 /* FloatManager.swift */,
-				F103CE6D24EA8DE7005B6D86 /* FloatWindow.swift */,
-				F17B86D824EBD10600F8F7FD /* FloatRootViewController.swift */,
-				F17B86D624EBB56700F8F7FD /* FloatItemView.swift */,
-				F1BA6F1624E6342600136F58 /* CPUMonitor.swift */,
-				F159052624E6929E00BA5004 /* FPSMonitor.swift */,
-				F103CE3824EA3272005B6D86 /* StuckMonitor.swift */,
-				F103CE6924EA89E8005B6D86 /* DragableWindow.swift */,
-				F159052824E699E700BA5004 /* MonitorWeakTarget.swift */,
-				F103CE7424EA97AD005B6D86 /* MonitorObservable.swift */,
-				F103CE7624EB7D97005B6D86 /* MonitorLog.swift */,
-				F1678B99250B25EC009C0E04 /* Info.plist */,
+				0D4F503546A0BF3731382EE7 /* Pods_APMDemo.framework */,
+				CE2BD34A50ACC1A91B620BFF /* Pods_APMDemoTests.framework */,
+				FF0ECEBE395EC09D33E546A0 /* Pods_Dinergate.framework */,
+				1C892DCDB01E99C0451E74E0 /* Pods_Dinergate_DinergateTests.framework */,
 			);
-			path = QAIsAngry;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F1678BA4250B25EC009C0E04 /* QAIsAngryTests */ = {
+		C693FF4EA24B1ABE31835B95 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F1678BA5250B25EC009C0E04 /* QAIsAngryTests.swift */,
-				F1678BA7250B25EC009C0E04 /* Info.plist */,
+				F344C356FBF4CDD0A51D5A07 /* Pods-APMDemo.debug.xcconfig */,
+				4E18424F74EED6748A23C44C /* Pods-APMDemo.release.xcconfig */,
+				71FE115892B07C9D8A5A6F5B /* Pods-APMDemoTests.debug.xcconfig */,
+				494083FBDD0B0885D549E9DE /* Pods-APMDemoTests.release.xcconfig */,
+				3139DD8348F4E1E62A4703A2 /* Pods-Dinergate.debug.xcconfig */,
+				E09FA92534C8F73BB7D0C6DC /* Pods-Dinergate.release.xcconfig */,
+				15716C3F762EE09FD1CDA848 /* Pods-Dinergate-DinergateTests.debug.xcconfig */,
+				F50682398DD13D770570A3AE /* Pods-Dinergate-DinergateTests.release.xcconfig */,
 			);
-			path = QAIsAngryTests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		F1BA6EC524E633B800136F58 = {
@@ -177,9 +203,11 @@
 			children = (
 				F1BA6ED024E633B800136F58 /* APMDemo */,
 				F1BA6EE724E633BB00136F58 /* APMDemoTests */,
-				F1678B97250B25EC009C0E04 /* QAIsAngry */,
-				F1678BA4250B25EC009C0E04 /* QAIsAngryTests */,
+				FB82052E25303214009B4BF3 /* Dinergate */,
+				FB82053B25303214009B4BF3 /* DinergateTests */,
 				F1BA6ECF24E633B800136F58 /* Products */,
+				C693FF4EA24B1ABE31835B95 /* Pods */,
+				39BBC42EC39AA0C156060CC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,8 +216,8 @@
 			children = (
 				F1BA6ECE24E633B800136F58 /* APMDemo.app */,
 				F1BA6EE424E633BB00136F58 /* APMDemoTests.xctest */,
-				F1678B96250B25EC009C0E04 /* QAIsAngry.framework */,
-				F1678B9E250B25EC009C0E04 /* QAIsAngryTests.xctest */,
+				FB82052D25303214009B4BF3 /* Dinergate.framework */,
+				FB82053525303214009B4BF3 /* DinergateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,70 +244,78 @@
 			path = APMDemoTests;
 			sourceTree = "<group>";
 		};
+		FB394CB325318F1C007B50B1 /* VisualInterface */ = {
+			isa = PBXGroup;
+			children = (
+				FB394CB425318F79007B50B1 /* Menu.swift */,
+				FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */,
+				FB394CC125319297007B50B1 /* MenuViewController.swift */,
+				FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */,
+				FB81F12325343A790091E15E /* MenuLogInfoViewController.swift */,
+				FB81F128253451100091E15E /* MenuSettingViewController.swift */,
+				FB3E28352531994D001BB202 /* NavigationView.swift */,
+				FB3E283025319376001BB202 /* AlertTransitionController.swift */,
+			);
+			name = VisualInterface;
+			sourceTree = "<group>";
+		};
+		FB82052E25303214009B4BF3 /* Dinergate */ = {
+			isa = PBXGroup;
+			children = (
+				FB82056025303EAD009B4BF3 /* Dinergate.swift */,
+				FB82056525303EB3009B4BF3 /* FloatItemView.swift */,
+				FB82056A25303EB7009B4BF3 /* FloatManager.swift */,
+				FB82056F25303EBB009B4BF3 /* FloatRootViewController.swift */,
+				FB82057425303EC0009B4BF3 /* FloatWindow.swift */,
+				FB82057E253040D2009B4BF3 /* DragableWindow.swift */,
+				FB3E28552531B305001BB202 /* DBManager.swift */,
+				FB81F11E25342E030091E15E /* Tools.swift */,
+				FB394CB325318F1C007B50B1 /* VisualInterface */,
+				FB82057925303EC6009B4BF3 /* MonitorLog.swift */,
+				FB82052F25303214009B4BF3 /* Dinergate.h */,
+				FB82053025303214009B4BF3 /* Info.plist */,
+			);
+			path = Dinergate;
+			sourceTree = "<group>";
+		};
+		FB82053B25303214009B4BF3 /* DinergateTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB82053C25303214009B4BF3 /* DinergateTests.swift */,
+				FB82053E25303214009B4BF3 /* Info.plist */,
+			);
+			path = DinergateTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F1678B91250B25EC009C0E04 /* Headers */ = {
+		FB82052825303214009B4BF3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1678BA8250B25EC009C0E04 /* QAIsAngry.h in Headers */,
+				FB82053F25303214009B4BF3 /* Dinergate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F1678B95250B25EC009C0E04 /* QAIsAngry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1678BAD250B25EC009C0E04 /* Build configuration list for PBXNativeTarget "QAIsAngry" */;
-			buildPhases = (
-				F1678B91250B25EC009C0E04 /* Headers */,
-				F1678B92250B25EC009C0E04 /* Sources */,
-				F1678B93250B25EC009C0E04 /* Frameworks */,
-				F1678B94250B25EC009C0E04 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = QAIsAngry;
-			productName = QAIsAngry;
-			productReference = F1678B96250B25EC009C0E04 /* QAIsAngry.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F1678B9D250B25EC009C0E04 /* QAIsAngryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1678BB0250B25EC009C0E04 /* Build configuration list for PBXNativeTarget "QAIsAngryTests" */;
-			buildPhases = (
-				F1678B9A250B25EC009C0E04 /* Sources */,
-				F1678B9B250B25EC009C0E04 /* Frameworks */,
-				F1678B9C250B25EC009C0E04 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F1678BA1250B25EC009C0E04 /* PBXTargetDependency */,
-				F1678BA3250B25EC009C0E04 /* PBXTargetDependency */,
-			);
-			name = QAIsAngryTests;
-			productName = QAIsAngryTests;
-			productReference = F1678B9E250B25EC009C0E04 /* QAIsAngryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F1BA6ECD24E633B800136F58 /* APMDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1BA6EED24E633BB00136F58 /* Build configuration list for PBXNativeTarget "APMDemo" */;
 			buildPhases = (
+				2D5CD43EB103D4F49F118003 /* [CP] Check Pods Manifest.lock */,
 				F1BA6ECA24E633B800136F58 /* Sources */,
 				F1BA6ECB24E633B800136F58 /* Frameworks */,
 				F1BA6ECC24E633B800136F58 /* Resources */,
 				F1BA6F1224E6341300136F58 /* Embed Frameworks */,
+				64EBD6666B8E97E6D2E6A734 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1678BAA250B25EC009C0E04 /* PBXTargetDependency */,
+				FB82054125303214009B4BF3 /* PBXTargetDependency */,
 			);
 			name = APMDemo;
 			productName = APMDemo;
@@ -290,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1BA6EF024E633BB00136F58 /* Build configuration list for PBXNativeTarget "APMDemoTests" */;
 			buildPhases = (
+				C88F2ADCDF2782EDFEFA7DBD /* [CP] Check Pods Manifest.lock */,
 				F1BA6EE024E633BB00136F58 /* Sources */,
 				F1BA6EE124E633BB00136F58 /* Frameworks */,
 				F1BA6EE224E633BB00136F58 /* Resources */,
@@ -304,6 +341,46 @@
 			productReference = F1BA6EE424E633BB00136F58 /* APMDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FB82052C25303214009B4BF3 /* Dinergate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB82054425303214009B4BF3 /* Build configuration list for PBXNativeTarget "Dinergate" */;
+			buildPhases = (
+				261565280B5C33577201D065 /* [CP] Check Pods Manifest.lock */,
+				FB82052825303214009B4BF3 /* Headers */,
+				FB82052925303214009B4BF3 /* Sources */,
+				FB82052A25303214009B4BF3 /* Frameworks */,
+				FB82052B25303214009B4BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dinergate;
+			productName = Dinergate;
+			productReference = FB82052D25303214009B4BF3 /* Dinergate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB82053425303214009B4BF3 /* DinergateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB82054725303214009B4BF3 /* Build configuration list for PBXNativeTarget "DinergateTests" */;
+			buildPhases = (
+				712B08ED12CA8BA27C157F6D /* [CP] Check Pods Manifest.lock */,
+				FB82053125303214009B4BF3 /* Sources */,
+				FB82053225303214009B4BF3 /* Frameworks */,
+				FB82053325303214009B4BF3 /* Resources */,
+				F054477ECE54DE0C56D11AF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB82053825303214009B4BF3 /* PBXTargetDependency */,
+				FB82053A25303214009B4BF3 /* PBXTargetDependency */,
+			);
+			name = DinergateTests;
+			productName = DinergateTests;
+			productReference = FB82053525303214009B4BF3 /* DinergateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -311,21 +388,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = ChaselAn;
 				TargetAttributes = {
-					F1678B95250B25EC009C0E04 = {
-						CreatedOnToolsVersion = 12.0;
-					};
-					F1678B9D250B25EC009C0E04 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = F1BA6ECD24E633B800136F58;
-					};
 					F1BA6ECD24E633B800136F58 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 					F1BA6EE324E633BB00136F58 = {
 						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F1BA6ECD24E633B800136F58;
+					};
+					FB82052C25303214009B4BF3 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					FB82053425303214009B4BF3 = {
+						CreatedOnToolsVersion = 12.0;
 						TestTargetID = F1BA6ECD24E633B800136F58;
 					};
 				};
@@ -345,27 +423,13 @@
 			targets = (
 				F1BA6ECD24E633B800136F58 /* APMDemo */,
 				F1BA6EE324E633BB00136F58 /* APMDemoTests */,
-				F1678B95250B25EC009C0E04 /* QAIsAngry */,
-				F1678B9D250B25EC009C0E04 /* QAIsAngryTests */,
+				FB82052C25303214009B4BF3 /* Dinergate */,
+				FB82053425303214009B4BF3 /* DinergateTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F1678B94250B25EC009C0E04 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1678B9C250B25EC009C0E04 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F1BA6ECC24E633B800136F58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,36 +447,148 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB82052B25303214009B4BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB82053325303214009B4BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		261565280B5C33577201D065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dinergate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5CD43EB103D4F49F118003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64EBD6666B8E97E6D2E6A734 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APMDemo/Pods-APMDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APMDemo/Pods-APMDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APMDemo/Pods-APMDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712B08ED12CA8BA27C157F6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dinergate-DinergateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88F2ADCDF2782EDFEFA7DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APMDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F054477ECE54DE0C56D11AF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		F1678B92250B25EC009C0E04 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1678BBE250B2638009C0E04 /* AngryMonitor.swift in Sources */,
-				F1678BB4250B2638009C0E04 /* FloatItemView.swift in Sources */,
-				F1678BB5250B2638009C0E04 /* FloatWindow.swift in Sources */,
-				F1678BB7250B2638009C0E04 /* StuckMonitor.swift in Sources */,
-				F1678BBB250B2638009C0E04 /* MonitorWeakTarget.swift in Sources */,
-				F1678BB6250B2638009C0E04 /* FloatManager.swift in Sources */,
-				F1678BB3250B2638009C0E04 /* DragableWindow.swift in Sources */,
-				F1678BBC250B2638009C0E04 /* CPUMonitor.swift in Sources */,
-				F1678BBD250B2638009C0E04 /* MonitorLog.swift in Sources */,
-				F1678BB8250B2638009C0E04 /* FloatRootViewController.swift in Sources */,
-				F1678BBA250B2638009C0E04 /* MonitorObservable.swift in Sources */,
-				F1678BB9250B2638009C0E04 /* FPSMonitor.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1678B9A250B25EC009C0E04 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1678BA6250B25EC009C0E04 /* QAIsAngryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F1BA6ECA24E633B800136F58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,28 +606,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB82052925303214009B4BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3E284B2531AE9B001BB202 /* MenuLogViewController.swift in Sources */,
+				FB394CB525318F79007B50B1 /* Menu.swift in Sources */,
+				FB3E283125319376001BB202 /* AlertTransitionController.swift in Sources */,
+				FB3E28362531994D001BB202 /* NavigationView.swift in Sources */,
+				FB3E28502531AEFF001BB202 /* MenuBaseViewController.swift in Sources */,
+				FB82057525303EC0009B4BF3 /* FloatWindow.swift in Sources */,
+				FB82056625303EB3009B4BF3 /* FloatItemView.swift in Sources */,
+				FB82057025303EBB009B4BF3 /* FloatRootViewController.swift in Sources */,
+				FB394CC225319297007B50B1 /* MenuViewController.swift in Sources */,
+				FB81F129253451100091E15E /* MenuSettingViewController.swift in Sources */,
+				FB81F11F25342E030091E15E /* Tools.swift in Sources */,
+				FB82057A25303EC6009B4BF3 /* MonitorLog.swift in Sources */,
+				FB82057F253040D2009B4BF3 /* DragableWindow.swift in Sources */,
+				FB81F12425343A790091E15E /* MenuLogInfoViewController.swift in Sources */,
+				FB82056B25303EB7009B4BF3 /* FloatManager.swift in Sources */,
+				FB82056125303EAD009B4BF3 /* Dinergate.swift in Sources */,
+				FB3E28562531B305001BB202 /* DBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB82053125303214009B4BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB82053D25303214009B4BF3 /* DinergateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F1678BA1250B25EC009C0E04 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F1678B95250B25EC009C0E04 /* QAIsAngry */;
-			targetProxy = F1678BA0250B25EC009C0E04 /* PBXContainerItemProxy */;
-		};
-		F1678BA3250B25EC009C0E04 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F1BA6ECD24E633B800136F58 /* APMDemo */;
-			targetProxy = F1678BA2250B25EC009C0E04 /* PBXContainerItemProxy */;
-		};
-		F1678BAA250B25EC009C0E04 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F1678B95250B25EC009C0E04 /* QAIsAngry */;
-			targetProxy = F1678BA9250B25EC009C0E04 /* PBXContainerItemProxy */;
-		};
 		F1BA6EE624E633BB00136F58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F1BA6ECD24E633B800136F58 /* APMDemo */;
 			targetProxy = F1BA6EE524E633BB00136F58 /* PBXContainerItemProxy */;
+		};
+		FB82053825303214009B4BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB82052C25303214009B4BF3 /* Dinergate */;
+			targetProxy = FB82053725303214009B4BF3 /* PBXContainerItemProxy */;
+		};
+		FB82053A25303214009B4BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BA6ECD24E633B800136F58 /* APMDemo */;
+			targetProxy = FB82053925303214009B4BF3 /* PBXContainerItemProxy */;
+		};
+		FB82054125303214009B4BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB82052C25303214009B4BF3 /* Dinergate */;
+			targetProxy = FB82054025303214009B4BF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -475,110 +683,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F1678BAE250B25EC009C0E04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GY6E74AYN5;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = QAIsAngry/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chasel.QAIsAngry;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F1678BAF250B25EC009C0E04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GY6E74AYN5;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = QAIsAngry/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chasel.QAIsAngry;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F1678BB1250B25EC009C0E04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY6E74AYN5;
-				INFOPLIST_FILE = QAIsAngryTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chasel.QAIsAngryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMDemo.app/APMDemo";
-			};
-			name = Debug;
-		};
-		F1678BB2250B25EC009C0E04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY6E74AYN5;
-				INFOPLIST_FILE = QAIsAngryTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chasel.QAIsAngryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMDemo.app/APMDemo";
-			};
-			name = Release;
-		};
 		F1BA6EEB24E633BB00136F58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -605,6 +709,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -629,7 +734,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -665,6 +770,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -683,7 +789,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -695,6 +801,7 @@
 		};
 		F1BA6EEE24E633BB00136F58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F344C356FBF4CDD0A51D5A07 /* Pods-APMDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -715,6 +822,7 @@
 		};
 		F1BA6EEF24E633BB00136F58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E18424F74EED6748A23C44C /* Pods-APMDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -735,6 +843,7 @@
 		};
 		F1BA6EF124E633BB00136F58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FE115892B07C9D8A5A6F5B /* Pods-APMDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -757,6 +866,7 @@
 		};
 		F1BA6EF224E633BB00136F58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494083FBDD0B0885D549E9DE /* Pods-APMDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -777,27 +887,118 @@
 			};
 			name = Release;
 		};
+		FB82054525303214009B4BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3139DD8348F4E1E62A4703A2 /* Pods-Dinergate.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Dinergate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.Dinergate;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB82054625303214009B4BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09FA92534C8F73BB7D0C6DC /* Pods-Dinergate.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Dinergate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.Dinergate;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB82054825303214009B4BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15716C3F762EE09FD1CDA848 /* Pods-Dinergate-DinergateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = DinergateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.DinergateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMDemo.app/APMDemo";
+			};
+			name = Debug;
+		};
+		FB82054925303214009B4BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50682398DD13D770570A3AE /* Pods-Dinergate-DinergateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = DinergateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.DinergateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMDemo.app/APMDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1678BAD250B25EC009C0E04 /* Build configuration list for PBXNativeTarget "QAIsAngry" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1678BAE250B25EC009C0E04 /* Debug */,
-				F1678BAF250B25EC009C0E04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1678BB0250B25EC009C0E04 /* Build configuration list for PBXNativeTarget "QAIsAngryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1678BB1250B25EC009C0E04 /* Debug */,
-				F1678BB2250B25EC009C0E04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		F1BA6EC924E633B800136F58 /* Build configuration list for PBXProject "APMDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -821,6 +1022,24 @@
 			buildConfigurations = (
 				F1BA6EF124E633BB00136F58 /* Debug */,
 				F1BA6EF224E633BB00136F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB82054425303214009B4BF3 /* Build configuration list for PBXNativeTarget "Dinergate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB82054525303214009B4BF3 /* Debug */,
+				FB82054625303214009B4BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB82054725303214009B4BF3 /* Build configuration list for PBXNativeTarget "DinergateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB82054825303214009B4BF3 /* Debug */,
+				FB82054925303214009B4BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,6 @@
+framework module Pods_Dinergate_DinergateTests {
+  umbrella header "Pods-Dinergate-DinergateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

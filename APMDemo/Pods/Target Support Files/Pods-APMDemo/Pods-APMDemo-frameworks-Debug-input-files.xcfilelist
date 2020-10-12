@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-APMDemo/Pods-APMDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DinergateBrain/DinergateBrain.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
