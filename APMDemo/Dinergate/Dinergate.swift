@@ -3,22 +3,38 @@ import DinergateBrain
 
 public class Dinergate {
     
+    struct Test: Decodable {
+        let value: Int
+    }
+    
+    public static var appInfo: String = _appInfo
+    
+    private static var _appInfo: String {
+        var str = ""
+        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+            str += "app version: \(version)"
+        }
+        
+        if let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+            str += "- build: \(build)"
+        }
+        return str
+    }
+
     public static func start(items: DinergateBrain.Items = .all) {
         DinergateBrain.shared.start(items: items)
         FloatManager.shared.show(items: .fps)
+        DBManager.shared.config()
         
         CrashMonitor.shared.crashHappening = { type in
             switch type {
             case .exception(let exception):
-                print("-------------exception name: \(exception.name), reason: \(exception.reason), userInfo: \(exception.userInfo)")
-                print(exception.callStackSymbols.joined(separator: "\n"))
-                print("-------------")
+                let callStack = exception.callStackSymbols.joined(separator: "\n")
+                DBManager.shared.insertCrash(title: exception.name.rawValue, desc: exception.reason, callStack: callStack, date: Date(), appInfo: appInfo)
             case .singal(let code, let name):
-                print("-------------singal code: \(code), name: \(name)")
-                print(Thread.callStackSymbols.joined(separator: "\n"))
-                print("-------------")
+                let callStack = Thread.callStackSymbols.joined(separator: "\n")
+                DBManager.shared.insertCrash(title: name, desc: "\(code)", callStack: callStack, date: Date(), appInfo: appInfo)
             }
-            
         }
     }
 

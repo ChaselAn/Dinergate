@@ -20,6 +20,7 @@ class MenuBaseViewController: UIViewController {
         view.backgroundColor = .clear
         tableView.tableFooterView = UIView()
         tableView.rowHeight = UITableView.automaticDimension
+        tableView.backgroundColor = UIColor.white
         makeUI()
     }
 
