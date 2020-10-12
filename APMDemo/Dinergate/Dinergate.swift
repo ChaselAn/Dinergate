@@ -8,31 +8,37 @@ public class Dinergate {
     }
     
     public static var appInfo: String = _appInfo
-    
-    private static var _appInfo: String {
-        var str = ""
-        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
-            str += "app version: \(version)"
-        }
-        
-        if let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
-            str += "- build: \(build)"
-        }
-        return str
-    }
 
-    public static func start(items: DinergateBrain.Items = .all) {
-        DinergateBrain.shared.start(items: items)
-        FloatManager.shared.show(items: .fps)
+    // default items = [.stuck, .crash]
+    public static func start(items: DinergateBrain.Items = .default) {
+        self.defaultItems = items
+        var brainItems: DinergateBrain.Items = []
+        if UserDefaults.standard.value(forKey: MenuSettingItem.stuck.rawValue) as? Bool ?? items.contains(.stuck) {
+            brainItems.insert(.stuck)
+        }
+        if UserDefaults.standard.value(forKey: MenuSettingItem.crash.rawValue) as? Bool ?? items.contains(.crash) {
+            brainItems.insert(.crash)
+        }
+        if UserDefaults.standard.value(forKey: MenuSettingItem.fps.rawValue) as? Bool ?? items.contains(.fps) {
+            brainItems.insert(.fps)
+        }
+        DinergateBrain.shared.start(items: brainItems)
+        if brainItems.contains(.fps) {
+            FloatManager.shared.show(items: .fps)
+        }
         DBManager.shared.config()
         
         CrashMonitor.shared.crashHappening = { type in
             switch type {
             case .exception(let exception):
-                let callStack = exception.callStackSymbols.joined(separator: "\n")
+                let callStack = exception.callStackSymbols.filter({
+                    !$0.contains("Dinergate")
+                }).joined(separator: "\n")
                 DBManager.shared.insertCrash(title: exception.name.rawValue, desc: exception.reason, callStack: callStack, date: Date(), appInfo: appInfo)
             case .singal(let code, let name):
-                let callStack = Thread.callStackSymbols.joined(separator: "\n")
+                let callStack = Thread.callStackSymbols.filter({
+                    !$0.contains("Dinergate")
+                }).joined(separator: "\n")
                 DBManager.shared.insertCrash(title: name, desc: "\(code)", callStack: callStack, date: Date(), appInfo: appInfo)
             }
         }
@@ -48,22 +54,9 @@ public class Dinergate {
     }
 }
 
-//// MARK: - Configuration
-//extension Dinergate {
-//    public struct Configuration {
-//
-//        public var monitorItem: MonitorItem
-//        public var monitorStyle: MonitorStyle
-//
-//        public static var `default`: Configuration {
-//            return Configuration(monitorItem: [.mainThreadStuck], monitorStyle: [])
-//        }
-//    }
-//}
-//
-//// MARK: - MonitorItem
+// MARK: - MonitorItem
 extension Dinergate {
-    public struct FloatItem: OptionSet {
+    struct FloatItem: OptionSet {
 
         public static let cpu = FloatItem(rawValue: 1 << 0)
         public static let fps = FloatItem(rawValue: 1 << 1)
@@ -86,28 +79,37 @@ extension Dinergate {
         }
     }
 }
-//
-//// MARK: - MonitorStyle
-//extension Dinergate {
-//    public struct MonitorStyle: OptionSet {
-//
-//        public static let float = MonitorStyle(rawValue: 1 << 0)
-//
-//        public static var allItems: MonitorStyle = [.float]
-//
-//        public let rawValue: Int
-//        public init(rawValue: Int) {
-//            self.rawValue = rawValue
-//        }
-//    }
-//}
-//
-//// MARK: - MonitorChangeHandler
-//extension Dinergate {
-//    public enum MonitorChangeType {
-//
-//        case cpu(Float) // percent
-//        case fps(Int)
-//        case mainThreadStuck(StuckMonitor.StuckType)
-//    }
-//}
+
+// MARK: - private & internal
+extension Dinergate {
+    private static var _appInfo: String {
+        var str = ""
+        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+            str += "app version: \(version)"
+        }
+        
+        if let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+            str += "- build: \(build)"
+        }
+        return str
+    }
+    
+    static var defaultItems: DinergateBrain.Items = .default
+}
+
+enum MenuSettingItem: String, CaseIterable {
+    case stuck
+    case crash
+    case fps
+    
+    var title: String {
+        switch self {
+        case .stuck:
+            return "卡顿监测"
+        case .crash:
+            return "崩溃监测"
+        case .fps:
+            return "fps浮窗"
+        }
+    }
+}

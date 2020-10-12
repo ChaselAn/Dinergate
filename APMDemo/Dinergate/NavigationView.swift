@@ -1,6 +1,7 @@
 import UIKit
 
 typealias VoidHandler = () -> Void
+typealias SingleHandler<T> = (T) -> Void
 final class NavigationView: UIView {
     
     private let titleLabel = UILabel()
@@ -19,6 +20,7 @@ final class NavigationView: UIView {
         
         titleLabel.text = title
         titleLabel.textAlignment = .center
+        titleLabel.textColor = .black
         
         leftButton.setTitle(leftButtonText, for: .normal)
         leftButton.addTarget(self, action: #selector(leftButtonClicked), for: .touchUpInside)

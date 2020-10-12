@@ -8,7 +8,7 @@ final class MenuViewController: MenuBaseViewController {
         navView = NavigationView(title: "Dinergate", leftButtonText: "关闭", rightButtonText: "配置", leftButtonAction: {
             Menu.shared.dismiss()
         }, rightButtonAction: { [weak self] in
-            
+            self?.navigationController?.pushViewController(MenuSettingViewController(title: "配置"), animated: true)
         })
     }
     

@@ -13,6 +13,11 @@ import Dinergate
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        Dinergate.start()
+        return true
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -26,7 +31,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        SKTabbarController * tabVC = [[SKTabbarController alloc] init];
 //        self.window.rootViewController = tabVC;
 
-        Dinergate.start()
         return true
     }
 

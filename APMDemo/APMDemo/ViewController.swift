@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         let a = UISwitch(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
         view.addSubview(a)
         
+//        let b = [1, 2]
+//        let c = b[3]
     }
     
     

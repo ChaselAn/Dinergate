@@ -26,6 +26,7 @@
 		FB3E28562531B305001BB202 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E28552531B305001BB202 /* DBManager.swift */; };
 		FB81F11F25342E030091E15E /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81F11E25342E030091E15E /* Tools.swift */; };
 		FB81F12425343A790091E15E /* MenuLogInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81F12325343A790091E15E /* MenuLogInfoViewController.swift */; };
+		FB81F129253451100091E15E /* MenuSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81F128253451100091E15E /* MenuSettingViewController.swift */; };
 		FB82053625303214009B4BF3 /* Dinergate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82052D25303214009B4BF3 /* Dinergate.framework */; };
 		FB82053D25303214009B4BF3 /* DinergateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82053C25303214009B4BF3 /* DinergateTests.swift */; };
 		FB82053F25303214009B4BF3 /* Dinergate.h in Headers */ = {isa = PBXBuildFile; fileRef = FB82052F25303214009B4BF3 /* Dinergate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -116,6 +117,7 @@
 		FB3E28552531B305001BB202 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		FB81F11E25342E030091E15E /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		FB81F12325343A790091E15E /* MenuLogInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLogInfoViewController.swift; sourceTree = "<group>"; };
+		FB81F128253451100091E15E /* MenuSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSettingViewController.swift; sourceTree = "<group>"; };
 		FB82052D25303214009B4BF3 /* Dinergate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dinergate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82052F25303214009B4BF3 /* Dinergate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dinergate.h; sourceTree = "<group>"; };
 		FB82053025303214009B4BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				FB394CC125319297007B50B1 /* MenuViewController.swift */,
 				FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */,
 				FB81F12325343A790091E15E /* MenuLogInfoViewController.swift */,
+				FB81F128253451100091E15E /* MenuSettingViewController.swift */,
 				FB3E28352531994D001BB202 /* NavigationView.swift */,
 				FB3E283025319376001BB202 /* AlertTransitionController.swift */,
 			);
@@ -616,6 +619,7 @@
 				FB82056625303EB3009B4BF3 /* FloatItemView.swift in Sources */,
 				FB82057025303EBB009B4BF3 /* FloatRootViewController.swift in Sources */,
 				FB394CC225319297007B50B1 /* MenuViewController.swift in Sources */,
+				FB81F129253451100091E15E /* MenuSettingViewController.swift in Sources */,
 				FB81F11F25342E030091E15E /* Tools.swift in Sources */,
 				FB82057A25303EC6009B4BF3 /* MonitorLog.swift in Sources */,
 				FB82057F253040D2009B4BF3 /* DragableWindow.swift in Sources */,

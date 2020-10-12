@@ -12,8 +12,12 @@ class FloatManager: NSObject {
         super.init()
     }
 
-    @discardableResult
-    func show(items: Dinergate.FloatItem) -> Bool {
+    func show(items: Dinergate.FloatItem) {
+        
+        guard !items.isEmpty else {
+            close()
+            return
+        }
 
         let floatWindow = FloatWindow(items: items, closeAction: { [weak self] in
             self?.close()
@@ -27,7 +31,6 @@ class FloatManager: NSObject {
         UIView.animate(withDuration: 0.25, delay: 0, options: .curveEaseOut, animations: { [weak self] in
             self?.floatWindow?.alpha = 1.0
         })
-        return true
     }
 
     func close() {

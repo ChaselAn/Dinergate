@@ -32,9 +32,9 @@ final class MenuLogViewController: MenuBaseViewController {
         
         switch type {
         case .crashLog:
-            datas = DBManager.shared.crashInfos()
+            datas = DBManager.shared.crashInfos().reversed()
         case .stuckLog:
-            datas = DBManager.shared.stuckInfos()
+            datas = DBManager.shared.stuckInfos().reversed()
         }
     }
 }
@@ -82,7 +82,6 @@ final class LogListTableViewCell: UITableViewCell {
         titleLabel.numberOfLines = 0
         titleLabel.textColor = .black
         titleLabel.lineBreakMode = .byTruncatingTail
-        titleLabel.font = UIFont.systemFont(ofSize: 12)
         
         descLabel.numberOfLines = 3
         descLabel.lineBreakMode = .byTruncatingTail
@@ -93,6 +92,10 @@ final class LogListTableViewCell: UITableViewCell {
         appInfoLabel.lineBreakMode = .byTruncatingTail
         appInfoLabel.font = UIFont.systemFont(ofSize: 11)
         appInfoLabel.textColor = .lightGray
+        
+        dateLabel.numberOfLines = 1
+        dateLabel.textColor = .lightGray
+        dateLabel.font = UIFont.systemFont(ofSize: 12)
         
         contentView.backgroundColor = UIColor.white
         
