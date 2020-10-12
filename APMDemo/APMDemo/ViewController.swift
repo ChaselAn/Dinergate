@@ -21,13 +21,6 @@ class ViewController: UIViewController {
 //        let b = [1, 2]
 //        let c = b[3]
     }
-    
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-        Dinergate.showMenu()
-    }
-
 
 }
 

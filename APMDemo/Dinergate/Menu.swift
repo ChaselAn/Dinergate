@@ -10,6 +10,7 @@ final class Menu {
     
     func show() {
         guard UIApplication.shared.applicationState == .active else { return }
+        guard window == nil else { return }
         
         let window = MenuWindow(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
         window.alpha = 0

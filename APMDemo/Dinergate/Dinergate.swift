@@ -113,3 +113,11 @@ enum MenuSettingItem: String, CaseIterable {
         }
     }
 }
+
+//public extension UIViewController {
+//    open override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+//        if motion == .motionShake {
+//            Dinergate.showMenu()
+//        }
+//    }
+//}
