@@ -42,6 +42,21 @@ public class Dinergate {
                 DBManager.shared.insertCrash(title: name, desc: "\(code)", callStack: callStack, date: Date(), appInfo: appInfo)
             }
         }
+        
+        StuckMonitor.shared.stuckHappening = { type in
+            let title: String
+            switch type {
+            case .single:
+                title = "单次卡顿超过250ms"
+            case .continuous:
+                title = "连续卡顿，每次卡顿超过50ms"
+            }
+            let callStack = Thread.callStackSymbols.filter({
+                !$0.contains("Dinergate")
+            }).joined(separator: "\n")
+            DBManager.shared.insertStuck(title: title, desc: nil, callStack: callStack, date: Date(), appInfo: appInfo)
+        }
+        
     }
 
     public static func stop() {
