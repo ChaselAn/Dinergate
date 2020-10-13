@@ -47,9 +47,10 @@ public class Dinergate {
             let title: String
             switch type {
             case .single:
-                title = "单次卡顿超过250ms"
+                title = "单次卡顿超过\(config.stuckThreshold.singleTimeout * 1000)ms"
             case .continuous:
-                title = "连续卡顿，每次卡顿超过50ms"
+                let timeout = config.stuckThreshold.continuousThreshold?.timeout ?? 0
+                title = "连续卡顿，每次卡顿超过\(timeout * 1000)ms"
             }
             let callStack = Thread.callStackSymbols.filter({
                 !$0.contains("Dinergate")
