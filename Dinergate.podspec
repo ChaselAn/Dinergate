@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
     s.swift_version = '5.0'
     s.dependency 'DinergateBrain', '0.1.3'
     s.dependency 'SQLite.swift', '~> 0.12'
+    s.dependency 'PLCrashReporter', '~> 1.7'
 end

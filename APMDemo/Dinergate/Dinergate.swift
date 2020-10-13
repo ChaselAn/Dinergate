@@ -1,5 +1,6 @@
 import Foundation
 import DinergateBrain
+import CrashReporter
 
 public class Dinergate {
     
@@ -36,9 +37,10 @@ public class Dinergate {
                 }).joined(separator: "\n")
                 DBManager.shared.insertCrash(title: exception.name.rawValue, desc: exception.reason, callStack: callStack, date: Date(), appInfo: appInfo)
             case .singal(let code, let name):
-                let callStack = Thread.callStackSymbols.filter({
-                    !$0.contains("Dinergate")
-                }).joined(separator: "\n")
+//                let callStack = Thread.callStackSymbols.filter({
+//                    !$0.contains("Dinergate")
+//                }).joined(separator: "\n")
+                guard let callStack = getCallStack() else { return }
                 DBManager.shared.insertCrash(title: name, desc: "\(code)", callStack: callStack, date: Date(), appInfo: appInfo)
             }
         }
@@ -52,9 +54,10 @@ public class Dinergate {
                 let timeout = config.stuckThreshold.continuousThreshold?.timeout ?? 0
                 title = "连续卡顿，每次卡顿超过\(timeout * 1000)ms"
             }
-            let callStack = Thread.callStackSymbols.filter({
-                !$0.contains("Dinergate")
-            }).joined(separator: "\n")
+//            let callStack = Thread.callStackSymbols.filter({
+//                !$0.contains("Dinergate")
+//            }).joined(separator: "\n")
+            guard let callStack = getCallStack() else { return }
             DBManager.shared.insertStuck(title: title, desc: nil, callStack: callStack, date: Date(), appInfo: appInfo)
         }
         
@@ -67,6 +70,13 @@ public class Dinergate {
     
     public static func showMenu() {
         Menu.shared.show()
+    }
+    
+    public static func getCallStack() -> String? {
+        guard let logData = PLCrashReporter(configuration: PLCrashReporterConfig(signalHandlerType: .BSD, symbolicationStrategy: .all))?.generateLiveReport() else { return nil }
+        guard let logReport = try? PLCrashReport(data: logData) else { return nil }
+        let logStr = PLCrashReportTextFormatter.stringValue(for: logReport, with: PLCrashReportTextFormatiOS)
+        return logStr
     }
 }
 

@@ -813,6 +813,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"DinergateBrain\"",
+					"-framework",
+					"\"SQLite\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChaselAn.APMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -833,6 +842,15 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"DinergateBrain\"",
+					"-framework",
+					"\"SQLite\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChaselAn.APMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
