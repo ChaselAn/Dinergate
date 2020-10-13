@@ -1,6 +1,6 @@
 {
   "name": "DinergateBrain",
-  "version": "0.0.1-pre",
+  "version": "0.1.0-pre",
   "summary": "APM",
   "homepage": "https://github.com/ChaselAn/DinergateBrain",
   "license": "MIT",
@@ -12,10 +12,10 @@
   },
   "source": {
     "git": "https://github.com/ChaselAn/DinergateBrain.git",
-    "tag": "0.0.1-pre"
+    "tag": "0.1.0-pre"
   },
   "source_files": "Demo/DinergateBrain/*.swift",
   "requires_arc": true,
-  "swift_versions": "5.0",
-  "swift_version": "5.0"
+  "swift_versions": "5.2",
+  "swift_version": "5.2"
 }

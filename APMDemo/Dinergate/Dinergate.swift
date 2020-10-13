@@ -10,7 +10,7 @@ public class Dinergate {
     public static var appInfo: String = _appInfo
 
     // default items = [.stuck, .crash]
-    public static func start(items: DinergateBrain.Items = .default) {
+    public static func start(items: DinergateBrain.Items = .default, config: DinergateBrain.Config = .default) {
         self.defaultItems = items
         var brainItems: DinergateBrain.Items = []
         if UserDefaults.standard.value(forKey: MenuSettingItem.stuck.rawValue) as? Bool ?? items.contains(.stuck) {
@@ -22,7 +22,7 @@ public class Dinergate {
         if UserDefaults.standard.value(forKey: MenuSettingItem.fps.rawValue) as? Bool ?? items.contains(.fps) {
             brainItems.insert(.fps)
         }
-        DinergateBrain.shared.start(items: brainItems)
+        DinergateBrain.shared.start(items: brainItems, config: config)
         if brainItems.contains(.fps) {
             FloatManager.shared.show(items: .fps)
         }

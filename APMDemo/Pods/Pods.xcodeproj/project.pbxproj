@@ -843,9 +843,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25C9B18A32184753148A3B089E153A48 /* Release */ = {
+		09A88C9B3F5112A07D9D040292AAAF15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F6ED64213663332643812BF8CA57BC /* DinergateBrain.release.xcconfig */;
+			baseConfigurationReference = 21451F47DC631D8E9366DD15EB319EE2 /* DinergateBrain.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -871,13 +871,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		30C82FDF6302342B1C326C3507543D30 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1022,41 +1021,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		664269CE636AC6D64D15407FB0773C50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21451F47DC631D8E9366DD15EB319EE2 /* DinergateBrain.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain/DinergateBrain-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DinergateBrain/DinergateBrain-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DinergateBrain/DinergateBrain.modulemap";
-				PRODUCT_MODULE_NAME = DinergateBrain;
-				PRODUCT_NAME = DinergateBrain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1260,6 +1224,42 @@
 			};
 			name = Release;
 		};
+		A9729389E9A122B77D7F1DB77F7582A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F6ED64213663332643812BF8CA57BC /* DinergateBrain.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain/DinergateBrain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DinergateBrain/DinergateBrain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DinergateBrain/DinergateBrain.modulemap";
+				PRODUCT_MODULE_NAME = DinergateBrain;
+				PRODUCT_NAME = DinergateBrain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BE4C14080FD3D4974F3626ADFF3F6152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5219718FB82142EAAFF66EDDB6BCA64A /* Pods-Dinergate.debug.xcconfig */;
@@ -1442,8 +1442,8 @@
 		811FB688DA49396D31B6521F69E16313 /* Build configuration list for PBXNativeTarget "DinergateBrain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				664269CE636AC6D64D15407FB0773C50 /* Debug */,
-				25C9B18A32184753148A3B089E153A48 /* Release */,
+				09A88C9B3F5112A07D9D040292AAAF15 /* Debug */,
+				A9729389E9A122B77D7F1DB77F7582A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

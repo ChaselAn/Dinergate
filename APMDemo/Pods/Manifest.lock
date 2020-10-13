@@ -1,5 +1,5 @@
 PODS:
-  - DinergateBrain (0.0.1-pre)
+  - DinergateBrain (0.1.0-pre)
   - SQLite.swift (0.12.2):
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
@@ -19,11 +19,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   DinergateBrain:
-    :commit: d0dbf2d99b9c2b50c160c48b6a079cffb97e159b
+    :commit: c4c6e817d95a6a9f60349d7cb5245d4f49e88a66
     :git: "git@github.com:ChaselAn/DinergateBrain.git"
 
 SPEC CHECKSUMS:
-  DinergateBrain: c1d21b49b198d63ffe30259c77dec4fecfcf32e1
+  DinergateBrain: f34a74599173014a87e64067b1b5c11aba6c6818
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
 PODFILE CHECKSUM: b9776b8d14f709e56e1cc73d0181df78f1aa01d8
