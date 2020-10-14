@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
     s.dependency 'DinergateBrain', '0.1.3'
     s.dependency 'SQLite.swift', '~> 0.12'
     s.dependency 'PLCrashReporter', '~> 1.7'
+    s.static_framework = true
 end
