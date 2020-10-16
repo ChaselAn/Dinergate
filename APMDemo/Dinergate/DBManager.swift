@@ -1,7 +1,11 @@
 import Foundation
 import SQLite
 
-struct LogDBInfo {
+protocol LogInfo {
+    var id: Int { get }
+    var date: Date { get }
+}
+struct LogDBInfo: LogInfo {
     let id: Int
     let title: String
     let desc: String?
@@ -9,6 +13,13 @@ struct LogDBInfo {
     let date: Date
     let appInfo: String?
 }
+
+struct TickLogInfo: LogInfo {
+    let id: Int
+    let title: String
+    let date: Date
+}
+
 final class DBManager {
     
     static let shared = DBManager()
@@ -18,6 +29,7 @@ final class DBManager {
 
     private let stuckTable = Table("stuckLogList")
     private let crashTable = Table("crashLogList")
+    private let logTable = Table("LogTable")
     
     let id = Expression<Int>("id")
     let title = Expression<String>("title")
@@ -52,6 +64,12 @@ final class DBManager {
             builder.column(appInfo)
         }))
         
+        _ = try? cacheDb.run(logTable.create(temporary: false, ifNotExists: true, block: { (builder) in
+            builder.column(id, primaryKey: .autoincrement)
+            builder.column(title)
+            builder.column(date)
+        }))
+        
         self.diskDb = diskDb
         self.cacheDb = cacheDb
     }
@@ -67,6 +85,13 @@ final class DBManager {
         guard let array = try? diskDb?.prepare(crashTable) else { return [] }
         return array.map({
             LogDBInfo(id: $0[id], title: $0[title], desc: $0[desc], callStack: $0[callStack], date: $0[date], appInfo: $0[appInfo])
+        })
+    }
+    
+    func tickLogs() -> [TickLogInfo] {
+        guard let array = try? cacheDb?.prepare(logTable) else { return [] }
+        return array.map({
+            TickLogInfo(id: $0[id], title: $0[title], date: $0[date])
         })
     }
     
@@ -88,6 +113,11 @@ final class DBManager {
     func insertCrash(title: String, desc: String?, callStack: String, date: Date, appInfo: String?) {
         let insert = crashTable.insert(self.title <- title, self.desc <- desc, self.callStack <- callStack, self.date <- date, self.appInfo <- appInfo)
         _ = try? diskDb?.run(insert)
+    }
+    
+    func insertTickLog(log: String, date: Date) {
+        let insert = logTable.insert(self.title <- log, self.date <- date)
+        _ = try? cacheDb?.run(insert)
     }
     
     func deleteAllStuck() {

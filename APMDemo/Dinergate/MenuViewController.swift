@@ -29,6 +29,7 @@ extension MenuViewController: UITableViewDataSource {
     enum Row: Int, CaseIterable {
         case stuckLog
         case crashLog
+        case tickLog
         
         var title: String {
             switch self {
@@ -36,6 +37,8 @@ extension MenuViewController: UITableViewDataSource {
                 return "卡顿日志"
             case .crashLog:
                 return "崩溃日志"
+            case .tickLog:
+                return "打点日志"
             }
         }
         
@@ -45,6 +48,8 @@ extension MenuViewController: UITableViewDataSource {
                 return "卡顿详情"
             case .crashLog:
                 return "崩溃详情"
+            case .tickLog:
+                return "日志详情"
             }
         }
     }

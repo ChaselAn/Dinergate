@@ -3,7 +3,7 @@ import UIKit
 final class MenuLogViewController: MenuBaseViewController {
     
     private let type: MenuViewController.Row
-    private var datas: [LogDBInfo] = [] {
+    private var datas: [LogInfo] = [] {
         didSet {
             tableView.reloadData()
         }
@@ -35,6 +35,8 @@ final class MenuLogViewController: MenuBaseViewController {
             datas = DBManager.shared.crashInfos().reversed()
         case .stuckLog:
             datas = DBManager.shared.stuckInfos().reversed()
+        case .tickLog:
+            datas = DBManager.shared.tickLogs().reversed()
         }
     }
 }
@@ -48,10 +50,15 @@ extension MenuLogViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: LogListTableViewCell.identifier, for: indexPath) as! LogListTableViewCell
         let info = datas[indexPath.row]
-        cell.titleLabel.text = info.title
-        cell.descLabel.text = info.desc
-        cell.dateLabel.text = info.date.string
-        cell.appInfoLabel.text = info.appInfo
+        if let info = info as? LogDBInfo {
+            cell.titleLabel.text = info.title
+            cell.descLabel.text = info.desc
+            cell.dateLabel.text = info.date.string
+            cell.appInfoLabel.text = info.appInfo
+        } else if let info = info as? TickLogInfo {
+            cell.titleLabel.text = info.title
+            cell.dateLabel.text = info.date.string
+        }
         return cell
     }
     
@@ -63,7 +70,9 @@ extension MenuLogViewController: UITableViewDelegate {
         defer {
             tableView.deselectRow(at: indexPath, animated: true)
         }
-        navigationController?.pushViewController(MenuLogInfoViewController(title: type.info, data: datas[indexPath.row]), animated: true)
+        if let data = datas[indexPath.row] as? LogDBInfo {
+            navigationController?.pushViewController(MenuLogInfoViewController(title: type.info, data: data), animated: true)
+        }
     }
 }
 

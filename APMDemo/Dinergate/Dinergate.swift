@@ -78,6 +78,10 @@ public class Dinergate {
         let logStr = PLCrashReportTextFormatter.stringValue(for: logReport, with: PLCrashReportTextFormatiOS)
         return logStr
     }
+    
+    public static func tickLog(_ log: String) {
+        DBManager.shared.insertTickLog(log: log, date: Date())
+    }
 }
 
 // MARK: - MonitorItem
