@@ -2,9 +2,9 @@ import UIKit
 
 class MenuLogInfoViewController: MenuBaseViewController {
 
-    private let data: LogDBInfo
+    private let data: CallStackLogInfo
     
-    init(title: String, data: LogDBInfo) {
+    init(title: String, data: CallStackLogInfo) {
         self.data = data
         super.init(nibName: nil, bundle: nil)
         

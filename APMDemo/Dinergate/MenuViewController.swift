@@ -41,17 +41,6 @@ extension MenuViewController: UITableViewDataSource {
                 return "打点日志"
             }
         }
-        
-        var info: String {
-            switch self {
-            case .stuckLog:
-                return "卡顿详情"
-            case .crashLog:
-                return "崩溃详情"
-            case .tickLog:
-                return "日志详情"
-            }
-        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -76,7 +65,23 @@ extension MenuViewController: UITableViewDelegate {
         defer {
             tableView.deselectRow(at: indexPath, animated: true)
         }
-        let vc = MenuLogViewController(title: row.title, type: row)
+        let vc: UIViewController
+        switch row {
+        case .crashLog:
+            vc = MenuCallStackLogViewController(title: row.title, datas: DBManager.shared.crashInfos().reversed())
+        case .stuckLog:
+            vc = MenuCallStackLogViewController(title: row.title, datas: DBManager.shared.stuckInfos().reversed())
+        case .tickLog:
+            let types = DBManager.shared.tickLogTypes()
+            if types.count == 1, types[0] == nil {
+                vc = MenuTickLogsViewController(title: Row.tickLog.title, datas: DBManager.shared.tickLogs(for: nil))
+            } else {
+                vc = MenuTickTypeViewController(types: types.map({
+                    return $0 ?? "未分类"
+                }))
+            }
+        }
+        
         navigationController?.pushViewController(vc, animated: true)
     }
 }

@@ -5,7 +5,7 @@ protocol LogInfo {
     var id: Int { get }
     var date: Date { get }
 }
-struct LogDBInfo: LogInfo {
+struct CallStackLogInfo: LogInfo {
     let id: Int
     let title: String
     let desc: String?
@@ -17,7 +17,9 @@ struct LogDBInfo: LogInfo {
 struct TickLogInfo: LogInfo {
     let id: Int
     let title: String
+    let desc: String?
     let date: Date
+    let type: String?
 }
 
 final class DBManager {
@@ -37,6 +39,7 @@ final class DBManager {
     let date = Expression<Date>("date")
     let callStack = Expression<String>("callStack")
     let appInfo = Expression<String?>("appInfo")
+    let type = Expression<String?>("type")
     
     func config() {
         guard let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first else { return }
@@ -67,31 +70,56 @@ final class DBManager {
         _ = try? cacheDb.run(logTable.create(temporary: false, ifNotExists: true, block: { (builder) in
             builder.column(id, primaryKey: .autoincrement)
             builder.column(title)
+            builder.column(desc)
             builder.column(date)
+            builder.column(type)
         }))
         
         self.diskDb = diskDb
         self.cacheDb = cacheDb
     }
     
-    func stuckInfos() -> [LogDBInfo] {
+    func stuckInfos() -> [CallStackLogInfo] {
         guard let array = try? cacheDb?.prepare(stuckTable) else { return [] }
         return array.map({
-            LogDBInfo(id: $0[id], title: $0[title], desc: $0[desc], callStack: $0[callStack], date: $0[date], appInfo: $0[appInfo])
+            CallStackLogInfo(id: $0[id], title: $0[title], desc: $0[desc], callStack: $0[callStack], date: $0[date], appInfo: $0[appInfo])
         })
     }
     
-    func crashInfos() -> [LogDBInfo] {
+    func crashInfos() -> [CallStackLogInfo] {
         guard let array = try? diskDb?.prepare(crashTable) else { return [] }
         return array.map({
-            LogDBInfo(id: $0[id], title: $0[title], desc: $0[desc], callStack: $0[callStack], date: $0[date], appInfo: $0[appInfo])
+            CallStackLogInfo(id: $0[id], title: $0[title], desc: $0[desc], callStack: $0[callStack], date: $0[date], appInfo: $0[appInfo])
+        })
+    }
+    
+    func tickLogTypes() -> [String?] {
+        guard let array = try? cacheDb?.prepare(logTable) else { return [] }
+        var set = Set<String?>()
+        var types: [String?] = []
+        array.forEach({
+            let temp = $0[type]
+            if !set.contains(temp) {
+                set.insert(temp)
+                types.append(temp)
+            }
+        })
+        return types
+    }
+    
+    func tickLogs(for type: String?) -> [TickLogInfo] {
+        guard let array = try? cacheDb?.prepare(logTable) else { return [] }
+        return array.filter({
+            $0[self.type] == type
+        }).map({
+            TickLogInfo(id: $0[id], title: $0[title], desc: $0[desc], date: $0[date], type: $0[self.type])
         })
     }
     
     func tickLogs() -> [TickLogInfo] {
         guard let array = try? cacheDb?.prepare(logTable) else { return [] }
         return array.map({
-            TickLogInfo(id: $0[id], title: $0[title], date: $0[date])
+            TickLogInfo(id: $0[id], title: $0[title], desc: $0[desc], date: $0[date], type: $0[type])
         })
     }
     
@@ -115,8 +143,8 @@ final class DBManager {
         _ = try? diskDb?.run(insert)
     }
     
-    func insertTickLog(log: String, date: Date) {
-        let insert = logTable.insert(self.title <- log, self.date <- date)
+    func insertTickLog(log: String, date: Date, desc: String?, type: String?) {
+        let insert = logTable.insert(self.title <- log, self.desc <- desc, self.date <- date, self.type <- type)
         _ = try? cacheDb?.run(insert)
     }
     

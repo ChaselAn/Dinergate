@@ -21,7 +21,7 @@
 		FB394CC225319297007B50B1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB394CC125319297007B50B1 /* MenuViewController.swift */; };
 		FB3E283125319376001BB202 /* AlertTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E283025319376001BB202 /* AlertTransitionController.swift */; };
 		FB3E28362531994D001BB202 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E28352531994D001BB202 /* NavigationView.swift */; };
-		FB3E284B2531AE9B001BB202 /* MenuLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */; };
+		FB3E284B2531AE9B001BB202 /* MenuCallStackLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E284A2531AE9B001BB202 /* MenuCallStackLogViewController.swift */; };
 		FB3E28502531AEFF001BB202 /* MenuBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */; };
 		FB3E28562531B305001BB202 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E28552531B305001BB202 /* DBManager.swift */; };
 		FB81F11F25342E030091E15E /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81F11E25342E030091E15E /* Tools.swift */; };
@@ -39,6 +39,8 @@
 		FB82057525303EC0009B4BF3 /* FloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82057425303EC0009B4BF3 /* FloatWindow.swift */; };
 		FB82057A25303EC6009B4BF3 /* MonitorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82057925303EC6009B4BF3 /* MonitorLog.swift */; };
 		FB82057F253040D2009B4BF3 /* DragableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82057E253040D2009B4BF3 /* DragableWindow.swift */; };
+		FBD25A4B255D2298001ADF09 /* MenuTickTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD25A4A255D2298001ADF09 /* MenuTickTypeViewController.swift */; };
+		FBD25A50255D238E001ADF09 /* MenuTickLogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD25A4F255D238E001ADF09 /* MenuTickLogsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +114,7 @@
 		FB394CC125319297007B50B1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FB3E283025319376001BB202 /* AlertTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTransitionController.swift; sourceTree = "<group>"; };
 		FB3E28352531994D001BB202 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
-		FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLogViewController.swift; sourceTree = "<group>"; };
+		FB3E284A2531AE9B001BB202 /* MenuCallStackLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCallStackLogViewController.swift; sourceTree = "<group>"; };
 		FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBaseViewController.swift; sourceTree = "<group>"; };
 		FB3E28552531B305001BB202 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		FB81F11E25342E030091E15E /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
@@ -131,6 +133,8 @@
 		FB82057425303EC0009B4BF3 /* FloatWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatWindow.swift; sourceTree = "<group>"; };
 		FB82057925303EC6009B4BF3 /* MonitorLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorLog.swift; sourceTree = "<group>"; };
 		FB82057E253040D2009B4BF3 /* DragableWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragableWindow.swift; sourceTree = "<group>"; };
+		FBD25A4A255D2298001ADF09 /* MenuTickTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTickTypeViewController.swift; sourceTree = "<group>"; };
+		FBD25A4F255D238E001ADF09 /* MenuTickLogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTickLogsViewController.swift; sourceTree = "<group>"; };
 		FF0ECEBE395EC09D33E546A0 /* Pods_Dinergate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dinergate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -250,8 +254,10 @@
 				FB394CB425318F79007B50B1 /* Menu.swift */,
 				FB3E284F2531AEFF001BB202 /* MenuBaseViewController.swift */,
 				FB394CC125319297007B50B1 /* MenuViewController.swift */,
-				FB3E284A2531AE9B001BB202 /* MenuLogViewController.swift */,
+				FB3E284A2531AE9B001BB202 /* MenuCallStackLogViewController.swift */,
 				FB81F12325343A790091E15E /* MenuLogInfoViewController.swift */,
+				FBD25A4A255D2298001ADF09 /* MenuTickTypeViewController.swift */,
+				FBD25A4F255D238E001ADF09 /* MenuTickLogsViewController.swift */,
 				FB81F128253451100091E15E /* MenuSettingViewController.swift */,
 				FB3E28352531994D001BB202 /* NavigationView.swift */,
 				FB3E283025319376001BB202 /* AlertTransitionController.swift */,
@@ -610,7 +616,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB3E284B2531AE9B001BB202 /* MenuLogViewController.swift in Sources */,
+				FBD25A4B255D2298001ADF09 /* MenuTickTypeViewController.swift in Sources */,
+				FB3E284B2531AE9B001BB202 /* MenuCallStackLogViewController.swift in Sources */,
 				FB394CB525318F79007B50B1 /* Menu.swift in Sources */,
 				FB3E283125319376001BB202 /* AlertTransitionController.swift in Sources */,
 				FB3E28362531994D001BB202 /* NavigationView.swift in Sources */,
@@ -620,6 +627,7 @@
 				FB82057025303EBB009B4BF3 /* FloatRootViewController.swift in Sources */,
 				FB394CC225319297007B50B1 /* MenuViewController.swift in Sources */,
 				FB81F129253451100091E15E /* MenuSettingViewController.swift in Sources */,
+				FBD25A50255D238E001ADF09 /* MenuTickLogsViewController.swift in Sources */,
 				FB81F11F25342E030091E15E /* Tools.swift in Sources */,
 				FB82057A25303EC6009B4BF3 /* MonitorLog.swift in Sources */,
 				FB82057F253040D2009B4BF3 /* DragableWindow.swift in Sources */,

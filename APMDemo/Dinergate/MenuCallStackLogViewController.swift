@@ -1,16 +1,13 @@
 import UIKit
 
-final class MenuLogViewController: MenuBaseViewController {
+final class MenuCallStackLogViewController: MenuBaseViewController {
     
-    private let type: MenuViewController.Row
-    private var datas: [LogInfo] = [] {
-        didSet {
-            tableView.reloadData()
-        }
-    }
+    private let datas: [LogInfo]
+    private let navTitle: String
     
-    init(title: String, type: MenuViewController.Row) {
-        self.type = type
+    init(title: String, datas: [LogInfo]) {
+        self.datas = datas
+        self.navTitle = title
         super.init(nibName: nil, bundle: nil)
         
         navView = NavigationView(title: title, leftButtonText: "返回", rightButtonText: nil, leftButtonAction: { [weak self] in
@@ -29,19 +26,10 @@ final class MenuLogViewController: MenuBaseViewController {
         tableView.delegate = self
         tableView.register(LogListTableViewCell.self, forCellReuseIdentifier: LogListTableViewCell.identifier)
         tableView.rowHeight = UITableView.automaticDimension
-        
-        switch type {
-        case .crashLog:
-            datas = DBManager.shared.crashInfos().reversed()
-        case .stuckLog:
-            datas = DBManager.shared.stuckInfos().reversed()
-        case .tickLog:
-            datas = DBManager.shared.tickLogs().reversed()
-        }
     }
 }
 
-extension MenuLogViewController: UITableViewDataSource {
+extension MenuCallStackLogViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return datas.count
@@ -50,7 +38,7 @@ extension MenuLogViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: LogListTableViewCell.identifier, for: indexPath) as! LogListTableViewCell
         let info = datas[indexPath.row]
-        if let info = info as? LogDBInfo {
+        if let info = info as? CallStackLogInfo {
             cell.titleLabel.text = info.title
             cell.descLabel.text = info.desc
             cell.dateLabel.text = info.date.string
@@ -64,14 +52,14 @@ extension MenuLogViewController: UITableViewDataSource {
     
 }
 
-extension MenuLogViewController: UITableViewDelegate {
+extension MenuCallStackLogViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         defer {
             tableView.deselectRow(at: indexPath, animated: true)
         }
-        if let data = datas[indexPath.row] as? LogDBInfo {
-            navigationController?.pushViewController(MenuLogInfoViewController(title: type.info, data: data), animated: true)
+        if let data = datas[indexPath.row] as? CallStackLogInfo {
+            navigationController?.pushViewController(MenuLogInfoViewController(title: navTitle, data: data), animated: true)
         }
     }
 }

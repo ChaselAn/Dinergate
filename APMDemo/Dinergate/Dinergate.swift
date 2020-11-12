@@ -79,8 +79,8 @@ public class Dinergate {
         return logStr
     }
     
-    public static func tickLog(_ log: String) {
-        DBManager.shared.insertTickLog(log: log, date: Date())
+    public static func tickLog(_ log: String, desc: String?, type: String?) {
+        DBManager.shared.insertTickLog(log: log, date: Date(), desc: desc, type: type)
     }
 }
 
