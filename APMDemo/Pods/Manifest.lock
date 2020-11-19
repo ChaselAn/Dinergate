@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   DinergateBrain:
-    :commit: c4c6e817d95a6a9f60349d7cb5245d4f49e88a66
+    :commit: 0b5febf9abf8daf6e1f1fcff44675ea6dd71accd
     :git: "git@github.com:ChaselAn/DinergateBrain.git"
 
 SPEC CHECKSUMS:
