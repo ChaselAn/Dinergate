@@ -19,121 +19,114 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		01AD6388A26AE692B6CBD5E43B5A2AA2 /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B275914C4E1FCA1104C7978E222309C /* FPSMonitor.swift */; };
-		03163C36A9DBBD41F737F1C70A30B6BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8551E29AA2DA065F82F96C4DD18B8F9A /* FTS4.swift */; };
+		01AD6388A26AE692B6CBD5E43B5A2AA2 /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B68C8D77E64715AA570528E97E448 /* FPSMonitor.swift */; };
+		03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67815F388321555CFEA1174154033867 /* FTS4.swift */; };
+		08827B158DFFD4D76C817F6268F92575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0927B3B61BCC4893BAE8FE22CA6D415E /* Pods-APMDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8F8D915BE627251063E7DA4E7CD42C /* Pods-APMDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23D32A8735A66E5C078AC7E5958786 /* Expression.swift */; };
-		16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D636115155B8DC8E1FC98A33CEB06 /* Connection.swift */; };
-		185C3AA2B611A7AD10371DB65111C786 /* Pods-Dinergate-DinergateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FDCE787DB8DA8DEEE77243E9495A7 /* Pods-Dinergate-DinergateTests-dummy.m */; };
-		18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 221F65612AEC9F94C391DC85E86B1419 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D6F2BEEAD0B048DE1BCDFB6AECB16E /* Coding.swift */; };
-		19A2AD8B0C49BA0F9047FEC3776B38F1 /* BaseMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F474476276C0D6FBF40DDA5860DD7 /* BaseMonitor.swift */; };
-		1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3F315D4EA4346E010D6D458B74C6B4 /* CoreFunctions.swift */; };
-		222160F1CD1B65DF234BFD19111568B9 /* MonitorWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D03FEFE7CD3D05C40BF54BC96A7528B /* MonitorWeakTarget.swift */; };
-		2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276A2719EB365160072368A090EFE0C4 /* Blob.swift */; };
-		31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA39810FE984110C9F14B5201BB18 /* Statement.swift */; };
-		31CC4F5B286FF83457F45ECBFE553E0A /* Pods-APMDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AC4F26D784A4F9B8F4D9E3457B682D /* Pods-APMDemo-dummy.m */; };
-		348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B119A74F93F73DDE6AA127718BD1A2 /* Foundation.swift */; };
-		444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B4AAEC2C61BBD376B44D334F05247 /* Query.swift */; };
-		4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D7C941F4F21465D3AA5C95671558BC /* SQLiteObjc.m */; };
-		4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02947277E7D63C6CF369636592CF7B99 /* RTree.swift */; };
-		5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085CAFEFFB9B6EABC5D25ECC6FC1951 /* Operators.swift */; };
-		5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB33AF53C37DA7EDB7FA3BB5FB02DB2 /* Value.swift */; };
-		5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2895E505F1D9889040CA5C902BF85F1 /* Errors.swift */; };
-		5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B7CBC1DD4D478B7F115BF469BC0798 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		66D2602893F173674FEB62B101D2A34B /* DinergateBrain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F1432BFB9C1E7718EDF14795B2D9D5 /* DinergateBrain-dummy.m */; };
-		67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E30DB9A207443AC593FD7568F15377 /* SQLite.swift-dummy.m */; };
-		6846B802981A4C56A384396F4347BBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		71228798B25C9C4D6211C2F341E6906D /* CrashMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F86E044D46034D0F7D66CC97927A0 /* CrashMonitor.swift */; };
-		7166FEE0188303D07F0281432ADD82DE /* DinergateBrain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 064B69EF9BE373B44CAC885F6C30AF94 /* DinergateBrain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA210727B20D70D9E7698C87BB5BB77D /* Helpers.swift */; };
-		83765A6AEF15E0A5083844460C96BCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		11DA6085ED2E2578CB4D8B45316BE2DE /* Pods-Dinergate-DinergateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21919477FBA3F8AF9BC6D16F3FD0A56C /* Pods-Dinergate-DinergateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3378500F79A4586CF55EBFAB0C892B9 /* Expression.swift */; };
+		16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAF01DE8B7CDA42913D624468980AB /* Connection.swift */; };
+		18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C1A9CBED31254D32E1E009C546B913 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E91C416662B9E0AA6C34731311F41C /* Coding.swift */; };
+		19A2AD8B0C49BA0F9047FEC3776B38F1 /* BaseMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6759A54986ED71DE74D2AF263F198E8A /* BaseMonitor.swift */; };
+		1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A872DF898863E333A45AE573CB711CF /* CoreFunctions.swift */; };
+		222160F1CD1B65DF234BFD19111568B9 /* MonitorWeakTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963433BC4ACC948DA747F8D998B57423 /* MonitorWeakTarget.swift */; };
+		2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42027470FB1E4D54A4B44A6C8B46620 /* Blob.swift */; };
+		31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175C04553B5A8A4BF5DB3854C2C74DE /* Statement.swift */; };
+		348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12E34F676CDE7DBEB4C15D380F0642 /* Foundation.swift */; };
+		444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED471387AF76B7A64F2DC7CCA71401 /* Query.swift */; };
+		4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB0789F3C457EDE5E421B599484C6B /* SQLiteObjc.m */; };
+		4CFFB6C355878349A585E369CF706940 /* Pods-Dinergate-DinergateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FDCE787DB8DA8DEEE77243E9495A7 /* Pods-Dinergate-DinergateTests-dummy.m */; };
+		4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E6A82F1127ED855AFBB9C543526B /* RTree.swift */; };
+		5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC0FE2902F93E992C2E0BAC22411E7 /* Operators.swift */; };
+		5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3FADB1449D4B46DD7ABB94568E1AEF /* Value.swift */; };
+		5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108926EEC287E7F0F12D697C252FF46 /* Errors.swift */; };
+		5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EAAF730FF6165331C0CA1DCB0AB6D0 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		66D2602893F173674FEB62B101D2A34B /* DinergateBrain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 292C42FFC04547F1FC2DA406434591D8 /* DinergateBrain-dummy.m */; };
+		67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CA882F9CC8DA56154F2623B9EC4F0B /* SQLite.swift-dummy.m */; };
+		71228798B25C9C4D6211C2F341E6906D /* CrashMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3F1B9629A2647E31AA899982A3643 /* CrashMonitor.swift */; };
+		7166FEE0188303D07F0281432ADD82DE /* DinergateBrain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D35DF9DFCAD75B36DBE515DCF62027 /* DinergateBrain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E75B8C22A73F4A9D6A0110A16140A72 /* Helpers.swift */; };
 		84A26C1416FA975D0189D06B751348DD /* Pods-APMDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CDF3917F753A5D930298D797C6A25 /* Pods-APMDemoTests-dummy.m */; };
-		88ABFEAABC6F6A0F104193F15B719380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A9329A3F27F20B8F0C94A9106F7BF /* AggregateFunctions.swift */; };
-		A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371391849E6F2F24412D51BDC21491F /* FTS5.swift */; };
-		A54EBC0444D3E0A3F581F274AEBFEC91 /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFC1EAE9656C93D7D1231515F86E2 /* CPUMonitor.swift */; };
-		A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633BF4C162C7108F7D57949DAFCDCD4 /* DateAndTimeFunctions.swift */; };
-		B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFB21C673AEEED427AA219985AF7774 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3B6EFC190134C71AD45661602CFFF /* CustomFunctions.swift */; };
-		C6CD6AFF78A9E00200D42B96AEB80BE5 /* Pods-Dinergate-DinergateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21919477FBA3F8AF9BC6D16F3FD0A56C /* Pods-Dinergate-DinergateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB8391C173A75D8CB7F182734C0B34C0 /* StuckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955DDCAF0222C11E535E108507E1F46 /* StuckMonitor.swift */; };
-		D55FD355BEEB9101BF05965ECFDFE2F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B7AAFB0C467A4F014C0AB3DDB10CE /* Setter.swift */; };
-		DD44A17C7665842E6AE218DC4B0572A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E10A6C60C95D302532001BEE472B5333 /* Pods-Dinergate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF791163918D1947D245B26281CD706 /* Pods-Dinergate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED8DF788CE96027818FF433EA238B1C6 /* Pods-Dinergate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FFA4C33C3EBDB55E766C00FD9498AA /* Pods-Dinergate-dummy.m */; };
-		EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B52E6AE2F9340D171F24109DDDBF0B /* Collation.swift */; };
-		EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A42DE866BC718326F4CC6D194BBE86 /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0D820FF7CF524FB6062A13FC71B40 /* Schema.swift */; };
-		F6F1DA939DDF4C06D7589C62CF38DA43 /* Pods-APMDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A2F1552D9665FABE723CFF735EFF9B /* Pods-APMDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F82FE23CBFFBDFAEB74A6209D67B673F /* DinergateBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F59DC94B5F1F5F5EEA28231A3AD3A89 /* DinergateBrain.swift */; };
+		8C446E68BEDD6C885DBA5C915D460607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8C6BBE622771EB3AAD6B360ED555E329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8E90A9CA06FC4AB930DB2927DCCB3FCA /* Pods-Dinergate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FFA4C33C3EBDB55E766C00FD9498AA /* Pods-Dinergate-dummy.m */; };
+		9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C7EABE836C4931C1A8FFCD0670426A /* AggregateFunctions.swift */; };
+		A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617919FEE93924FAE427C136D6D40B6A /* FTS5.swift */; };
+		A54EBC0444D3E0A3F581F274AEBFEC91 /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FF746FE22CC9382F931892A0FB9D8 /* CPUMonitor.swift */; };
+		A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0ED9A197CA1729C84125E391C808D /* DateAndTimeFunctions.swift */; };
+		B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9B26C97035022BE63AA01B993BB474 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C29299A8C2129B54A96A484498C1C82C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C2DB2CD5F4AEC4DD253EC144040AC4CF /* Pods-APMDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AC4F26D784A4F9B8F4D9E3457B682D /* Pods-APMDemo-dummy.m */; };
+		C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E433E490A858C770027976C8412836 /* CustomFunctions.swift */; };
+		CB8391C173A75D8CB7F182734C0B34C0 /* StuckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BA537F92A19AAA0ADDD93A2E59638 /* StuckMonitor.swift */; };
+		CE45572928FE6E4F2444FB7BEBB48ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A181D4B82D95C1ABF8C17DA1297A148 /* Setter.swift */; };
+		E31D44D7B9CCF693BBD6532D8426B1F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EBAF25DD5A6BFAC58F8A90C2D12E9D35 /* Pods-APMDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A2F1552D9665FABE723CFF735EFF9B /* Pods-APMDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198BF1AF8792C94A708AD157E46DDB54 /* Collation.swift */; };
+		EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB36F921FC329EC7AF15078E8E8EA61 /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1661CD7FAF7798947B7F204517BA7BA /* Pods-Dinergate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF791163918D1947D245B26281CD706 /* Pods-Dinergate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A760AC92A8C8A54F622A8C628776AC /* Schema.swift */; };
+		F82FE23CBFFBDFAEB74A6209D67B673F /* DinergateBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB5420AE84CA5684302E442C2BE7BB /* DinergateBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E6DE21F1A93F35B089F6888243CB165 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9130BF024DF638C0C1EB55329241F3C0;
-			remoteInfo = DinergateBrain;
-		};
-		27184E8D0A08A761594F852F48268884 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9130BF024DF638C0C1EB55329241F3C0;
-			remoteInfo = DinergateBrain;
-		};
-		3925A7B2DC356496991D719E92F56ED1 /* PBXContainerItemProxy */ = {
+		0F379DEE271651E487EA4765AED9B5E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
 			remoteInfo = SQLite.swift;
 		};
-		5B01F3969B2F6771D816D7BA8C5ECCAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
-			remoteInfo = SQLite.swift;
-		};
-		95100BC8DFAA2FEA7EEC8D85F43F0101 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D53C58097CCE41070956936598B94B4;
-			remoteInfo = PLCrashReporter;
-		};
-		AE23F46AF15D5A0E6B8F9D303D0AAB66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D53C58097CCE41070956936598B94B4;
-			remoteInfo = PLCrashReporter;
-		};
-		B119EBF9FCC55917ECB0DAC01BFCD536 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
-			remoteInfo = SQLite.swift;
-		};
-		DE56DD323E5917EB2F3F53315CC261EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D53C58097CCE41070956936598B94B4;
-			remoteInfo = PLCrashReporter;
-		};
-		E2988FDFD0CC7DFF3F204F39A80160D1 /* PBXContainerItemProxy */ = {
+		317BC45E68B9AB38EA6295AB3E5E5D48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9130BF024DF638C0C1EB55329241F3C0;
 			remoteInfo = DinergateBrain;
+		};
+		3F8E95B9B9A723F76FF1ED7D4A7ED9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9130BF024DF638C0C1EB55329241F3C0;
+			remoteInfo = DinergateBrain;
+		};
+		47D85B9711F74F48F6536820E9BA26A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D53C58097CCE41070956936598B94B4;
+			remoteInfo = PLCrashReporter;
+		};
+		58DDE12F24EAE57CEA8DFA9BA4ED35DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9130BF024DF638C0C1EB55329241F3C0;
+			remoteInfo = DinergateBrain;
+		};
+		5BAB31FB176171D50C9A8F7D5219C956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D53C58097CCE41070956936598B94B4;
+			remoteInfo = PLCrashReporter;
+		};
+		6BA8A9109247FC6ED4881B410BF7A402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		D6356F883719A9DC19E81036EEB34CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
 		};
 		EB78CB25F03850B36F6352F1DFD7BBC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -142,100 +135,107 @@
 			remoteGlobalIDString = 0382FCC0EEF1C17893E8805AF0A47D4B;
 			remoteInfo = "Pods-APMDemo";
 		};
+		EC661C366E6EB20CA13DD7B88D71BBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D53C58097CCE41070956936598B94B4;
+			remoteInfo = PLCrashReporter;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02947277E7D63C6CF369636592CF7B99 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
-		02B119A74F93F73DDE6AA127718BD1A2 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
-		050FFC1EAE9656C93D7D1231515F86E2 /* CPUMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPUMonitor.swift; path = Demo/DinergateBrain/CPUMonitor.swift; sourceTree = "<group>"; };
-		064B69EF9BE373B44CAC885F6C30AF94 /* DinergateBrain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinergateBrain-umbrella.h"; sourceTree = "<group>"; };
-		1085CAFEFFB9B6EABC5D25ECC6FC1951 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
-		10D6F2BEEAD0B048DE1BCDFB6AECB16E /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
-		11E0D820FF7CF524FB6062A13FC71B40 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
 		12D4E19F1BD0527C5D7C996C9377AAFE /* Pods-Dinergate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dinergate.modulemap"; sourceTree = "<group>"; };
-		1B275914C4E1FCA1104C7978E222309C /* FPSMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSMonitor.swift; path = Demo/DinergateBrain/FPSMonitor.swift; sourceTree = "<group>"; };
+		198BF1AF8792C94A708AD157E46DDB54 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		1B54F88861679CCCB007B03704264B19 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		1CEAF01DE8B7CDA42913D624468980AB /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
 		21919477FBA3F8AF9BC6D16F3FD0A56C /* Pods-Dinergate-DinergateTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dinergate-DinergateTests-umbrella.h"; sourceTree = "<group>"; };
-		221F65612AEC9F94C391DC85E86B1419 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
-		247CE90C44826C84C945E8806A8A5C41 /* PLCrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLCrashReporter.debug.xcconfig; sourceTree = "<group>"; };
-		25E54EC0B427B231FD5152045641F2D7 /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
-		276A2719EB365160072368A090EFE0C4 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		28C1A9CBED31254D32E1E009C546B913 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		292C42FFC04547F1FC2DA406434591D8 /* DinergateBrain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DinergateBrain-dummy.m"; sourceTree = "<group>"; };
+		29E433E490A858C770027976C8412836 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
 		2C8F8D915BE627251063E7DA4E7CD42C /* Pods-APMDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APMDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		2DFB21C673AEEED427AA219985AF7774 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
-		308781ECCE8B3957740429B637C9BFEF /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
-		310C2C4F381EF44C1EB2ABF6FDEA9E37 /* DinergateBrain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DinergateBrain-Info.plist"; sourceTree = "<group>"; };
 		318FB7C621794E5BC33423A39527426E /* Pods-Dinergate-DinergateTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dinergate-DinergateTests-Info.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3756E62200335DD28A7DCBE913B52AA0 /* Pods-APMDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APMDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		384E42EDBBE9EBFF5EFF4CFD15496CB6 /* Pods-APMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		38BEADD5A2DB3612250A4B53040BD61F /* DinergateBrain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DinergateBrain.release.xcconfig; sourceTree = "<group>"; };
-		40B52E6AE2F9340D171F24109DDDBF0B /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
-		4AB27FBADED8E8282C1FBB6BF049448C /* DinergateBrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DinergateBrain.debug.xcconfig; sourceTree = "<group>"; };
+		39E8194925EE436F803F863B008939A2 /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
+		41EAAF730FF6165331C0CA1DCB0AB6D0 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
 		4B4F439830E4516D3DC1BA7FF816B56D /* Pods_APMDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APMDemoTests.framework; path = "Pods-APMDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D12E34F676CDE7DBEB4C15D380F0642 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		4D88700659BB590B2C0F21E19C7215C4 /* DinergateBrain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DinergateBrain.release.xcconfig; sourceTree = "<group>"; };
 		4D9260FBD2D2813541A135426789CC92 /* Pods_Dinergate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dinergate.framework; path = "Pods-Dinergate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E75B8C22A73F4A9D6A0110A16140A72 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
 		4E9C0F8684257C80EB78BCA5422F958B /* Pods-Dinergate-DinergateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dinergate-DinergateTests.release.xcconfig"; sourceTree = "<group>"; };
+		5175C04553B5A8A4BF5DB3854C2C74DE /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
 		5219718FB82142EAAFF66EDDB6BCA64A /* Pods-Dinergate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dinergate.debug.xcconfig"; sourceTree = "<group>"; };
 		544AE8C5EFF39EC493AEA907DEA9DCC2 /* Pods-Dinergate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dinergate-acknowledgements.markdown"; sourceTree = "<group>"; };
 		554CDF3917F753A5D930298D797C6A25 /* Pods-APMDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APMDemoTests-dummy.m"; sourceTree = "<group>"; };
+		59AB5420AE84CA5684302E442C2BE7BB /* DinergateBrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DinergateBrain.swift; path = Demo/DinergateBrain/DinergateBrain.swift; sourceTree = "<group>"; };
+		5CCB8B40D6F30123D980321945EC2866 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = "iOS Framework/CrashReporter.framework"; sourceTree = "<group>"; };
 		5EBAC688C84DD674E9371565C99EA432 /* Pods-APMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		602BA537F92A19AAA0ADDD93A2E59638 /* StuckMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StuckMonitor.swift; path = Demo/DinergateBrain/StuckMonitor.swift; sourceTree = "<group>"; };
+		617919FEE93924FAE427C136D6D40B6A /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		6759A54986ED71DE74D2AF263F198E8A /* BaseMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseMonitor.swift; path = Demo/DinergateBrain/BaseMonitor.swift; sourceTree = "<group>"; };
+		67815F388321555CFEA1174154033867 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
 		67AC4F26D784A4F9B8F4D9E3457B682D /* Pods-APMDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APMDemo-dummy.m"; sourceTree = "<group>"; };
 		68C1D3F4D5CEF9D2045E09B31851649E /* Pods-APMDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APMDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69FFA4C33C3EBDB55E766C00FD9498AA /* Pods-Dinergate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dinergate-dummy.m"; sourceTree = "<group>"; };
-		72A42DE866BC718326F4CC6D194BBE86 /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		6AB36F921FC329EC7AF15078E8E8EA61 /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74E3F1B9629A2647E31AA899982A3643 /* CrashMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashMonitor.swift; path = Demo/DinergateBrain/CrashMonitor.swift; sourceTree = "<group>"; };
 		7829531B2A9F3E35F3868C89CB27E360 /* Pods-Dinergate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dinergate-Info.plist"; sourceTree = "<group>"; };
-		793EEFE4C6C9C0A4C27C9376FA64C1CB /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
-		7D03FEFE7CD3D05C40BF54BC96A7528B /* MonitorWeakTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonitorWeakTarget.swift; path = Demo/DinergateBrain/MonitorWeakTarget.swift; sourceTree = "<group>"; };
-		81958EB96ED14396C03AE7AF5F384B8A /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
-		831B7AAFB0C467A4F014C0AB3DDB10CE /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		7A181D4B82D95C1ABF8C17DA1297A148 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		7ADAB22CD264441412758CECEFF9DD76 /* PLCrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLCrashReporter.debug.xcconfig; sourceTree = "<group>"; };
+		7C50DFAE786F72A5A356E05CA0F16B29 /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
+		7ED2E696A2BC32E19F06532ABB9B8661 /* DinergateBrain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DinergateBrain.modulemap; sourceTree = "<group>"; };
 		84347E79291ABA3DABBF8A48FC80A080 /* Pods-APMDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APMDemo-frameworks.sh"; sourceTree = "<group>"; };
 		84E0ED4DD7E9FB8C60B40007B24E6890 /* Pods-Dinergate-DinergateTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dinergate-DinergateTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		850A9329A3F27F20B8F0C94A9106F7BF /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
-		8551E29AA2DA065F82F96C4DD18B8F9A /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
 		8629FC8337D0FC184DF9EECE46057FFA /* Pods-Dinergate-DinergateTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dinergate-DinergateTests-frameworks.sh"; sourceTree = "<group>"; };
 		86B47080FAD2ECEB92DFC98A31198D8C /* Pods-APMDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APMDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C51DB1ED9DEED9C0B9421B16E46340D /* Pods-Dinergate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dinergate-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CB33AF53C37DA7EDB7FA3BB5FB02DB2 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
-		8D23D32A8735A66E5C078AC7E5958786 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
-		8F59DC94B5F1F5F5EEA28231A3AD3A89 /* DinergateBrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DinergateBrain.swift; path = Demo/DinergateBrain/DinergateBrain.swift; sourceTree = "<group>"; };
+		8DF0AB815B028DAA37562CCE31149891 /* PLCrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLCrashReporter.release.xcconfig; sourceTree = "<group>"; };
 		9120411A9C25E2B23646F856F74B71CB /* Pods-Dinergate-DinergateTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dinergate-DinergateTests.modulemap"; sourceTree = "<group>"; };
-		918640E3EFA6B586CC1DE11BDDEBDA90 /* DinergateBrain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DinergateBrain.modulemap; sourceTree = "<group>"; };
-		91E30DB9A207443AC593FD7568F15377 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		92B90BE827726B78A8C145B55AC1F787 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
 		961A6808DFF9F35D5AABEC3B46B5DAE5 /* Pods-APMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APMDemo.release.xcconfig"; sourceTree = "<group>"; };
-		96D7C941F4F21465D3AA5C95671558BC /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
-		9955DDCAF0222C11E535E108507E1F46 /* StuckMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StuckMonitor.swift; path = Demo/DinergateBrain/StuckMonitor.swift; sourceTree = "<group>"; };
+		963433BC4ACC948DA747F8D998B57423 /* MonitorWeakTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonitorWeakTarget.swift; path = Demo/DinergateBrain/MonitorWeakTarget.swift; sourceTree = "<group>"; };
+		9A872DF898863E333A45AE573CB711CF /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
 		9B6A50100DBB60BAEF34B20772BD5EB1 /* Pods-APMDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APMDemo.modulemap"; sourceTree = "<group>"; };
-		9C4B4AAEC2C61BBD376B44D334F05247 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EEB0789F3C457EDE5E421B599484C6B /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
 		A29F724D67B46045BF18A2A520CA0728 /* Pods-APMDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APMDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A3A760AC92A8C8A54F622A8C628776AC /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
 		A3CAA394EE2A3AE996F6C1E542420BC3 /* Pods-APMDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APMDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A46B148E1F3EE51191704B651ACCE550 /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
-		A48F34DB2A60E614EBB525FD69304E87 /* DinergateBrain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinergateBrain-prefix.pch"; sourceTree = "<group>"; };
-		A90D636115155B8DC8E1FC98A33CEB06 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
-		AAA3B6EFC190134C71AD45661602CFFF /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		ABED471387AF76B7A64F2DC7CCA71401 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
 		AEB137C5837F630E8F29A7559A7B069C /* Pods-APMDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APMDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B486EAA1518AC9B2C17DE5F35A739CBF /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
 		BAF791163918D1947D245B26281CD706 /* Pods-Dinergate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dinergate-umbrella.h"; sourceTree = "<group>"; };
-		C2895E505F1D9889040CA5C902BF85F1 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		BD9B26C97035022BE63AA01B993BB474 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		BFBC0FE2902F93E992C2E0BAC22411E7 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
 		C449B2C21372C468F9B5AF0162666D22 /* DinergateBrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DinergateBrain.framework; path = DinergateBrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D35DF9DFCAD75B36DBE515DCF62027 /* DinergateBrain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinergateBrain-umbrella.h"; sourceTree = "<group>"; };
+		C4F5E6A82F1127ED855AFBB9C543526B /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
 		C509CBD3CD962B923C1242ED86B4C1D4 /* Pods-Dinergate-DinergateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dinergate-DinergateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5B73EFAFA7662D9760E346B867E0EF1 /* DinergateBrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DinergateBrain.debug.xcconfig; sourceTree = "<group>"; };
+		C85D02F101463DC8D7DCA8E72981052C /* DinergateBrain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DinergateBrain-prefix.pch"; sourceTree = "<group>"; };
 		C8FF999A327A7C37DB0A06A51A3D8810 /* Pods-Dinergate-DinergateTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dinergate-DinergateTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C92C4E068B1BCB330B0BEDC98A6D081A /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = "iOS Framework/CrashReporter.framework"; sourceTree = "<group>"; };
 		C942F3844446209A290D99724C6365D9 /* Pods-Dinergate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dinergate.release.xcconfig"; sourceTree = "<group>"; };
-		D1B7CBC1DD4D478B7F115BF469BC0798 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		D07B68C8D77E64715AA570528E97E448 /* FPSMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSMonitor.swift; path = Demo/DinergateBrain/FPSMonitor.swift; sourceTree = "<group>"; };
 		D29635D67A6EAF94398B15DA3EA7F90A /* Pods_Dinergate_DinergateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dinergate_DinergateTests.framework; path = "Pods-Dinergate-DinergateTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D371391849E6F2F24412D51BDC21491F /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		D3378500F79A4586CF55EBFAB0C892B9 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
 		D3A2F1552D9665FABE723CFF735EFF9B /* Pods-APMDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APMDemo-umbrella.h"; sourceTree = "<group>"; };
-		D633BF4C162C7108F7D57949DAFCDCD4 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
-		DA210727B20D70D9E7698C87BB5BB77D /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
-		DB8F86E044D46034D0F7D66CC97927A0 /* CrashMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashMonitor.swift; path = Demo/DinergateBrain/CrashMonitor.swift; sourceTree = "<group>"; };
-		E4F6B0C352512263D5F8CE2621D205A2 /* PLCrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLCrashReporter.release.xcconfig; sourceTree = "<group>"; };
+		D3F0ED9A197CA1729C84125E391C808D /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		DA3FADB1449D4B46DD7ABB94568E1AEF /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		E108926EEC287E7F0F12D697C252FF46 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
 		E7077240B320B5570C2AA74332F79CE2 /* Pods_APMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APMDemo.framework; path = "Pods-APMDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7F1432BFB9C1E7718EDF14795B2D9D5 /* DinergateBrain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DinergateBrain-dummy.m"; sourceTree = "<group>"; };
-		EA3F315D4EA4346E010D6D458B74C6B4 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
 		EC3F77757144075E71F60E8EA157A8CD /* Pods-APMDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APMDemo-Info.plist"; sourceTree = "<group>"; };
+		ED13BE8B4826BA758B1FC61141D7C623 /* DinergateBrain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DinergateBrain-Info.plist"; sourceTree = "<group>"; };
 		ED4516208EDF25CFB0F5F7978651C91B /* Pods-APMDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APMDemoTests.modulemap"; sourceTree = "<group>"; };
-		F18F474476276C0D6FBF40DDA5860DD7 /* BaseMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseMonitor.swift; path = Demo/DinergateBrain/BaseMonitor.swift; sourceTree = "<group>"; };
-		F55CA39810FE984110C9F14B5201BB18 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		F0C7EABE836C4931C1A8FFCD0670426A /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		F42027470FB1E4D54A4B44A6C8B46620 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
 		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62FF746FE22CC9382F931892A0FB9D8 /* CPUMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPUMonitor.swift; path = Demo/DinergateBrain/CPUMonitor.swift; sourceTree = "<group>"; };
 		F63FDCE787DB8DA8DEEE77243E9495A7 /* Pods-Dinergate-DinergateTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dinergate-DinergateTests-dummy.m"; sourceTree = "<group>"; };
+		F9CA882F9CC8DA56154F2623B9EC4F0B /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		F9E91C416662B9E0AA6C34731311F41C /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,7 +243,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03163C36A9DBBD41F737F1C70A30B6BE /* Foundation.framework in Frameworks */,
+				08827B158DFFD4D76C817F6268F92575 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E5F22E18470CFC0684B36E420123AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C446E68BEDD6C885DBA5C915D460607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39949B72FFACD41492B3FB240EFF4557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31D44D7B9CCF693BBD6532D8426B1F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798F8ABE8AB30769BD7F9396522DF385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29299A8C2129B54A96A484498C1C82C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +275,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD44A17C7665842E6AE218DC4B0572A5 /* Foundation.framework in Frameworks */,
+				8C6BBE622771EB3AAD6B360ED555E329 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,37 +283,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6846B802981A4C56A384396F4347BBA9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF1B3924365631304421D277EEB70740 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D55FD355BEEB9101BF05965ECFDFE2F3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F409F57B4D6F58D9D78D7F92B1A4BB5A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83765A6AEF15E0A5083844460C96BCB2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FED842A0FEBB90A41C56429DD44FE848 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88ABFEAABC6F6A0F104193F15B719380 /* Foundation.framework in Frameworks */,
+				CE45572928FE6E4F2444FB7BEBB48ED2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000BA003BD1C29F4C003C6888D971770 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				F0C7EABE836C4931C1A8FFCD0670426A /* AggregateFunctions.swift */,
+				F42027470FB1E4D54A4B44A6C8B46620 /* Blob.swift */,
+				F9E91C416662B9E0AA6C34731311F41C /* Coding.swift */,
+				198BF1AF8792C94A708AD157E46DDB54 /* Collation.swift */,
+				1CEAF01DE8B7CDA42913D624468980AB /* Connection.swift */,
+				9A872DF898863E333A45AE573CB711CF /* CoreFunctions.swift */,
+				29E433E490A858C770027976C8412836 /* CustomFunctions.swift */,
+				D3F0ED9A197CA1729C84125E391C808D /* DateAndTimeFunctions.swift */,
+				E108926EEC287E7F0F12D697C252FF46 /* Errors.swift */,
+				D3378500F79A4586CF55EBFAB0C892B9 /* Expression.swift */,
+				4D12E34F676CDE7DBEB4C15D380F0642 /* Foundation.swift */,
+				41EAAF730FF6165331C0CA1DCB0AB6D0 /* fts3_tokenizer.h */,
+				67815F388321555CFEA1174154033867 /* FTS4.swift */,
+				617919FEE93924FAE427C136D6D40B6A /* FTS5.swift */,
+				4E75B8C22A73F4A9D6A0110A16140A72 /* Helpers.swift */,
+				BFBC0FE2902F93E992C2E0BAC22411E7 /* Operators.swift */,
+				ABED471387AF76B7A64F2DC7CCA71401 /* Query.swift */,
+				C4F5E6A82F1127ED855AFBB9C543526B /* RTree.swift */,
+				A3A760AC92A8C8A54F622A8C628776AC /* Schema.swift */,
+				7A181D4B82D95C1ABF8C17DA1297A148 /* Setter.swift */,
+				BD9B26C97035022BE63AA01B993BB474 /* SQLite.h */,
+				6AB36F921FC329EC7AF15078E8E8EA61 /* SQLiteObjc.h */,
+				9EEB0789F3C457EDE5E421B599484C6B /* SQLiteObjc.m */,
+				5175C04553B5A8A4BF5DB3854C2C74DE /* Statement.swift */,
+				DA3FADB1449D4B46DD7ABB94568E1AEF /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
 		02B057AAB2884BF52043C520EE939E30 /* Pods-APMDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,66 +339,20 @@
 			path = "Target Support Files/Pods-APMDemo";
 			sourceTree = "<group>";
 		};
-		050403A1C89DDB555C4663CA74A4A716 /* Support Files */ = {
+		0C0C07DD97B00117B927A050339E9D3F /* DinergateBrain */ = {
 			isa = PBXGroup;
 			children = (
-				918640E3EFA6B586CC1DE11BDDEBDA90 /* DinergateBrain.modulemap */,
-				E7F1432BFB9C1E7718EDF14795B2D9D5 /* DinergateBrain-dummy.m */,
-				310C2C4F381EF44C1EB2ABF6FDEA9E37 /* DinergateBrain-Info.plist */,
-				A48F34DB2A60E614EBB525FD69304E87 /* DinergateBrain-prefix.pch */,
-				064B69EF9BE373B44CAC885F6C30AF94 /* DinergateBrain-umbrella.h */,
-				4AB27FBADED8E8282C1FBB6BF049448C /* DinergateBrain.debug.xcconfig */,
-				38BEADD5A2DB3612250A4B53040BD61F /* DinergateBrain.release.xcconfig */,
+				6759A54986ED71DE74D2AF263F198E8A /* BaseMonitor.swift */,
+				F62FF746FE22CC9382F931892A0FB9D8 /* CPUMonitor.swift */,
+				74E3F1B9629A2647E31AA899982A3643 /* CrashMonitor.swift */,
+				59AB5420AE84CA5684302E442C2BE7BB /* DinergateBrain.swift */,
+				D07B68C8D77E64715AA570528E97E448 /* FPSMonitor.swift */,
+				963433BC4ACC948DA747F8D998B57423 /* MonitorWeakTarget.swift */,
+				602BA537F92A19AAA0ADDD93A2E59638 /* StuckMonitor.swift */,
+				C25EE461FBA1247C8B62EC5B2974DB90 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DinergateBrain";
-			sourceTree = "<group>";
-		};
-		08B180C8588B51AFC1DB0ABD374E9609 /* standard */ = {
-			isa = PBXGroup;
-			children = (
-				850A9329A3F27F20B8F0C94A9106F7BF /* AggregateFunctions.swift */,
-				276A2719EB365160072368A090EFE0C4 /* Blob.swift */,
-				10D6F2BEEAD0B048DE1BCDFB6AECB16E /* Coding.swift */,
-				40B52E6AE2F9340D171F24109DDDBF0B /* Collation.swift */,
-				A90D636115155B8DC8E1FC98A33CEB06 /* Connection.swift */,
-				EA3F315D4EA4346E010D6D458B74C6B4 /* CoreFunctions.swift */,
-				AAA3B6EFC190134C71AD45661602CFFF /* CustomFunctions.swift */,
-				D633BF4C162C7108F7D57949DAFCDCD4 /* DateAndTimeFunctions.swift */,
-				C2895E505F1D9889040CA5C902BF85F1 /* Errors.swift */,
-				8D23D32A8735A66E5C078AC7E5958786 /* Expression.swift */,
-				02B119A74F93F73DDE6AA127718BD1A2 /* Foundation.swift */,
-				D1B7CBC1DD4D478B7F115BF469BC0798 /* fts3_tokenizer.h */,
-				8551E29AA2DA065F82F96C4DD18B8F9A /* FTS4.swift */,
-				D371391849E6F2F24412D51BDC21491F /* FTS5.swift */,
-				DA210727B20D70D9E7698C87BB5BB77D /* Helpers.swift */,
-				1085CAFEFFB9B6EABC5D25ECC6FC1951 /* Operators.swift */,
-				9C4B4AAEC2C61BBD376B44D334F05247 /* Query.swift */,
-				02947277E7D63C6CF369636592CF7B99 /* RTree.swift */,
-				11E0D820FF7CF524FB6062A13FC71B40 /* Schema.swift */,
-				831B7AAFB0C467A4F014C0AB3DDB10CE /* Setter.swift */,
-				2DFB21C673AEEED427AA219985AF7774 /* SQLite.h */,
-				72A42DE866BC718326F4CC6D194BBE86 /* SQLiteObjc.h */,
-				96D7C941F4F21465D3AA5C95671558BC /* SQLiteObjc.m */,
-				F55CA39810FE984110C9F14B5201BB18 /* Statement.swift */,
-				8CB33AF53C37DA7EDB7FA3BB5FB02DB2 /* Value.swift */,
-			);
-			name = standard;
-			sourceTree = "<group>";
-		};
-		15138D17F145B80597E4A76EFEDF87FD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				308781ECCE8B3957740429B637C9BFEF /* SQLite.swift.modulemap */,
-				91E30DB9A207443AC593FD7568F15377 /* SQLite.swift-dummy.m */,
-				81958EB96ED14396C03AE7AF5F384B8A /* SQLite.swift-Info.plist */,
-				793EEFE4C6C9C0A4C27C9376FA64C1CB /* SQLite.swift-prefix.pch */,
-				221F65612AEC9F94C391DC85E86B1419 /* SQLite.swift-umbrella.h */,
-				25E54EC0B427B231FD5152045641F2D7 /* SQLite.swift.debug.xcconfig */,
-				A46B148E1F3EE51191704B651ACCE550 /* SQLite.swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SQLite.swift";
+			name = DinergateBrain;
+			path = DinergateBrain;
 			sourceTree = "<group>";
 		};
 		17582B72AA842D294F0E600DB869600F /* Pods-Dinergate-DinergateTests */ = {
@@ -386,12 +372,40 @@
 			path = "Target Support Files/Pods-Dinergate-DinergateTests";
 			sourceTree = "<group>";
 		};
-		3B00E003A949727F52DD81D938878568 /* Frameworks */ = {
+		1D3BFE267D9E600D2667C04585FCF2C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C92C4E068B1BCB330B0BEDC98A6D081A /* CrashReporter.framework */,
+				5CCB8B40D6F30123D980321945EC2866 /* CrashReporter.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BDD6F724854ED2967C6B93D22F6FB45 /* PLCrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				1D3BFE267D9E600D2667C04585FCF2C7 /* Frameworks */,
+				E180FFF6224E4A8C4AF6295D2F4AF95A /* Support Files */,
+			);
+			name = PLCrashReporter;
+			path = PLCrashReporter;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B2C308F770C049EC49CFEC06D5B5695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C0C07DD97B00117B927A050339E9D3F /* DinergateBrain */,
+				4BDD6F724854ED2967C6B93D22F6FB45 /* PLCrashReporter */,
+				B296223C55D17F3780C4685CEC6CDA2A /* SQLite.swift */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		6663D5E91E3B2EC5EF9A2BDEBEE4A6E1 /* Pods-APMDemoTests */ = {
@@ -410,26 +424,6 @@
 			path = "Target Support Files/Pods-APMDemoTests";
 			sourceTree = "<group>";
 		};
-		7E6062BF8A01D42326F2ABADD018B148 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				247CE90C44826C84C945E8806A8A5C41 /* PLCrashReporter.debug.xcconfig */,
-				E4F6B0C352512263D5F8CE2621D205A2 /* PLCrashReporter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PLCrashReporter";
-			sourceTree = "<group>";
-		};
-		8037ABE3E61287DBB4C727C78A00088A /* PLCrashReporter */ = {
-			isa = PBXGroup;
-			children = (
-				3B00E003A949727F52DD81D938878568 /* Frameworks */,
-				7E6062BF8A01D42326F2ABADD018B148 /* Support Files */,
-			);
-			name = PLCrashReporter;
-			path = PLCrashReporter;
-			sourceTree = "<group>";
-		};
 		ACE51F58CD164E1079EDDE9B8A72D58D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,12 +435,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		B296223C55D17F3780C4685CEC6CDA2A /* SQLite.swift */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				000BA003BD1C29F4C003C6888D971770 /* standard */,
+				D4FDDA4A189AE02523546FBCCF5DA760 /* Support Files */,
 			);
-			name = iOS;
+			name = SQLite.swift;
+			path = SQLite.swift;
 			sourceTree = "<group>";
 		};
 		C245AE200F6442454DFAE696C760F1B4 /* Products */ = {
@@ -462,20 +458,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C43437D2B8B3EE932FA59379784433CE /* DinergateBrain */ = {
+		C25EE461FBA1247C8B62EC5B2974DB90 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F18F474476276C0D6FBF40DDA5860DD7 /* BaseMonitor.swift */,
-				050FFC1EAE9656C93D7D1231515F86E2 /* CPUMonitor.swift */,
-				DB8F86E044D46034D0F7D66CC97927A0 /* CrashMonitor.swift */,
-				8F59DC94B5F1F5F5EEA28231A3AD3A89 /* DinergateBrain.swift */,
-				1B275914C4E1FCA1104C7978E222309C /* FPSMonitor.swift */,
-				7D03FEFE7CD3D05C40BF54BC96A7528B /* MonitorWeakTarget.swift */,
-				9955DDCAF0222C11E535E108507E1F46 /* StuckMonitor.swift */,
-				050403A1C89DDB555C4663CA74A4A716 /* Support Files */,
+				7ED2E696A2BC32E19F06532ABB9B8661 /* DinergateBrain.modulemap */,
+				292C42FFC04547F1FC2DA406434591D8 /* DinergateBrain-dummy.m */,
+				ED13BE8B4826BA758B1FC61141D7C623 /* DinergateBrain-Info.plist */,
+				C85D02F101463DC8D7DCA8E72981052C /* DinergateBrain-prefix.pch */,
+				C4D35DF9DFCAD75B36DBE515DCF62027 /* DinergateBrain-umbrella.h */,
+				C5B73EFAFA7662D9760E346B867E0EF1 /* DinergateBrain.debug.xcconfig */,
+				4D88700659BB590B2C0F21E19C7215C4 /* DinergateBrain.release.xcconfig */,
 			);
-			name = DinergateBrain;
-			path = DinergateBrain;
+			name = "Support Files";
+			path = "../Target Support Files/DinergateBrain";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -483,28 +478,43 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				EDED20A9BF0D0E69771F5E0AA666FD91 /* Pods */,
+				5B2C308F770C049EC49CFEC06D5B5695 /* Pods */,
 				C245AE200F6442454DFAE696C760F1B4 /* Products */,
 				ACE51F58CD164E1079EDDE9B8A72D58D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D2066A9B77A8CE979E8A697018854A78 /* SQLite.swift */ = {
-			isa = PBXGroup;
-			children = (
-				08B180C8588B51AFC1DB0ABD374E9609 /* standard */,
-				15138D17F145B80597E4A76EFEDF87FD /* Support Files */,
-			);
-			name = SQLite.swift;
-			path = SQLite.swift;
-			sourceTree = "<group>";
-		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4FDDA4A189AE02523546FBCCF5DA760 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B486EAA1518AC9B2C17DE5F35A739CBF /* SQLite.swift.modulemap */,
+				F9CA882F9CC8DA56154F2623B9EC4F0B /* SQLite.swift-dummy.m */,
+				1B54F88861679CCCB007B03704264B19 /* SQLite.swift-Info.plist */,
+				92B90BE827726B78A8C145B55AC1F787 /* SQLite.swift-prefix.pch */,
+				28C1A9CBED31254D32E1E009C546B913 /* SQLite.swift-umbrella.h */,
+				39E8194925EE436F803F863B008939A2 /* SQLite.swift.debug.xcconfig */,
+				7C50DFAE786F72A5A356E05CA0F16B29 /* SQLite.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		E180FFF6224E4A8C4AF6295D2F4AF95A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ADAB22CD264441412758CECEFF9DD76 /* PLCrashReporter.debug.xcconfig */,
+				8DF0AB815B028DAA37562CCE31149891 /* PLCrashReporter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PLCrashReporter";
 			sourceTree = "<group>";
 		};
 		E1B2582E87FA34A857B192FF7E6F79E0 /* Pods-Dinergate */ = {
@@ -523,19 +533,25 @@
 			path = "Target Support Files/Pods-Dinergate";
 			sourceTree = "<group>";
 		};
-		EDED20A9BF0D0E69771F5E0AA666FD91 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C43437D2B8B3EE932FA59379784433CE /* DinergateBrain */,
-				8037ABE3E61287DBB4C727C78A00088A /* PLCrashReporter */,
-				D2066A9B77A8CE979E8A697018854A78 /* SQLite.swift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3702175320991E0AC51A224D88E734BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1661CD7FAF7798947B7F204517BA7BA /* Pods-Dinergate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6963C5123449395A0B237FDA2312E170 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAF25DD5A6BFAC58F8A90C2D12E9D35 /* Pods-APMDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CF77AFEBC7B08209ECAA32284C5A04F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -555,11 +571,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1BBD0AF182EE064D2EEC474844B4294 /* Headers */ = {
+		B8208D364FFC8A4812A0D25BE0F005DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10A6C60C95D302532001BEE472B5333 /* Pods-Dinergate-umbrella.h in Headers */,
+				11DA6085ED2E2578CB4D8B45316BE2DE /* Pods-Dinergate-DinergateTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,40 +587,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F202EAE78E31A8FEFB59CCED5672EBE2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6CD6AFF78A9E00200D42B96AEB80BE5 /* Pods-Dinergate-DinergateTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F61D21EB051A3957D2D3CFFC4A501251 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6F1DA939DDF4C06D7589C62CF38DA43 /* Pods-APMDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0382FCC0EEF1C17893E8805AF0A47D4B /* Pods-APMDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64C524ED86E5970E375FA45D8EDD520E /* Build configuration list for PBXNativeTarget "Pods-APMDemo" */;
+			buildConfigurationList = C7E510E33428CD69E6BF3668BBFA31DB /* Build configuration list for PBXNativeTarget "Pods-APMDemo" */;
 			buildPhases = (
-				F61D21EB051A3957D2D3CFFC4A501251 /* Headers */,
-				6A46B598BF498C33189435A71D01F789 /* Sources */,
-				FED842A0FEBB90A41C56429DD44FE848 /* Frameworks */,
-				C9F239217FB02CD7C69F24448ED9267C /* Resources */,
+				6963C5123449395A0B237FDA2312E170 /* Headers */,
+				784FC926735A829A036FC92BC9EC3873 /* Sources */,
+				798F8ABE8AB30769BD7F9396522DF385 /* Frameworks */,
+				9DF4A3862BEFDA3284C56B3BD207990D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E5394C45AFD85CC23449F872D97929C5 /* PBXTargetDependency */,
-				F1DD997B28837F3BFFED2F0B436ECB52 /* PBXTargetDependency */,
-				72022DCEA4C1A591F49BBF93A003F71C /* PBXTargetDependency */,
+				7523D87D6F0F4EB4AFD4B13ADA0BE657 /* PBXTargetDependency */,
+				FABEDC4E80B48ECB9775057565678D39 /* PBXTargetDependency */,
+				4C87EFA261BECB0214E5CD3F50280EEC /* PBXTargetDependency */,
 			);
 			name = "Pods-APMDemo";
 			productName = "Pods-APMDemo";
@@ -631,19 +631,19 @@
 		};
 		8BEBDA85DD6CD9A8513EE60A0BF58716 /* Pods-Dinergate-DinergateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D86D217B2B6B5A5450123AB82197D60 /* Build configuration list for PBXNativeTarget "Pods-Dinergate-DinergateTests" */;
+			buildConfigurationList = 1A35BB700A41FD5E1B3FFBE1972FCE50 /* Build configuration list for PBXNativeTarget "Pods-Dinergate-DinergateTests" */;
 			buildPhases = (
-				F202EAE78E31A8FEFB59CCED5672EBE2 /* Headers */,
-				26CD49ED3F4294202A9221FBE409A22C /* Sources */,
-				CF1B3924365631304421D277EEB70740 /* Frameworks */,
-				134E9C4260858E2503E7F3A477E4C70A /* Resources */,
+				B8208D364FFC8A4812A0D25BE0F005DA /* Headers */,
+				CB27A7439EC28AB8F959A0D046B545EC /* Sources */,
+				31E5F22E18470CFC0684B36E420123AC /* Frameworks */,
+				CE3361F672AA96DF883BA222471F0E4A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6973B702A97C05473CA50B06A3EAABD4 /* PBXTargetDependency */,
-				FE0991989732ECE3192FACB70BA602B0 /* PBXTargetDependency */,
-				258183731F2172F19EC092E6814FE984 /* PBXTargetDependency */,
+				540DBC5C1F3DE49006AF4BBDCC352C1A /* PBXTargetDependency */,
+				D51082EEF2863AACF2CE97CC898E06E7 /* PBXTargetDependency */,
+				D37D54B2031944F0EAE35DA77649404E /* PBXTargetDependency */,
 			);
 			name = "Pods-Dinergate-DinergateTests";
 			productName = "Pods-Dinergate-DinergateTests";
@@ -670,19 +670,19 @@
 		};
 		CCCBA75649382B2EA0E10620D5B5E963 /* Pods-Dinergate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38DA9CB30508C280EB313D32262C9297 /* Build configuration list for PBXNativeTarget "Pods-Dinergate" */;
+			buildConfigurationList = FFBCCF2AF431EF4B6D20AC052E2633DB /* Build configuration list for PBXNativeTarget "Pods-Dinergate" */;
 			buildPhases = (
-				F1BBD0AF182EE064D2EEC474844B4294 /* Headers */,
-				FF81D53E3BFD33460B1018ACD816FCE4 /* Sources */,
-				F409F57B4D6F58D9D78D7F92B1A4BB5A /* Frameworks */,
-				E1CB282A5C2D04892A1CF7EB9F2F9C56 /* Resources */,
+				3702175320991E0AC51A224D88E734BC /* Headers */,
+				57254926696119FD5B6E9D559FE37069 /* Sources */,
+				39949B72FFACD41492B3FB240EFF4557 /* Frameworks */,
+				FDDAAE98F7D0140E8660682FA1E14758 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				27DA8461C2E10EAF4A7D1D482AAD9F27 /* PBXTargetDependency */,
-				AA182D0CCC40CBBA41564F7F68988E00 /* PBXTargetDependency */,
-				62FAD47513C9C0E6E94BDC851E7E0CD9 /* PBXTargetDependency */,
+				A7380BF291039C1DAF4950FDABAA009F /* PBXTargetDependency */,
+				ADD8156AD74F51F917E83AF1B724DB20 /* PBXTargetDependency */,
+				3B883E08BBADC052237674D7ABEFA794 /* PBXTargetDependency */,
 			);
 			name = "Pods-Dinergate";
 			productName = "Pods-Dinergate";
@@ -742,13 +742,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		134E9C4260858E2503E7F3A477E4C70A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		437C6008F3714B5A8E869C50746FC132 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -763,6 +756,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9DF4A3862BEFDA3284C56B3BD207990D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4C9262D4280F48C9A833F9BA6582C1D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -770,14 +770,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9F239217FB02CD7C69F24448ED9267C /* Resources */ = {
+		CE3361F672AA96DF883BA222471F0E4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1CB282A5C2D04892A1CF7EB9F2F9C56 /* Resources */ = {
+		FDDAAE98F7D0140E8660682FA1E14758 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -802,14 +802,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26CD49ED3F4294202A9221FBE409A22C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				185C3AA2B611A7AD10371DB65111C786 /* Pods-Dinergate-DinergateTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		445BDF2174F54DF9C48B66071C5A6D90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -818,11 +810,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A46B598BF498C33189435A71D01F789 /* Sources */ = {
+		57254926696119FD5B6E9D559FE37069 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CC4F5B286FF83457F45ECBFE553E0A /* Pods-APMDemo-dummy.m in Sources */,
+				8E90A9CA06FC4AB930DB2927DCCB3FCA /* Pods-Dinergate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784FC926735A829A036FC92BC9EC3873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DB2CD5F4AEC4DD253EC144040AC4CF /* Pods-APMDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,28 +856,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF81D53E3BFD33460B1018ACD816FCE4 /* Sources */ = {
+		CB27A7439EC28AB8F959A0D046B545EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED8DF788CE96027818FF433EA238B1C6 /* Pods-Dinergate-dummy.m in Sources */,
+				4CFFB6C355878349A585E369CF706940 /* Pods-Dinergate-DinergateTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		258183731F2172F19EC092E6814FE984 /* PBXTargetDependency */ = {
+		3B883E08BBADC052237674D7ABEFA794 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SQLite.swift;
 			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
-			targetProxy = 3925A7B2DC356496991D719E92F56ED1 /* PBXContainerItemProxy */;
+			targetProxy = 0F379DEE271651E487EA4765AED9B5E4 /* PBXContainerItemProxy */;
 		};
-		27DA8461C2E10EAF4A7D1D482AAD9F27 /* PBXTargetDependency */ = {
+		4C87EFA261BECB0214E5CD3F50280EEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DinergateBrain;
-			target = 9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */;
-			targetProxy = E2988FDFD0CC7DFF3F204F39A80160D1 /* PBXContainerItemProxy */;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = D6356F883719A9DC19E81036EEB34CA5 /* PBXContainerItemProxy */;
 		};
 		50AA1FFE83213193BF650EF47800040D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -885,221 +885,55 @@
 			target = 0382FCC0EEF1C17893E8805AF0A47D4B /* Pods-APMDemo */;
 			targetProxy = EB78CB25F03850B36F6352F1DFD7BBC4 /* PBXContainerItemProxy */;
 		};
-		62FAD47513C9C0E6E94BDC851E7E0CD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SQLite.swift;
-			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
-			targetProxy = B119EBF9FCC55917ECB0DAC01BFCD536 /* PBXContainerItemProxy */;
-		};
-		6973B702A97C05473CA50B06A3EAABD4 /* PBXTargetDependency */ = {
+		540DBC5C1F3DE49006AF4BBDCC352C1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DinergateBrain;
 			target = 9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */;
-			targetProxy = 0E6DE21F1A93F35B089F6888243CB165 /* PBXContainerItemProxy */;
+			targetProxy = 317BC45E68B9AB38EA6295AB3E5E5D48 /* PBXContainerItemProxy */;
 		};
-		72022DCEA4C1A591F49BBF93A003F71C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SQLite.swift;
-			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
-			targetProxy = 5B01F3969B2F6771D816D7BA8C5ECCAE /* PBXContainerItemProxy */;
-		};
-		AA182D0CCC40CBBA41564F7F68988E00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PLCrashReporter;
-			target = 8D53C58097CCE41070956936598B94B4 /* PLCrashReporter */;
-			targetProxy = DE56DD323E5917EB2F3F53315CC261EA /* PBXContainerItemProxy */;
-		};
-		E5394C45AFD85CC23449F872D97929C5 /* PBXTargetDependency */ = {
+		7523D87D6F0F4EB4AFD4B13ADA0BE657 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DinergateBrain;
 			target = 9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */;
-			targetProxy = 27184E8D0A08A761594F852F48268884 /* PBXContainerItemProxy */;
+			targetProxy = 58DDE12F24EAE57CEA8DFA9BA4ED35DD /* PBXContainerItemProxy */;
 		};
-		F1DD997B28837F3BFFED2F0B436ECB52 /* PBXTargetDependency */ = {
+		A7380BF291039C1DAF4950FDABAA009F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DinergateBrain;
+			target = 9130BF024DF638C0C1EB55329241F3C0 /* DinergateBrain */;
+			targetProxy = 3F8E95B9B9A723F76FF1ED7D4A7ED9CF /* PBXContainerItemProxy */;
+		};
+		ADD8156AD74F51F917E83AF1B724DB20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PLCrashReporter;
 			target = 8D53C58097CCE41070956936598B94B4 /* PLCrashReporter */;
-			targetProxy = 95100BC8DFAA2FEA7EEC8D85F43F0101 /* PBXContainerItemProxy */;
+			targetProxy = EC661C366E6EB20CA13DD7B88D71BBE6 /* PBXContainerItemProxy */;
 		};
-		FE0991989732ECE3192FACB70BA602B0 /* PBXTargetDependency */ = {
+		D37D54B2031944F0EAE35DA77649404E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 6BA8A9109247FC6ED4881B410BF7A402 /* PBXContainerItemProxy */;
+		};
+		D51082EEF2863AACF2CE97CC898E06E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PLCrashReporter;
 			target = 8D53C58097CCE41070956936598B94B4 /* PLCrashReporter */;
-			targetProxy = AE23F46AF15D5A0E6B8F9D303D0AAB66 /* PBXContainerItemProxy */;
+			targetProxy = 5BAB31FB176171D50C9A8F7D5219C956 /* PBXContainerItemProxy */;
+		};
+		FABEDC4E80B48ECB9775057565678D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PLCrashReporter;
+			target = 8D53C58097CCE41070956936598B94B4 /* PLCrashReporter */;
+			targetProxy = 47D85B9711F74F48F6536820E9BA26A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09A88C9B3F5112A07D9D040292AAAF15 /* Debug */ = {
+		15418D497C951AE519FE18044E619CC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AB27FBADED8E8282C1FBB6BF049448C /* DinergateBrain.debug.xcconfig */;
+			baseConfigurationReference = 7C50DFAE786F72A5A356E05CA0F16B29 /* SQLite.swift.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain/DinergateBrain-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DinergateBrain/DinergateBrain-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DinergateBrain/DinergateBrain.modulemap";
-				PRODUCT_MODULE_NAME = DinergateBrain;
-				PRODUCT_NAME = DinergateBrain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		26C30ADA2DFBF7BE5E98E59A1FB42001 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 961A6808DFF9F35D5AABEC3B46B5DAE5 /* Pods-APMDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4AE61E018D3122A2A62B00AF89319ACE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 247CE90C44826C84C945E8806A8A5C41 /* PLCrashReporter.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4CE3ED7BF66D53DD30B6EA515CA558DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384E42EDBBE9EBFF5EFF4CFD15496CB6 /* Pods-APMDemoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5297F85309B52BFC142C16694E1C926B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E9C0F8684257C80EB78BCA5422F958B /* Pods-Dinergate-DinergateTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5B0E82402408AFEEF929828936E1F40A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25E54EC0B427B231FD5152045641F2D7 /* SQLite.swift.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1125,186 +959,17 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		694DA67CBA3D5B93FD4BADBD4DD9E6ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68C1D3F4D5CEF9D2045E09B31851649E /* Pods-APMDemoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		82FA85A24469FA162B336B0B87206626 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5219718FB82142EAAFF66EDDB6BCA64A /* Pods-Dinergate.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		8F771EF2FCC87310A59DA9A53CB10290 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EBAC688C84DD674E9371565C99EA432 /* Pods-APMDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1327,6 +992,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1365,84 +1031,10 @@
 			};
 			name = Debug;
 		};
-		9746EF76AE8548FF46F6E9746E9E97F1 /* Release */ = {
+		39638A45F550E4B72DAAB63FADF807A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A46B148E1F3EE51191704B651ACCE550 /* SQLite.swift.release.xcconfig */;
+			baseConfigurationReference = C5B73EFAFA7662D9760E346B867E0EF1 /* DinergateBrain.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
-				PRODUCT_MODULE_NAME = SQLite;
-				PRODUCT_NAME = SQLite;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9EC2DF2B4DCF7177B9244F19C035BFFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C509CBD3CD962B923C1242ED86B4C1D4 /* Pods-Dinergate-DinergateTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A9729389E9A122B77D7F1DB77F7582A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38BEADD5A2DB3612250A4B53040BD61F /* DinergateBrain.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1468,18 +1060,213 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FB30A0BD0D2539089A0F91DCD70127D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EBAC688C84DD674E9371565C99EA432 /* Pods-APMDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		571C48A811A95E046D66E1AB4CC454F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384E42EDBBE9EBFF5EFF4CFD15496CB6 /* Pods-APMDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		CA4D42D8C568F5DDB3BD01D216EE024D /* Release */ = {
+		6FE594D3975D89F427F5BADE89FBA9D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F6B0C352512263D5F8CE2621D205A2 /* PLCrashReporter.release.xcconfig */;
+			baseConfigurationReference = 39E8194925EE436F803F863B008939A2 /* SQLite.swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		866D054B1A9735F40FB94AD671AB0A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C1D3F4D5CEF9D2045E09B31851649E /* Pods-APMDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APMDemoTests/Pods-APMDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93C57C6FD42270B8E8F09865FB105115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADAB22CD264441412758CECEFF9DD76 /* PLCrashReporter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B92D4DD5295C155AD9F87789AD969C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961A6808DFF9F35D5AABEC3B46B5DAE5 /* Pods-APMDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APMDemo/Pods-APMDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3115B16289137F9854DD9F281A6BE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF0AB815B028DAA37562CCE31149891 /* PLCrashReporter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1491,12 +1278,11 @@
 			};
 			name = Release;
 		};
-		F536DF32D38F8EF3BAB4C67A339E2365 /* Release */ = {
+		C4A18FA1C8C0D4BCCFB67072C6F5401B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C942F3844446209A290D99724C6365D9 /* Pods-Dinergate.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1529,23 +1315,220 @@
 			};
 			name = Release;
 		};
+		C55C6911FAC323D0F23B258BFE8648D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5219718FB82142EAAFF66EDDB6BCA64A /* Pods-Dinergate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate/Pods-Dinergate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CAE4EFE588069B4EC740FFA47CB3EF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C509CBD3CD962B923C1242ED86B4C1D4 /* Pods-Dinergate-DinergateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD467D720333782D7797E31DA1DB2B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9C0F8684257C80EB78BCA5422F958B /* Pods-Dinergate-DinergateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dinergate-DinergateTests/Pods-Dinergate-DinergateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2BCA70BAEE83BAF39AC42E47BEFF651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D88700659BB590B2C0F21E19C7215C4 /* DinergateBrain.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DinergateBrain/DinergateBrain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DinergateBrain/DinergateBrain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DinergateBrain/DinergateBrain.modulemap";
+				PRODUCT_MODULE_NAME = DinergateBrain;
+				PRODUCT_NAME = DinergateBrain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D86D217B2B6B5A5450123AB82197D60 /* Build configuration list for PBXNativeTarget "Pods-Dinergate-DinergateTests" */ = {
+		1A35BB700A41FD5E1B3FFBE1972FCE50 /* Build configuration list for PBXNativeTarget "Pods-Dinergate-DinergateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EC2DF2B4DCF7177B9244F19C035BFFC /* Debug */,
-				5297F85309B52BFC142C16694E1C926B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38DA9CB30508C280EB313D32262C9297 /* Build configuration list for PBXNativeTarget "Pods-Dinergate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82FA85A24469FA162B336B0B87206626 /* Debug */,
-				F536DF32D38F8EF3BAB4C67A339E2365 /* Release */,
+				CAE4EFE588069B4EC740FFA47CB3EF19 /* Debug */,
+				DD467D720333782D7797E31DA1DB2B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1553,8 +1536,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1562,17 +1545,8 @@
 		5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0E82402408AFEEF929828936E1F40A /* Debug */,
-				9746EF76AE8548FF46F6E9746E9E97F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		64C524ED86E5970E375FA45D8EDD520E /* Build configuration list for PBXNativeTarget "Pods-APMDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F771EF2FCC87310A59DA9A53CB10290 /* Debug */,
-				26C30ADA2DFBF7BE5E98E59A1FB42001 /* Release */,
+				6FE594D3975D89F427F5BADE89FBA9D3 /* Debug */,
+				15418D497C951AE519FE18044E619CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1580,8 +1554,8 @@
 		811FB688DA49396D31B6521F69E16313 /* Build configuration list for PBXNativeTarget "DinergateBrain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09A88C9B3F5112A07D9D040292AAAF15 /* Debug */,
-				A9729389E9A122B77D7F1DB77F7582A3 /* Release */,
+				39638A45F550E4B72DAAB63FADF807A5 /* Debug */,
+				F2BCA70BAEE83BAF39AC42E47BEFF651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1589,8 +1563,8 @@
 		95C37651B376F2BF95DFE33DEB856BC6 /* Build configuration list for PBXAggregateTarget "PLCrashReporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AE61E018D3122A2A62B00AF89319ACE /* Debug */,
-				CA4D42D8C568F5DDB3BD01D216EE024D /* Release */,
+				93C57C6FD42270B8E8F09865FB105115 /* Debug */,
+				C3115B16289137F9854DD9F281A6BE0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1598,8 +1572,26 @@
 		AC5058F4E6C7555145F53338008CE606 /* Build configuration list for PBXNativeTarget "Pods-APMDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				694DA67CBA3D5B93FD4BADBD4DD9E6ED /* Debug */,
-				4CE3ED7BF66D53DD30B6EA515CA558DE /* Release */,
+				866D054B1A9735F40FB94AD671AB0A7C /* Debug */,
+				571C48A811A95E046D66E1AB4CC454F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E510E33428CD69E6BF3668BBFA31DB /* Build configuration list for PBXNativeTarget "Pods-APMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB30A0BD0D2539089A0F91DCD70127D /* Debug */,
+				9B92D4DD5295C155AD9F87789AD969C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBCCF2AF431EF4B6D20AC052E2633DB /* Build configuration list for PBXNativeTarget "Pods-Dinergate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55C6911FAC323D0F23B258BFE8648D5 /* Debug */,
+				C4A18FA1C8C0D4BCCFB67072C6F5401B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
