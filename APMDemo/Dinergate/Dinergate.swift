@@ -45,20 +45,15 @@ public class Dinergate {
             }
         }
         
-        StuckMonitor.shared.stuckHappening = { type in
-            let title: String
-            switch type {
-            case .single:
-                title = "单次卡顿超过\(config.stuckThreshold.singleTimeout * 1000)ms"
-            case .continuous:
-                let timeout = config.stuckThreshold.continuousThreshold?.timeout ?? 0
-                title = "连续卡顿，每次卡顿超过\(timeout * 1000)ms"
-            }
+        StuckMonitor.shared.stuckHappening = {
+            let title: String = "Ping卡顿"
 //            let callStack = Thread.callStackSymbols.filter({
 //                !$0.contains("Dinergate")
 //            }).joined(separator: "\n")
             guard let callStack = getCallStack() else { return }
-            DBManager.shared.insertStuck(title: title, desc: nil, callStack: callStack, date: Date(), appInfo: appInfo)
+            DispatchQueue.global().async {
+                DBManager.shared.insertStuck(title: title, desc: nil, callStack: callStack, date: Date(), appInfo: appInfo)
+            }
         }
         
     }
