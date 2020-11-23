@@ -1,12 +1,7 @@
 import Foundation
 import DinergateBrain
-import CrashReporter
 
 public class Dinergate {
-    
-    struct Test: Decodable {
-        let value: Int
-    }
     
     public static var appInfo: String = _appInfo
 
@@ -31,28 +26,18 @@ public class Dinergate {
         
         CrashMonitor.shared.crashHappening = { type in
             switch type {
-            case .exception(let exception):
-                let callStack = exception.callStackSymbols.filter({
-                    !$0.contains("Dinergate")
-                }).joined(separator: "\n")
+            case .exception(let exception, let callStack):
+                let callStack = callStack.joined(separator: "\n")
                 DBManager.shared.insertCrash(title: exception.name.rawValue, desc: exception.reason, callStack: callStack, date: Date(), appInfo: appInfo)
-            case .singal(let code, let name):
-//                let callStack = Thread.callStackSymbols.filter({
-//                    !$0.contains("Dinergate")
-//                }).joined(separator: "\n")
-                guard let callStack = getCallStack() else { return }
-                DBManager.shared.insertCrash(title: name, desc: "\(code)", callStack: callStack, date: Date(), appInfo: appInfo)
+            case .singal(let code, let name, let callStack):
+                DBManager.shared.insertCrash(title: name, desc: "\(code)", callStack: callStack.all, date: Date(), appInfo: appInfo)
             }
         }
         
-        StuckMonitor.shared.stuckHappening = {
-            let title: String = "Ping卡顿"
-//            let callStack = Thread.callStackSymbols.filter({
-//                !$0.contains("Dinergate")
-//            }).joined(separator: "\n")
-            guard let callStack = getCallStack() else { return }
+        StuckMonitor.shared.stuckHappening = { callStack in
+            let title: String = "卡顿"
             DispatchQueue.global().async {
-                DBManager.shared.insertStuck(title: title, desc: nil, callStack: callStack, date: Date(), appInfo: appInfo)
+                DBManager.shared.insertStuck(title: title, desc: nil, callStack: callStack.all, date: Date(), appInfo: appInfo)
             }
         }
         
@@ -67,12 +52,12 @@ public class Dinergate {
         Menu.shared.show()
     }
     
-    public static func getCallStack() -> String? {
-        guard let logData = PLCrashReporter(configuration: PLCrashReporterConfig(signalHandlerType: .BSD, symbolicationStrategy: .all))?.generateLiveReport() else { return nil }
-        guard let logReport = try? PLCrashReport(data: logData) else { return nil }
-        let logStr = PLCrashReportTextFormatter.stringValue(for: logReport, with: PLCrashReportTextFormatiOS)
-        return logStr
-    }
+//    public static func getCallStack() -> String? {
+//        guard let logData = PLCrashReporter(configuration: PLCrashReporterConfig(signalHandlerType: .BSD, symbolicationStrategy: .all))?.generateLiveReport() else { return nil }
+//        guard let logReport = try? PLCrashReport(data: logData) else { return nil }
+//        let logStr = PLCrashReportTextFormatter.stringValue(for: logReport, with: PLCrashReportTextFormatiOS)
+//        return logStr
+//    }
     
     public static func tickLog(_ log: String, desc: String?, type: String?) {
         DBManager.shared.insertTickLog(log: log, date: Date(), desc: desc, type: type)
