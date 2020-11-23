@@ -6,7 +6,7 @@ target 'APMDemo' do
   use_frameworks!
 
   # Pods for APMDemo
-  pod 'DinergateBrain', :git => 'git@github.com:ChaselAn/DinergateBrain.git', :branch => 'dev'
+  pod 'DinergateBrain'
   pod 'SQLite.swift'
 #  pod 'PLCrashReporter'
   target 'APMDemoTests' do
@@ -21,7 +21,7 @@ target 'Dinergate' do
   use_frameworks!
 
   # Pods for Dinergate
-  pod 'DinergateBrain', :git => 'git@github.com:ChaselAn/DinergateBrain.git', :branch => 'dev'
+  pod 'DinergateBrain'
   pod 'SQLite.swift'
   pod 'PLCrashReporter'
   target 'DinergateTests' do
