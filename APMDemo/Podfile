@@ -1,14 +1,14 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
-source 'https://cdn.cocoapods.org/' # CDN加速
 
 target 'APMDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for APMDemo
-  pod 'DinergateBrain', '0.1.0'
+  pod 'DinergateBrain', :git => 'git@github.com:ChaselAn/DinergateBrain.git', :branch => 'dev'
   pod 'SQLite.swift'
+#  pod 'PLCrashReporter'
   target 'APMDemoTests' do
     inherit! :search_paths
     # Pods for testing
@@ -20,9 +20,10 @@ target 'Dinergate' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for QAIsAngry
-  pod 'DinergateBrain', '0.1.0'
+  # Pods for Dinergate
+  pod 'DinergateBrain', :git => 'git@github.com:ChaselAn/DinergateBrain.git', :branch => 'dev'
   pod 'SQLite.swift'
+  pod 'PLCrashReporter'
   target 'DinergateTests' do
     # Pods for testing
   end

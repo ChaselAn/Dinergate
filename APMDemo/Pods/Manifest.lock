@@ -1,22 +1,35 @@
 PODS:
-  - DinergateBrain (0.1.0)
+  - DinergateBrain (0.1.0-pre)
+  - PLCrashReporter (1.7.2)
   - SQLite.swift (0.12.2):
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
 
 DEPENDENCIES:
-  - DinergateBrain (= 0.1.0)
+  - "DinergateBrain (from `git@github.com:ChaselAn/DinergateBrain.git`, branch `dev`)"
+  - PLCrashReporter
   - SQLite.swift
 
 SPEC REPOS:
   trunk:
-    - DinergateBrain
+    - PLCrashReporter
     - SQLite.swift
 
+EXTERNAL SOURCES:
+  DinergateBrain:
+    :branch: dev
+    :git: "git@github.com:ChaselAn/DinergateBrain.git"
+
+CHECKOUT OPTIONS:
+  DinergateBrain:
+    :commit: 0b5febf9abf8daf6e1f1fcff44675ea6dd71accd
+    :git: "git@github.com:ChaselAn/DinergateBrain.git"
+
 SPEC CHECKSUMS:
-  DinergateBrain: ba38aa22dcf4a460dad751f422141d2ce6afe0af
+  DinergateBrain: f34a74599173014a87e64067b1b5c11aba6c6818
+  PLCrashReporter: aab2bb5301bdc461a2006d657004fbcd748813b8
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
-PODFILE CHECKSUM: 8178ee434621f37f5f3439ef034d8657991d8d29
+PODFILE CHECKSUM: ffe179754f38b6b628e68d00cf3ab30b193456a1
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0

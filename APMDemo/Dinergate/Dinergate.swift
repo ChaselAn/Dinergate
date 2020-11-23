@@ -1,5 +1,6 @@
 import Foundation
 import DinergateBrain
+import CrashReporter
 
 public class Dinergate {
     
@@ -10,7 +11,7 @@ public class Dinergate {
     public static var appInfo: String = _appInfo
 
     // default items = [.stuck, .crash]
-    public static func start(items: DinergateBrain.Items = .default) {
+    public static func start(items: DinergateBrain.Items = .default, config: DinergateBrain.Config = .default) {
         self.defaultItems = items
         var brainItems: DinergateBrain.Items = []
         if UserDefaults.standard.value(forKey: MenuSettingItem.stuck.rawValue) as? Bool ?? items.contains(.stuck) {
@@ -22,7 +23,7 @@ public class Dinergate {
         if UserDefaults.standard.value(forKey: MenuSettingItem.fps.rawValue) as? Bool ?? items.contains(.fps) {
             brainItems.insert(.fps)
         }
-        DinergateBrain.shared.start(items: brainItems)
+        DinergateBrain.shared.start(items: brainItems, config: config)
         if brainItems.contains(.fps) {
             FloatManager.shared.show(items: .fps)
         }
@@ -36,25 +37,23 @@ public class Dinergate {
                 }).joined(separator: "\n")
                 DBManager.shared.insertCrash(title: exception.name.rawValue, desc: exception.reason, callStack: callStack, date: Date(), appInfo: appInfo)
             case .singal(let code, let name):
-                let callStack = Thread.callStackSymbols.filter({
-                    !$0.contains("Dinergate")
-                }).joined(separator: "\n")
+//                let callStack = Thread.callStackSymbols.filter({
+//                    !$0.contains("Dinergate")
+//                }).joined(separator: "\n")
+                guard let callStack = getCallStack() else { return }
                 DBManager.shared.insertCrash(title: name, desc: "\(code)", callStack: callStack, date: Date(), appInfo: appInfo)
             }
         }
         
-        StuckMonitor.shared.stuckHappening = { type in
-            let title: String
-            switch type {
-            case .single:
-                title = "单次卡顿超过250ms"
-            case .continuous:
-                title = "连续卡顿，每次卡顿超过50ms"
+        StuckMonitor.shared.stuckHappening = {
+            let title: String = "Ping卡顿"
+//            let callStack = Thread.callStackSymbols.filter({
+//                !$0.contains("Dinergate")
+//            }).joined(separator: "\n")
+            guard let callStack = getCallStack() else { return }
+            DispatchQueue.global().async {
+                DBManager.shared.insertStuck(title: title, desc: nil, callStack: callStack, date: Date(), appInfo: appInfo)
             }
-            let callStack = Thread.callStackSymbols.filter({
-                !$0.contains("Dinergate")
-            }).joined(separator: "\n")
-            DBManager.shared.insertStuck(title: title, desc: nil, callStack: callStack, date: Date(), appInfo: appInfo)
         }
         
     }
@@ -66,6 +65,17 @@ public class Dinergate {
     
     public static func showMenu() {
         Menu.shared.show()
+    }
+    
+    public static func getCallStack() -> String? {
+        guard let logData = PLCrashReporter(configuration: PLCrashReporterConfig(signalHandlerType: .BSD, symbolicationStrategy: .all))?.generateLiveReport() else { return nil }
+        guard let logReport = try? PLCrashReport(data: logData) else { return nil }
+        let logStr = PLCrashReportTextFormatter.stringValue(for: logReport, with: PLCrashReportTextFormatiOS)
+        return logStr
+    }
+    
+    public static func tickLog(_ log: String, desc: String?, type: String?) {
+        DBManager.shared.insertTickLog(log: log, date: Date(), desc: desc, type: type)
     }
 }
 

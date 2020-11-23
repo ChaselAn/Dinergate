@@ -7,7 +7,8 @@ extension Date {
         if calendar.isDateInToday(self) {
             let hour = calendar.component(.hour, from: self)
             let minute = calendar.component(.minute, from: self)
-            return String(format: "%.2d:%.2d", hour, minute)
+            let second = calendar.component(.second, from: self)
+            return String(format: "%.2d:%.2d:%.2d", hour, minute, second)
         } else {
             return DateFormatter.currentYear.string(from: self)
         }
@@ -17,7 +18,7 @@ extension Date {
 extension DateFormatter {
     static public var currentYear: DateFormatter {
         let formatter = DateFormatter()
-        formatter.dateFormat = "MM月dd日 HH:mm"
+        formatter.dateFormat = "MM月dd日 HH:mm:ss"
         return formatter
     }
 }

@@ -15,11 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let a = UISwitch(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        let a = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        a.setTitle("show", for: .normal)
+        a.setTitleColor(.blue, for: .normal)
+        a.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         view.addSubview(a)
-        
-//        let b = [1, 2]
-//        let c = b[3]
+    }
+    
+    @objc private func buttonClicked() {
+        Dinergate.showMenu()
     }
 
 }
