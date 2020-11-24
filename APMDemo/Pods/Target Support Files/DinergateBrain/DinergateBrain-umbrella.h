@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DinergateBrain.h"
+#import "BSBacktraceLogger.h"
 
 FOUNDATION_EXPORT double DinergateBrainVersionNumber;
 FOUNDATION_EXPORT const unsigned char DinergateBrainVersionString[];
